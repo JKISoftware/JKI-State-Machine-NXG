@@ -14,3 +14,9 @@
 # Metadata
 *.aliases
 *.lvlps
+
+source/.cache/
+
+*.gcompcache
+
+*.lvprojectcache

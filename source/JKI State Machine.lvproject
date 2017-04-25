@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="7901FE0A744A6DDDDCFD1EE0001F7E44" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/Common/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Desktop SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="SystemDesigner discovery" Name="http://www.ni.com/SystemDesigner/Discovery" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="4.7.0.0" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="VI SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Vi" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ApplicationVersionInfo Build="4.9.1.6881" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition,NationalInstruments.SystemDesigner.SystemDiagram.Moc,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="3" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition" Name="SystemDiagram">
+			<SystemDiagram Id="4" SystemDiagramVersion="75" xmlns="http://www.ni.com/SystemDesigner/SystemDiagram">
+				<EnvoyFacadeManager Id="5" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+					<MappingManager Id="6" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+						<Instance Id="11" Source="{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" p9:Process.DiscoveryAddress="localhost:SystemController" p9:Process.DiscoveryUserAlias="jki-win7x64-vm" p9:Process.FirmwareVersion="11.2.2 (32651)" p9:Process.HardwareAlias="jki-win7x64-vm" p9:Process.HardwareRevision="" p9:Process.IsSimulated="False" p9:Process.OperatingSystemDescription="Microsoft Windows 10 Enterprise" p9:Process.SerialNumber="Parallels-ED 3E 61 B5 38 A8 45 48 BD E3 D7 49 5B C8 7F 8B" p9:Process.SupportsExternalCalibration="False" p9:Process.SystemUserComment="" p9:Process.VendorName="Parallels Software International Inc." p10:Process.LinkedWhenMatched="True" p10:Process.ModelName="Parallels Virtual Platform" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" p9:Process.AssociatedIdentifier="31" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth5" p9:Process.HardwareAlias="Intel(R) PRO/1000 MT Network Connection #2" p9:Process.NetworkConfig.Ipv4Address="172.21.20.141" p9:Process.NetworkConfig.Ipv4DnsServer="172.21.20.5" p9:Process.NetworkConfig.Ipv4Gateway="172.21.20.1" p9:Process.NetworkConfig.Ipv4SubnetMask="255.255.255.0" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="118" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="VI Tree - JKI State Machine.gvi" p9:Process.AssociatedIdentifier="116" p9:Process.Visible="True" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="352" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="String-Based Queued State Machine (Basic 1.0).gvi" p9:Process.AssociatedIdentifier="350" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Superimposition Id="7" Name="Root Superimposition">
+							<Superimpose Source="11">
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="118" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="352" />
+							</Superimpose>
+						</Superimposition>
+					</MappingManager>
+				</EnvoyFacadeManager>
+				<SystemDiagramRootDiagram Id="9">
+					<SystemHardware Bounds="0 0 315 274" Facade="PartsView" HasLayoutManager="True" Id="51" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop">
+						<SystemHardwareGroupDiagram Bounds="0 65 315 195" Id="52">
+							<SystemHardware Bounds="2 0 311 170" Facade="PartsView" Id="53" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost">
+								<SystemHardwareGroupDiagram Bounds="0 5 311 90" GroupName="Ports" Id="55">
+									<SystemHardware Bounds="5 15 301 25" Facade="PartsViewLeaf" Id="56" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+									<SystemHardware Bounds="5 40 301 25" Facade="PartsViewLeaf" Id="58" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+									<SystemHardware Bounds="5 65 301 25" Facade="PartsViewLeaf" Id="60" SystemModelContent="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}SerialConnector]SerialConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+								</SystemHardwareGroupDiagram>
+								<SystemHardwareGroupDiagram Bounds="0 95 311 62" GroupName="Software" Id="54">
+									<SystemHardware Bounds="5 15 301 25" Facade="PartsViewLeaf" Id="122" SystemModelContent="{:/118}[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+								</SystemHardwareGroupDiagram>
+								<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareGroupDiagram>
+						<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+						<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+						<MoveableCablingTerminal AssociatedSystemHardware="56" BackingPort="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/ExternalPort_EthernetConnector" DataType="@985e9f383f18476793b21ae1357d9e9c" Hotspot="0 95" Id="57" />
+						<MoveableCablingTerminal AssociatedSystemHardware="58" BackingPort="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector/ExternalPort_UsbConnector" DataType="@985e9f383f18476793b21ae1357d9e9c" Hotspot="0 120" Id="59" />
+						<MoveableCablingTerminal AssociatedSystemHardware="60" BackingPort="{:/11}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}SerialConnector]SerialConnector/ExternalPort_SerialConnector" DataType="@985e9f383f18476793b21ae1357d9e9c" Hotspot="0 145" Id="61" />
+					</SystemHardware>
+				</SystemDiagramRootDiagram>
+			</SystemDiagram>
+			<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel,SystemDiagramEnumerateTargetService,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy,AnyTarget,ContentKind_{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Process.DesktopHost,InProcessNativeDesktopTarget,NativeTarget,ProcessBackedProjectServiceMetaFactory,NativeViLibBindingKeyword" Id="31" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel" Name="PC">
+				<SystemDiagramTarget xmlns="http://www.ni.com/SystemDesigner/SystemDiagram" />
+				<NameScopingEnvoy Bindings="NativeViLibBindingKeyword,Envoy,DefinitionReference,BuildSpecification,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="32" ModelDefinitionType="BuildSpecification" Name="Interactive">
+					<BuildSpecificationDefinition Id="33" TopLevelComponentRefId="50" xmlns="http://www.ni.com/GComponent.xsd">
+						<CompilerSymbolTable Id="34" xmlns="http://www.ni.com/PlatformFramework" />
+						<ComponentConfigurationReference AssociatedEnvoyId="47" ConfigName="Default" Id="50" />
+						<WeakDefaultComponentConfigurationReference Id="133" Target="NI\.G\ Core\.Configuration\ File\ \(INI\)\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="134" Target="NI\.G\ Core\.Data\ Type\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="135" Target="NI\.G\ Core\.Error\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="136" Target="NI\.G\ Core\.File\ IO\ \(General\)\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="137" Target="NI\.G\ Core\.Input\ Devices\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="138" Target="NI\.G\ Core\.Libraries\ and\ Executables\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="139" Target="NI\.G\ Core\.Numeric\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="140" Target="NI\.G\ Core\.Operating\ System\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="141" Target="NI\.G\ Core\.Registry\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="142" Target="NI\.G\ Core\.Rendezvous\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="143" Target="NI\.G\ Core\.Semaphore\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="144" Target="NI\.G\ Core\.SMTP\ Email\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="145" Target="NI\.G\ Core\.Sound\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="146" Target="NI\.G\ Core\.Strings\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="147" Target="NI\.G\ Core\.TCP\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="148" Target="NI\.G\ Core\.TDMS\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="149" Target="NI\.G\ Core\.Timed\ Loop\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="150" Target="NI\.G\ Core\.Timing\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="151" Target="NI\.G\ Core\.URL\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="152" Target="NI\.G\ Core\.Waveform\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="153" Target="NI\.G\ Core\.Zip\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="154" Target="NI\.G\ Core\.Localization\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="155" Target="NI\.G\ Core\.User\ Interface\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="156" Target="NI\.G\ Core\.Data\ Communications\.gcomp" />
+						<ComponentConfigurationReferenceDependencySource Id="251" Target="JKI\ State\ Machine\.gcomp:Default" />
+					</BuildSpecificationDefinition>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference,ComponentBaseType_Library,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library" Id="47" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
+						<SparseEnvoyManager Id="48">
+							<SparseEnvoyManagerDependencySource Id="49" Target=":NullTarget:Default\ Component" />
+						</SparseEnvoyManager>
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="116" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VI\ Tree\ \-\ JKI\ State\ Machine\.gvi" StoragePath="VI Tree - JKI State Machine.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="350" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="String\-Based\ Queued\ State\ Machine\ \(Basic\ 1\.0\)\.gvi" StoragePath="State Machine Templates\String-Based Queued State Machine (Basic 1.0).gvi" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference,RcxRepositoryManagerDefinition" Id="66" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="326" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gvi" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="67" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="68" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="69" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="70" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,{http://www.ni.com/PlatformFramework}ByReferenceRoot,EmbeddedReference" Id="130" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+						<PackageReferencesDefinition xmlns="http://www.ni.com/GComponent.xsd" />
+						<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference" Id="131" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.2\.25\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.2.25" />
+					</EmbeddedDefinitionReference>
+					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,Envoy,DefinitionReference,ComponentDefinition,NationalInstruments.Component.Moc,FileReference,SourceFileReference,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library" Id="250" ModelDefinitionType="ComponentDefinition" Name="JKI\ State\ Machine\.gcomp" StoragePath="JKI State Machine.gcomp" />
+				</NameScopingEnvoy>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="62" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="63" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="64" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="65" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+				</EmbeddedDefinitionReference>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NullTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="10" ModelDefinitionType="NullTarget" Name="NullTarget">
+			<NullTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,ComponentDefinition,NationalInstruments.Component.Moc,EmbeddedReference,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library" Id="35" ModelDefinitionType="ComponentDefinition" Name="Default\ Component">
+				<ComponentDefinition DefaultConfigurationName="Default" Id="36" RootNamespaceId="35" xmlns="http://www.ni.com/GComponent.xsd">
+					<Icon Id="37" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="38" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="39" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="40" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="41" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Id="42" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Default Component" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6" Id="43" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<CompilerSymbolTable Id="44" xmlns="http://www.ni.com/PlatformFramework" />
+					<ComponentConfiguration Id="45" Name="Default">
+						<CompilerSymbolTable Id="46" xmlns="http://www.ni.com/PlatformFramework" />
+					</ComponentConfiguration>
+				</ComponentDefinition>
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="117" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VI\ Tree\ \-\ JKI\ State\ Machine\.gvi" StoragePath="VI Tree - JKI State Machine.gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="351" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="String\-Based\ Queued\ State\ Machine\ \(Basic\ 1\.0\)\.gvi" StoragePath="State Machine Templates\String-Based Queued State Machine (Basic 1.0).gvi" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,{http://www.ni.com/PlatformFramework}ByReferenceRoot,EmbeddedReference" Id="71" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+				<PackageReferencesDefinition xmlns="http://www.ni.com/GComponent.xsd">
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="NI.G Core.Configuration File (INI).gcomp,NI.G Core.Data Type.gcomp,NI.G Core.Error.gcomp,NI.G Core.File IO (General).gcomp,NI.G Core.Input Devices.gcomp,NI.G Core.Libraries and Executables.gcomp,NI.G Core.Numeric.gcomp,NI.G Core.Operating System.gcomp,NI.G Core.Registry.gcomp,NI.G Core.Rendezvous.gcomp,NI.G Core.Semaphore.gcomp,NI.G Core.SMTP Email.gcomp,NI.G Core.Sound.gcomp,NI.G Core.Strings.gcomp,NI.G Core.TCP.gcomp,NI.G Core.TDMS.gcomp,NI.G Core.Timed Loop.gcomp,NI.G Core.Timing.gcomp,NI.G Core.URL.gcomp,NI.G Core.Waveform.gcomp,NI.G Core.Zip.gcomp,NI.G Core.Localization.gcomp,NI.G Core.User Interface.gcomp,NI.G Core.Data Communications.gcomp" Id="157" PackageInterfaceDefinitionEnvoyId="132" />
+				</PackageReferencesDefinition>
+				<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference" Id="132" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.2\.25\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.2.25" />
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Bindings="Envoy,DefinitionReference,DistributionDefinition,FileReference,SourceFileReference" Id="252" ModelDefinitionType="DistributionDefinition" Name="JKI\ State\ Machine\ PDP\.lvdist" StoragePath="JKI State Machine PDP.lvdist" />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="379" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="JKI\ State\ Machine\.gconversion">
+				<ExternalFile>
+					<p.StoragePath>JKI State Machine.gconversion</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="381" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="LICENSE\.rtf">
+				<ExternalFile>
+					<p.StoragePath>LICENSE.rtf</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="205" ModelDefinitionType="DataDepot" Name="DataDepot">
+			<DataDepot />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="985e9f383f18476793b21ae1357d9e9c">
+			<Composite Id="1" Name="SystemDiagramCable" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
