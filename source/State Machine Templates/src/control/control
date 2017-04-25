@@ -1,0 +1,20 @@
+﻿Architecture: windows_x64
+Built-Using: nipkg
+Depends: ni-labview-ng, jki-jkistatemachine-labview-jkistatemachine-src-1
+Description: The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts. We encourage you to post any questions or comments to the JKI Software Forums. There you will find an active community of JKI software users, as well as JKI team members.
+Essential: no
+Eula: eula-jki-license
+Homepage: http://jki.net/state-machine
+Maintainer: JKI <info@jki.net>
+Package: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1
+Priority: optional
+Provides: jki-jkistatemachine-labview-jkistatemachine-src-1
+Recommends: 
+Section: Add-Ons
+Suggests: 
+Version: 1.0.0.1
+XB-CompatibilityVersion: 170001
+XB-DisplayName: JKI State Machine Templates
+XB-Plugin: file
+XB-StoreProduct: no
+XB-UserVisible: no

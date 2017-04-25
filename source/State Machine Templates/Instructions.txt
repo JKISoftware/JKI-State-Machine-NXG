@@ -1,0 +1,3 @@
+1) Make changes or add templates to the src\data\ contents
+2) Update the version tag in the \src\control\ file.
+3) Run the 'Build Package' batch file, the output is located in \pkg

@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PaletteControls PaletteIdentifier="Diagram">
+	<Category Display="Add-ons" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Add-ons" Weight="35" UniqueId="NI.LabVIEW.VI:PaletteCategory.Addons" ElementId="NI.LabVIEW.VI:PaletteCategory.Addons" xmlns="http://www.ni.com/PlatformFramework">
+		<Image>
+			<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+				<Items>
+					<NineGridPathList Width="40" Height="40">
+						<Paths>
+							<NineGridPath Data="F0 M1,1h38v38h-38v-38z M0,0h40v40h-40v-40z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+						</Paths>
+						<Tags />
+					</NineGridPathList>
+					<NineGridPathList Width="10" Height="10">
+						<Paths>
+							<NineGridPath Data="F0 M1,1h8v8h-8v-8z M0,0h10v10h-10v-10z" Color="#00FFFFFF" X="0" Y="0" Width="10" Height="10" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+						</Paths>
+						<Tags />
+					</NineGridPathList>
+					<NineGridPathList Width="40" Height="40">
+						<Paths>
+							<NineGridPath Data="M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 39,5 H 1 V 39 H 39 V 5  M 40,7 V 40 H 0 V 4 H 40 V 7 Z" Color="#FF8D9194" Stroke="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+						</Paths>
+						<Tags />
+					</NineGridPathList>
+					<NineGridPathList Width="40" Height="40">
+						<Paths>
+							<NineGridPath Data="M 39,39 H 1 V 5 H 39 V 39 Z" Color="#FFF3F4F5" Stroke="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+						</Paths>
+						<Tags />
+					</NineGridPathList>
+					<NineGridPathList Width="40" Height="40">
+						<Paths>
+							<NineGridPath Data="M 28,34 C 28.293,34 28.569,33.933 28.82,33.82 C 28.507,34.515 27.812,35 27,35 L 9,35 C 7.895,35 7,34.105 7,33 L 7,15 C 7,14.189 7.485,13.493 8.18,13.18 C 8.067,13.431 8,13.707 8,14 L 8,32 C 8,33.105 8.895,34 10,34 L 28,34 Z M 30,32 L 29,32 L 12,32 C 10.895,32 10,31.105 10,30 L 10,13 L 10,12 C 10,11.707 10.067,11.431 10.18,11.18 C 9.736,11.38 9.38,11.736 9.18,12.18 C 9.067,12.431 9,12.707 9,13 L 9,31 C 9,32.105 9.895,33 11,33 L 29,33 C 29.293,33 29.569,32.933 29.82,32.82 C 30.264,32.62 30.62,32.264 30.82,31.82 C 30.569,31.933 30.293,32 30,32 Z M 33,29 L 33,11 C 33,9.895 32.105,9 31,9 L 13,9 C 11.895,9 11,9.895 11,11 L 11,29 C 11,30.105 11.895,31 13,31 L 31,31 C 32.105,31 33,30.105 33,29 Z M 28,21 L 23,21 L 23,26 L 21,26 L 21,21 L 16,21 L 16,19 L 21,19 L 21,14 L 23,14 L 23,19 L 28,19 L 28,21 Z" Color="#B2000000" Stroke="#FF000000" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+						</Paths>
+						<Tags />
+					</NineGridPathList>
+				</Items>
+				<ColorTable />
+			</NineGridDictionary>
+		</Image>
+		<Category Display="JKI" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="JKI" Weight="0.5" UniqueId="JKI.LabVIEW.VI:PaletteCategory.JKI" ElementId="JKI.LabVIEW.VI:PaletteCategory.JKI">
+			<Image>
+				<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+					<Items>
+						<NineGridPathList Width="40" Height="40">
+							<Paths>
+								<NineGridPath Data="F0 M1,1h38v38h-38v-38z M0,0h40v40h-40v-40z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+							</Paths>
+							<Tags />
+						</NineGridPathList>
+						<NineGridPathList Width="10" Height="10">
+							<Paths>
+								<NineGridPath Data="F0 M1,1h8v8h-8v-8z M0,0h10v10h-10v-10z" Color="#00FFFFFF" X="0" Y="0" Width="10" Height="10" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+							</Paths>
+							<Tags />
+						</NineGridPathList>
+						<NineGridPathList Width="40" Height="40">
+							<Paths>
+								<NineGridPath Data="M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 39,5 H 1 V 39 H 39 V 5  M 40,7 V 40 H 0 V 4 H 40 V 7 Z" Color="#FF8D9194" Stroke="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+							</Paths>
+							<Tags />
+						</NineGridPathList>
+						<NineGridPathList Width="40" Height="40">
+							<Paths>
+								<NineGridPath Data="M 39,39 H 1 V 5 H 39 V 39 Z" Color="#FFF3F4F5" Stroke="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+							</Paths>
+							<Tags />
+						</NineGridPathList>
+						<ImageDataSource Width="40" Height="40" Margin="0,0,0,0" Stretch="Uniform">
+							<ImageData><![CDATA[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]]></ImageData>
+						</ImageDataSource>
+					</Items>
+					<ColorTable />
+				</NineGridDictionary>
+			</Image>
+			<Synonyms>JKI;Tools</Synonyms>
+			<Category Display="JKI State Machine" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="JKI State Machine" Weight="0.5" UniqueId="JKI State Machine" ElementId="JKI State Machine">
+				<Image>
+					<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+						<Items>
+							<NineGridPathList Width="40" Height="40">
+								<Paths>
+									<NineGridPath Data="F0 M1,1h38v38h-38v-38z M0,0h40v40h-40v-40z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="10" Height="10">
+								<Paths>
+									<NineGridPath Data="F0 M1,1h8v8h-8v-8z M0,0h10v10h-10v-10z" Color="#00FFFFFF" X="0" Y="0" Width="10" Height="10" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="40" Height="40">
+								<Paths>
+									<NineGridPath Data="M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 39,5 H 1 V 39 H 39 V 5  M 40,7 V 40 H 0 V 4 H 40 V 7 Z" Color="#FF8D9194" Stroke="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="40" Height="40">
+								<Paths>
+									<NineGridPath Data="M 39,39 H 1 V 5 H 39 V 39 Z" Color="#FFF3F4F5" Stroke="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="26" Height="26">
+								<Paths>
+									<NineGridPath Data="F1 M7.5,11.5c0,-1.1046,0.8954,-2,2,-2h21c1.1046,0,2,0.8954,2,2v21c0,1.1046,-0.8954,2,-2,2h-21c-1.1046,0,-2,-0.8954,-2,-2v-21z" Color="#FFF3F3F3" Stroke="#FF4D5359" X="0" Y="0" Width="26" Height="26" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="18" Height="1">
+								<Paths>
+									<NineGridPath Data="M29,16L29,18 11,18 11,16z" Color="#FF65C865" Stroke="#FF65C865" X="0" Y="0" Width="18" Height="1" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="18" Height="1">
+								<Paths>
+									<NineGridPath Data="M29,27L29,29 11,29 11,27z" Color="#FF65C865" Stroke="#FF65C865" X="0" Y="0" Width="18" Height="1" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="18" Height="1">
+								<Paths>
+									<NineGridPath Data="M29,16L29,18 11,18 11,16z" Color="#FF65C865" Stroke="#FFCAEA9C" X="0" Y="0" Width="18" Height="1" StrokeThickness="1" StrokeStyle="Dot" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="18" Height="1">
+								<Paths>
+									<NineGridPath Data="M29,27L29,29 11,29 11,27z" Color="#FF65C865" Stroke="#FFCAEA9C" X="0" Y="0" Width="18" Height="1" StrokeThickness="1" StrokeStyle="Dot" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="1.90000153" Height="7.5">
+								<Paths>
+									<NineGridPath Data="M18.9693773904321,20.7455758027965L17.0306226095679,20.2544241972035 18.9306240912462,12.7544243716796 20.8693788721103,13.2455759772725z" Color="#FF4D5359" Stroke="#FFF3F3F3" X="0" Y="0" Width="1.90000153" Height="7.5" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="1.90000153" Height="7.5">
+								<Paths>
+									<NineGridPath Data="M20.9693773904321,20.7455758027965L19.0306226095679,20.2544241972035 20.9306240912462,12.7544243716796 22.8693788721103,13.2455759772725z" Color="#FF4D5359" Stroke="#FFF3F3F3" X="0" Y="0" Width="1.90000153" Height="7.5" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="1.90000153" Height="7.5">
+								<Paths>
+									<NineGridPath Data="M18.9693773904321,31.7455758027965L17.0306226095679,31.2544241972035 18.9306240912462,23.7544243716796 20.8693788721103,24.2455759772725z" Color="#FF4D5359" Stroke="#FFF3F3F3" X="0" Y="0" Width="1.90000153" Height="7.5" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="1.90000153" Height="7.5">
+								<Paths>
+									<NineGridPath Data="M20.9693773904321,31.7455758027965L19.0306226095679,31.2544241972035 20.9306240912462,23.7544243716796 22.8693788721103,24.2455759772725z" Color="#FF4D5359" Stroke="#FFF3F3F3" X="0" Y="0" Width="1.90000153" Height="7.5" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="8" Height="7">
+								<Paths>
+									<NineGridPath Data="F1 M4.5,14c0,-0.2761,0.2239,-0.5,0.5,-0.5h6c0.2761,0,0.5,0.2239,0.5,0.5v5c0,0.2761,-0.2239,0.5,-0.5,0.5h-6c-0.2761,0,-0.5,-0.2239,-0.5,-0.5v-5z" Color="#FFF3F3F3" Stroke="#FF65C865" X="0" Y="0" Width="8" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="2" Height="1">
+								<Paths>
+									<NineGridPath Data="M 1.5,0.521881 L 1,1.021881 L 0.5,0.521881 L 0,0.02188098 L 1,0.02188098 L 2,0.02188098 L 1.5,0.521881 Z" Color="#00FFFFFF" Stroke="#FF65C865" X="7" Y="16" Width="2" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="8" Height="7">
+								<Paths>
+									<NineGridPath Data="F1 M28.5,14c0,-0.2761,0.2239,-0.5,0.5,-0.5h6c0.2761,0,0.5,0.2239,0.5,0.5v5c0,0.2761,-0.2239,0.5,-0.5,0.5h-6c-0.2761,0,-0.5,-0.2239,-0.5,-0.5v-5z" Color="#FFF3F3F3" Stroke="#FF65C865" X="0" Y="0" Width="8" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="2" Height="1">
+								<Paths>
+									<NineGridPath Data="M 1.5,0.478119 L 1,-0.02188098 L 0.5,0.478119 L 0,0.978119 L 1,0.978119 L 2,0.978119 L 1.5,0.478119 Z" Color="#00FFFFFF" Stroke="#FF65C865" X="31" Y="16" Width="2" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="8" Height="7">
+								<Paths>
+									<NineGridPath Data="F1 M4.5,25c0,-0.2761,0.2239,-0.5,0.5,-0.5h6c0.2761,0,0.5,0.2239,0.5,0.5v5c0,0.2761,-0.2239,0.5,-0.5,0.5h-6c-0.2761,0,-0.5,-0.2239,-0.5,-0.5v-5z" Color="#FFF3F3F3" Stroke="#FF65C865" X="0" Y="0" Width="8" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="2" Height="1">
+								<Paths>
+									<NineGridPath Data="M 1.5,0.521881 L 1,1.021881 L 0.5,0.521881 L 0,0.02188098 L 1,0.02188098 L 2,0.02188098 L 1.5,0.521881 Z" Color="#00FFFFFF" Stroke="#FF65C865" X="7" Y="27" Width="2" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="8" Height="7">
+								<Paths>
+									<NineGridPath Data="F1 M28.5,25c0,-0.2761,0.2239,-0.5,0.5,-0.5h6c0.2761,0,0.5,0.2239,0.5,0.5v5c0,0.2761,-0.2239,0.5,-0.5,0.5h-6c-0.2761,0,-0.5,-0.2239,-0.5,-0.5v-5z" Color="#FFF3F3F3" Stroke="#FF65C865" X="0" Y="0" Width="8" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="2" Height="1">
+								<Paths>
+									<NineGridPath Data="M 1.5,0.478119 L 1,-0.02188098 L 0.5,0.478119 L 0,0.978119 L 1,0.978119 L 2,0.978119 L 1.5,0.478119 Z" Color="#00FFFFFF" Stroke="#FF65C865" X="31" Y="27" Width="2" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+						</Items>
+						<ColorTable />
+					</NineGridDictionary>
+				</Image>
+				<Synonyms>JKI;SM:State Machine;QMH;JKISM</Synonyms>
+				<Leaf Display="Add State(s) to Queue" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Add State(s) to Queue" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Add State(s) to Queue.gvi" ElementId="JKI:Library:JKI State Machine:Add State(s) to Queue.gvi">
+					<Image>
+						<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+							<Items>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="28">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M2.5,11.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M12.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M17.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M33.5,11.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="2.300072" Height="4.0779953">
+									<Paths>
+										<NineGridPath Data="M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="9" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="3" Height="1">
+									<Paths>
+										<NineGridPath Data="F1 M7.5,17.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="2.40005541" Height="4.17799759">
+									<Paths>
+										<NineGridPath Data="M 2.299835,-0.4799306 L 0,1.607183 L 2.400055,3.698067 L 2.299835,-0.4799306 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="28" Y="16" Width="2.40005541" Height="4.17799759" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="3" Height="1">
+									<Paths>
+										<NineGridPath Data="F1 M30.5,17.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M22.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="9">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="7">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,6.5h37v6h-37v-6z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+							</Items>
+							<ColorTable />
+						</NineGridDictionary>
+					</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
+	<MergeFeatureSet>
+		<SourceModelFeatureSet>
+			<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+			<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+			<ApplicationVersionInfo Build="4.9.1.6881" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		</SourceModelFeatureSet>
+	</MergeFeatureSet>
+	<MergeItem Path="." IsPrimary="True">
+		<MethodCall Bounds="0 0 40 30" DomainName="JKI:Library:JKI State Machine" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+		</MethodCall>
+	</MergeItem>
+	<MergeItem Path="." IsPrimary="True">
+		<IconTable>
+			<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi">
+				<MergeScript>
+					<MergeItem Path="." IsPrimary="True">
+						<Icon ListViewIconCrop="0 0 40 30">
+							<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+								<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Custom14" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]17" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]33" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Path Data="[PathGeometry]M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]9" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]17" VerticalAlignment="[VerticalAlignment]Top" Width="[float]3" />
+									<Path Data="[PathGeometry]M 2.299835,-0.4799306 L 0,1.607183 L 2.400055,3.698067 L 2.299835,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.17799759" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]28" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.40005541" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]30" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]17" VerticalAlignment="[VerticalAlignment]Top" Width="[float]3" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]22" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
+								</IconTemplate>
+								<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</Icon>
+					</MergeItem>
+				</MergeScript>
+			</p.IconModel>
+		</IconTable>
+	</MergeItem>
+</MergeScript></Leaf>
+				<Leaf Display="Build State String with Arguments" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Build State String with Arguments" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Build State String with Arguments.gvi" ElementId="JKI:Library:JKI State Machine:Build State String with Arguments.gvi">
+					<Image>
+						<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+							<Items>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="28">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="7">
+									<Paths>
+										<NineGridPath Data="F1 M6.5,10.5h4v6h-4v-6z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="7">
+									<Paths>
+										<NineGridPath Data="F1 M6.5,18.5h4v6h-4v-6z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="7">
+									<Paths>
+										<NineGridPath Data="F1 M30.5,14.5h4v6h-4v-6z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="7">
+									<Paths>
+										<NineGridPath Data="F1 M16.5,14.5h4v6h-4v-6z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="2.300072" Height="4.0779953">
+									<Paths>
+										<NineGridPath Data="M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="23" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="9">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="5">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,6.5h37v4h-37v-4z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="5" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="2.300072" Height="4.0779953">
+									<Paths>
+										<NineGridPath Data="M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="26" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+							</Items>
+							<ColorTable />
+						</NineGridDictionary>
+					</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
+	<MergeFeatureSet>
+		<SourceModelFeatureSet>
+			<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+			<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+			<ApplicationVersionInfo Build="4.9.1.6881" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		</SourceModelFeatureSet>
+	</MergeFeatureSet>
+	<MergeItem Path="." IsPrimary="True">
+		<MethodCall Bounds="0 0 40 30" DomainName="JKI:Library:JKI State Machine" Target="JKI:Library:JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+		</MethodCall>
+	</MergeItem>
+	<MergeItem Path="." IsPrimary="True">
+		<IconTable>
+			<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi">
+				<MergeScript>
+					<MergeItem Path="." IsPrimary="True">
+						<Icon ListViewIconCrop="0 0 40 30">
+							<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+								<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Custom12" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]6" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]6" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]18" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]30" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]16" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Path Data="[PathGeometry]M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]23" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]5" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
+									<Path Data="[PathGeometry]M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]26" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+								</IconTemplate>
+								<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</Icon>
+					</MergeItem>
+				</MergeScript>
+			</p.IconModel>
+		</IconTable>
+	</MergeItem>
+</MergeScript></Leaf>
+				<Leaf Display="Parse State Queue" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Parse State Queue" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Parse State Queue.gvi" ElementId="JKI:Library:JKI State Machine:Parse State Queue.gvi">
+					<Image>
+						<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+							<Items>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="28">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M10.5,10.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M15.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M20.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="2.300072" Height="4.0779953">
+									<Paths>
+										<NineGridPath Data="M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="34" Y="23" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="22" Height="1">
+									<Paths>
+										<NineGridPath Data="F1 M12.5,24.5h21v0h-21v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="22" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="5" Height="11">
+									<Paths>
+										<NineGridPath Data="F1 M25.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="9">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="38" Height="5">
+									<Paths>
+										<NineGridPath Data="F1 M1.5,6.5h37v4h-37v-4z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="5" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="1" Height="3">
+									<Paths>
+										<NineGridPath Data="F1 M12.5,21.5h0v2h0v-2z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="1" Height="3" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="40" Height="30">
+									<Paths>
+										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+							</Items>
+							<ColorTable />
+						</NineGridDictionary>
+					</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
+	<MergeFeatureSet>
+		<SourceModelFeatureSet>
+			<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+			<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+			<ApplicationVersionInfo Build="4.9.1.6881" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		</SourceModelFeatureSet>
+	</MergeFeatureSet>
+	<MergeItem Path="." IsPrimary="True">
+		<MethodCall Bounds="0 0 40 30" DomainName="JKI:Library:JKI State Machine" Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="Error" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
+		</MethodCall>
+	</MergeItem>
+	<MergeItem Path="." IsPrimary="True">
+		<IconTable>
+			<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi">
+				<MergeScript>
+					<MergeItem Path="." IsPrimary="True">
+						<Icon ListViewIconCrop="0 0 40 30">
+							<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+								<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Custom13" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]10" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]15" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]20" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Path Data="[PathGeometry]M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]34" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]24" VerticalAlignment="[VerticalAlignment]Top" Width="[float]22" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]25" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]5" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]3" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]21" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1" />
+								</IconTemplate>
+								<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</Icon>
+					</MergeItem>
+				</MergeScript>
+			</p.IconModel>
+		</IconTable>
+	</MergeItem>
+</MergeScript></Leaf>
+			</Category>
+			<Leaf Display="Add State(s) to Queue" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Add State(s) to Queue" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Add State(s) to Queue.gvi" ElementId="JKI:Library:JKI State Machine:Add State(s) to Queue.gvi">
+				<Image>
+					<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+						<Items>
+							<NineGridPathList Width="40" Height="30">
+								<Paths>
+									<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="40" Height="30">
+								<Paths>
+									<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="38" Height="28">
+								<Paths>
+									<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="5" Height="11">
+								<Paths>
+									<NineGridPath Data="F1 M2.5,11.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="5" Height="11">
+								<Paths>
+									<NineGridPath Data="F1 M12.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="5" Height="11">
+								<Paths>
+									<NineGridPath Data="F1 M17.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="5" Height="11">
+								<Paths>
+									<NineGridPath Data="F1 M33.5,11.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="2.300072" Height="4.0779953">
+								<Paths>
+									<NineGridPath Data="M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="9" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="3" Height="1">
+								<Paths>
+									<NineGridPath Data="F1 M7.5,17.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="2.40005541" Height="4.17799759">
+								<Paths>
+									<NineGridPath Data="M 2.299835,-0.4799306 L 0,1.607183 L 2.400055,3.698067 L 2.299835,-0.4799306 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="28" Y="16" Width="2.40005541" Height="4.17799759" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="3" Height="1">
+								<Paths>
+									<NineGridPath Data="F1 M30.5,17.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="5" Height="11">
+								<Paths>
+									<NineGridPath Data="F1 M22.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="38" Height="9">
+								<Paths>
+									<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="38" Height="7">
+								<Paths>
+									<NineGridPath Data="F1 M1.5,6.5h37v6h-37v-6z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="40" Height="30">
+								<Paths>
+									<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+							<NineGridPathList Width="40" Height="30">
+								<Paths>
+									<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+								</Paths>
+								<Tags />
+							</NineGridPathList>
+						</Items>
+						<ColorTable />
+					</NineGridDictionary>
+				</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
+	<MergeFeatureSet>
+		<SourceModelFeatureSet>
+			<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+			<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+			<ApplicationVersionInfo Build="4.9.1.6881" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		</SourceModelFeatureSet>
+	</MergeFeatureSet>
+	<MergeItem Path="." IsPrimary="True">
+		<MethodCall Bounds="0 0 40 30" DomainName="JKI:Library:JKI State Machine" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+			<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+		</MethodCall>
+	</MergeItem>
+	<MergeItem Path="." IsPrimary="True">
+		<IconTable>
+			<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi">
+				<MergeScript>
+					<MergeItem Path="." IsPrimary="True">
+						<Icon ListViewIconCrop="0 0 40 30">
+							<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+								<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Custom14" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]17" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]33" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Path Data="[PathGeometry]M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]9" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]17" VerticalAlignment="[VerticalAlignment]Top" Width="[float]3" />
+									<Path Data="[PathGeometry]M 2.299835,-0.4799306 L 0,1.607183 L 2.400055,3.698067 L 2.299835,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.17799759" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]28" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.40005541" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]30" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]17" VerticalAlignment="[VerticalAlignment]Top" Width="[float]3" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]22" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+									<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
+								</IconTemplate>
+								<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</Icon>
+					</MergeItem>
+				</MergeScript>
+			</p.IconModel>
+		</IconTable>
+	</MergeItem>
+</MergeScript></Leaf>
+		</Category>
+	</Category>
+</PaletteControls>
