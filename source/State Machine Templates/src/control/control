@@ -10,8 +10,9 @@ Package: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1
 Priority: optional
 Provides: jki-jkistatemachine-labview-jkistatemachine-src-1
 Recommends: 
+Supplements: 
 Section: Add-Ons
-Suggests: 
+Suggests: jki-jkistatemachine-labview-jkistatemachine-src-1
 Version: 1.0.0.1
 XB-CompatibilityVersion: 170001
 XB-DisplayName: JKI State Machine Templates
