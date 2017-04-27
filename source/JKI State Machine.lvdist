@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9C9F3C6678FCC313FF241DF685340D6B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3ABB3AC83111CA78C10379F31E64ECE2" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ApplicationVersionInfo Build="4.9.1.56780" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition BusId="0" Company="JKI" ContentType="src" DisplayName="JKI State Machine" DistributionOutputType="NiPackage" Homepage="http://jki.net/state-machine" MaintainerEmail="info@jki.net" MaintainerName="JKI" ModelId="0" OutputDirectory="&quot;C:\\dev\\pkg\\jkism&quot;" Product="JKI State Machine" ShortDescription="JKI State Machine" TargetedProduct="LabVIEW" VendorId="0" Version="1.0.0.15" xmlns="http://www.ni.com/GComponent.xsd">
+	<DistributionDefinition BusId="0" Company="JKI" ContentType="src" DisplayName="JKI State Machine" DistributionOutputType="NiPackage" Homepage="http://jki.net/state-machine" MaintainerEmail="info@jki.net" MaintainerName="JKI" ModelId="0" OutputDirectory="&quot;C:\\dev\\pkg\\jkism&quot;" Product="JKI State Machine" ShortDescription="JKI State Machine" TargetedProduct="LabVIEW" VendorId="0" Version="1.0.0.16" xmlns="http://www.ni.com/GComponent.xsd">
 		<DistributionMemberDependencySource Id="2" MemberContentType="Conversion" Target="JKI\ State\ Machine\.gconversion" />
 		<DistributionMemberDependencySource Id="3" MemberContentType="Library" Target="JKI\.Library\.JKI\ State\ Machine\.gcomp" />
 		<DistributionMemberDependencySource Id="4" MemberContentType="EULA" Target="LICENSE\.rtf" />
