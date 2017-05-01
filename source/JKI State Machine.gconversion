@@ -5,21 +5,21 @@
 		<ParsableNamespace AssemblyFileVersion="4.9.1.6881" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ApplicationVersionInfo Build="4.9.1.6881" Name="LabVIEW Conversion" Version="4.9.1.6881" />
 	</SourceModelFeatureSet>
-	<PackageDefinition Id="1" PackageUri="ref://JKI/JKI State Machine/JKI State Machine-src/1.0.0.14" />
 	<MappingDefinition xmlns="http://www.ni.com/LabVIEW.Migration">
+		<PackageDefinition Id="1" PackageUri="ref://JKI/JKI State Machine/JKI State Machine-src/1.0.0.15" />
 		<FilePathSource FilePath="&lt;vilib&gt;:\addons\_JKI Toolkits\State Machine\_JKI_lib_State_Machine.llb\Parse State Queue__JKI_lib_State_Machine.vi" VersionRange="*">
 			<FileQualifiedNameTarget QualifiedName="JKI\.Library\.JKI\ State\ Machine:Parse\ State\ Queue\.gvi">
-			 <PackageRequirement PackageId="1" />
+			<PackageRequirement PackageId="1" />
 			</FileQualifiedNameTarget>
 		</FilePathSource>
 		<FilePathSource FilePath="&lt;vilib&gt;:\addons\_JKI Toolkits\State Machine\_JKI_lib_State_Machine.llb\Add State(s) to Queue__JKI_lib_State_Machine.vi" VersionRange="*">
-			<FileQualifiedNameTarget QualifiedName="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi">
-			 <PackageRequirement PackageId="1" />
+			<FileQualifiedNameTarget QualifiedName="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" >
+			<PackageRequirement PackageId="1" />
 			</FileQualifiedNameTarget>
 		</FilePathSource>
 		<FilePathSource QualifiedName="&lt;vilib&gt;:\addons\_JKI Toolkits\State Machine\_JKI_lib_State_Machine.llb\Build State String with Arguments__JKI_lib_State_Machine.vi" VersionRange="*">
 			<FileQualifiedNameTarget QualifiedName="JKI\.Library\.JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi" >
-			 <PackageRequirement PackageId="1" />
+			<PackageRequirement PackageId="1" />
 			</FileQualifiedNameTarget>
 		</FilePathSource>
 	</MappingDefinition>
