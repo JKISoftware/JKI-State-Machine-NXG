@@ -2,16 +2,16 @@
 CompatibilityVersion: 170006
 Conflicts: ni-package-manager
 Description: End-User License Agreement
-DisplayName: eula-jki-license
+DisplayName: eula-jki-bsd-license
 EulaPriority: 0
-EulaTitle: eula-jki-license
-Filename: eula-jki-license_1.0.0.0_windows_x64.nipkg
-MD5Sum: 9999c6a287f4c2205fb27b65345fdfb9
+EulaTitle: JKI BSD License
+Filename: eula-jki-bsd-license_1.0.0.0_windows_x64.nipkg
+MD5Sum: 82daca3d42a1dc6f6d01cbac2cb2511f
 Maintainer: info@jki.net
-Package: eula-jki-license
+Package: eula-jki-bsd-license
 Plugin: eula
 Section: Infrastructure
-Size: 1382
+Size: 1604
 UserVisible: no
 Version: 1.0.0.0
 
@@ -22,10 +22,10 @@ Depends: ni-labview-ng
 Description: The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts.
 DisplayName: JKI State Machine
 Essential: no
-Eula: eula-jki-license
+Eula: eula-jki-bsd-license
 Filename: jki-jkistatemachine-labview-jkistatemachine-src-1_1.0.0.0_windows_x64.nipkg
 Homepage: http://jki.net/state-machine
-MD5Sum: ca1e7d5f3c46c5713e8653ff6b401fbe
+MD5Sum: e54848a02d577bee795ccb417924de53
 Maintainer: JKI <info@jki.net>
 Package: jki-jkistatemachine-labview-jkistatemachine-src-1
 Plugin: file
@@ -33,7 +33,7 @@ Priority: optional
 Provides: 
 Recommends: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1
 Section: Add-Ons
-Size: 33558
+Size: 33562
 StoreProduct: yes
 Suggests: 
 UserVisible: yes
@@ -46,10 +46,10 @@ Depends: ni-labview-ng, jki-jkistatemachine-labview-jkistatemachine-src-1
 Description: The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts.
 DisplayName: JKI State Machine Templates
 Essential: no
-Eula: eula-jki-license
+Eula: eula-jki-bsd-license
 Filename: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1_1.0.0.0_windows_x64.nipkg
 Homepage: http://jki.net/state-machine
-MD5Sum: 9eaccc27a4d5c41dc2d37683270d1438
+MD5Sum: a3affee95370e46f429168eede2a3136
 Maintainer: JKI <info@jki.net>
 Package: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1
 Plugin: file
