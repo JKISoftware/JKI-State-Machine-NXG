@@ -1,0 +1,65 @@
+﻿Architecture: windows_x64
+CompatibilityVersion: 170006
+Conflicts: ni-package-manager
+Description: End-User License Agreement
+DisplayName: eula-jki-license
+EulaPriority: 0
+EulaTitle: eula-jki-license
+Filename: eula-jki-license_1.0.0.0_windows_x64.nipkg
+MD5Sum: 9999c6a287f4c2205fb27b65345fdfb9
+Maintainer: info@jki.net
+Package: eula-jki-license
+Plugin: eula
+Section: Infrastructure
+Size: 1382
+UserVisible: no
+Version: 1.0.0.0
+
+Architecture: windows_x64
+Built-Using: nipkg
+CompatibilityVersion: 170006
+Depends: ni-labview-ng
+Description: The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts.
+DisplayName: JKI State Machine
+Essential: no
+Eula: eula-jki-license
+Filename: jki-jkistatemachine-labview-jkistatemachine-src-1_1.0.0.0_windows_x64.nipkg
+Homepage: http://jki.net/state-machine
+MD5Sum: ca1e7d5f3c46c5713e8653ff6b401fbe
+Maintainer: JKI <info@jki.net>
+Package: jki-jkistatemachine-labview-jkistatemachine-src-1
+Plugin: file
+Priority: optional
+Provides: 
+Recommends: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1
+Section: Add-Ons
+Size: 33558
+StoreProduct: yes
+Suggests: 
+UserVisible: yes
+Version: 1.0.0.0
+
+Architecture: windows_x64
+Built-Using: nipkg
+CompatibilityVersion: 170006
+Depends: ni-labview-ng, jki-jkistatemachine-labview-jkistatemachine-src-1
+Description: The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts.
+DisplayName: JKI State Machine Templates
+Essential: no
+Eula: eula-jki-license
+Filename: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1_1.0.0.0_windows_x64.nipkg
+Homepage: http://jki.net/state-machine
+MD5Sum: 73e769f43051baabf26d91fd2b933121
+Maintainer: JKI <info@jki.net>
+Package: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1
+Plugin: file
+Priority: optional
+Provides: 
+Recommends: 
+Section: Add-Ons
+Size: 19452
+StoreProduct: no
+Suggests: 
+UserVisible: no
+Version: 1.0.0.0
+
