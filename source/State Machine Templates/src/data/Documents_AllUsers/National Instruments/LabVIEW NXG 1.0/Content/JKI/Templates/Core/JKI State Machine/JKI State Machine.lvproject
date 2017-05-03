@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="58173FB3AD2AF9756CA46A2331B1E7EE" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="007C41095277A559A4120FBF77FAC9AB" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
@@ -10,7 +10,7 @@
 		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="4.7.0.0" Version="4.7.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="VI SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Vi" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ApplicationVersionInfo Build="4.9.1.56780" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ApplicationVersionInfo Build="4.9.1.56780" Name="LabVIEW NXG" Version="1.0.0" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
 		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
@@ -25,7 +25,7 @@
 							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" p9:Process.AssociatedIdentifier="45" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
 						<Instance Id="344" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
-							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="String-Based Queued State Machine (Basic 1.0).gvi" p9:Process.AssociatedIdentifier="342" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="JKI State Machine.gvi" p9:Process.AssociatedIdentifier="342" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
 						<Superimposition Id="7" Name="Root Superimposition">
 							<Superimpose Source="25">
@@ -137,13 +137,24 @@
 						<WeakDefaultComponentConfigurationReference Id="255" Target="AAL_Differential_Equations\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="256" Target="AAL_Optimization\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="257" Target="AAL_Zeros\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="340" Target="JKI\ State\ Machine\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="372" Target="openg\.library\.array\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="373" Target="openg\.library\.boolean\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="374" Target="openg\.library\.comparison\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="375" Target="openg\.library\.error\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="376" Target="openg\.library\.file\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="377" Target="openg\.library\.largefile\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="378" Target="openg\.library\.md5\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="379" Target="openg\.library\.numeric\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="380" Target="openg\.library\.string\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="381" Target="openg\.library\.time\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="382" Target="openg\.library\.variantdata\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="384" Target="JKI\.Library\.JKI\ State\ Machine\.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="49" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
 						<SparseEnvoyManager Id="50">
 							<SparseEnvoyManagerDependencySource Id="51" Target=":NullTarget:Default\ Component" />
 						</SparseEnvoyManager>
-						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="342" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="String\-Based\ Queued\ State\ Machine\ \(Basic\ 1\.0\)\.gvi" StoragePath="String-Based Queued State Machine (Basic 1.0).gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="342" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="JKI\ State\ Machine\.gvi" StoragePath="JKI State Machine.gvi" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference,RcxRepositoryManagerDefinition" Id="68" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
 						<RepositoryManagerDefinition Location="" />
@@ -166,7 +177,8 @@
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="180" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-basic\-src\-1\.0\.3\.9\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.3.9" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="182" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-control\-src\-1\.0\.3\.6\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.3.6" />
 						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="184" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.2\.25\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.2.25" />
-						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="338" ModelDefinitionType="PackageInterfaceDefinition" Name="JKI\-JKIStateMachine\-JKIStateMachinePDP\-src\-1\.0\.0\.13\.niaddon" StoragePath="ref://JKI/JKI State Machine/JKI State Machine PDP-src/1.0.0.13" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="368" ModelDefinitionType="PackageInterfaceDefinition" Name="JKI\-JKIStateMachine\-JKIStateMachine\-src\-1\.0\.0\.0\.niaddon" StoragePath="ref://JKI/JKI State Machine/JKI State Machine-src/1.0.0.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="370" ModelDefinitionType="PackageInterfaceDefinition" Name="OpenG\-Library\-OpenGLibrary\-src\-1\.0\.0\.11\.niaddon" StoragePath="ref://OpenG/Library/OpenG Library-src/1.0.0.11" />
 					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
 				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="64" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
@@ -203,7 +215,7 @@
 						<CompilerSymbolTable Id="22" xmlns="http://www.ni.com/PlatformFramework" />
 					</ComponentConfiguration>
 				</ComponentDefinition>
-				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="343" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="String\-Based\ Queued\ State\ Machine\ \(Basic\ 1\.0\)\.gvi" StoragePath="String-Based Queued State Machine (Basic 1.0).gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="343" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="JKI\ State\ Machine\.gvi" StoragePath="JKI State Machine.gvi" />
 			</EmbeddedDefinitionReference>
 			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference,{http://www.ni.com/PlatformFramework}ByReferenceRoot" Id="23" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 				<PackageReferencesDefinition xmlns="http://www.ni.com/GComponent.xsd">
@@ -211,21 +223,23 @@
 					<PackageInterfaceDefinitionContents ComponentDefinitionNames="Control_Controller.gcomp,Control_DesignPID.gcomp,Control_Linear.gcomp,Control_Nonlinear.gcomp,Control_PIDGain.gcomp,Control_SignalGeneration.gcomp,Control_Conversion.gcomp" Id="218" PackageInterfaceDefinitionEnvoyId="183" />
 					<PackageInterfaceDefinitionContents ComponentDefinitionNames="AAL_Conditioning_Base.gcomp,AAL_Filtering_Base.gcomp,AAL_Fitting_Base.gcomp,AAL_Generation_Base.gcomp,AAL_Interpolation_Base.gcomp,AAL_Linear_Algebra_Base.gcomp,AAL_Measurement_Base.gcomp,AAL_Operations_Base.gcomp,AAL_Resampling_Base.gcomp,AAL_Statistics_Base.gcomp,AAL_Support_Base.gcomp,AAL_Transforms_Base.gcomp,AAL_Windows_Base.gcomp" Id="232" PackageInterfaceDefinitionEnvoyId="181" />
 					<PackageInterfaceDefinitionContents ComponentDefinitionNames="AAL_Conditioning.gcomp,AAL_Fitting.gcomp,AAL_Formula.gcomp,AAL_Generation.gcomp,AAL_Geometry.gcomp,AAL_Integral_Differentiation.gcomp,AAL_Interpolation.gcomp,AAL_Linear_Algebra.gcomp,AAL_Matrix.gcomp,AAL_Measurement.gcomp,AAL_Operations.gcomp,AAL_Polynomial.gcomp,AAL_Probability.gcomp,AAL_Resampling.gcomp,AAL_SML.gcomp,AAL_Statistics.gcomp,AAL_Support.gcomp,AAL_Transforms.gcomp,AAL_Windows.gcomp,AAL_Filtering.gcomp,AAL_BLAS.gcomp,AAL_Special_Func.gcomp,AAL_Differential_Equations.gcomp,AAL_Optimization.gcomp,AAL_Zeros.gcomp" Id="258" PackageInterfaceDefinitionEnvoyId="179" />
-					<PackageInterfaceDefinitionContents ComponentDefinitionNames="JKI State Machine.gcomp" Id="341" PackageInterfaceDefinitionEnvoyId="339" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="openg.library.array.gcomp,openg.library.boolean.gcomp,openg.library.comparison.gcomp,openg.library.error.gcomp,openg.library.file.gcomp,openg.library.largefile.gcomp,openg.library.md5.gcomp,openg.library.numeric.gcomp,openg.library.string.gcomp,openg.library.time.gcomp,openg.library.variantdata.gcomp" Id="383" PackageInterfaceDefinitionEnvoyId="371" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="JKI.Library.JKI State Machine.gcomp" Id="385" PackageInterfaceDefinitionEnvoyId="369" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="179" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-advanced\-src\-1\.0\.3\.11\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.3.11" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="181" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-basic\-src\-1\.0\.3\.9\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.3.9" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="183" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-control\-src\-1\.0\.3\.6\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.3.6" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="185" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.2\.25\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.2.25" />
-				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="339" ModelDefinitionType="PackageInterfaceDefinition" Name="JKI\-JKIStateMachine\-JKIStateMachinePDP\-src\-1\.0\.0\.13\.niaddon" StoragePath="ref://JKI/JKI State Machine/JKI State Machine PDP-src/1.0.0.13" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="369" ModelDefinitionType="PackageInterfaceDefinition" Name="JKI\-JKIStateMachine\-JKIStateMachine\-src\-1\.0\.0\.0\.niaddon" StoragePath="ref://JKI/JKI State Machine/JKI State Machine-src/1.0.0.0" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="371" ModelDefinitionType="PackageInterfaceDefinition" Name="OpenG\-Library\-OpenGLibrary\-src\-1\.0\.0\.11\.niaddon" StoragePath="ref://OpenG/Library/OpenG Library-src/1.0.0.11" />
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="24" ModelDefinitionType="DataDepot" Name="DataDepot">
 			<DataDepot />
 		</NameScopingEnvoy>
 	</Project>
-	<ProjectInformation Author="" ProjectIconFilename="Blank Project.png" xmlns="http://www.ni.com/PlatformFramework">
-		<p.Description></p.Description>
+	<ProjectInformation Author="JKI" CustomTitle="JKI State Machine" ProjectIconFilename="Blank Project.png" xmlns="http://www.ni.com/PlatformFramework">
+		<p.Description>Creates a project with a JKI State Machine, an easy-to-use yet powerful state machine template designed by the LabVIEW experts at JKI.</p.Description>
 	</ProjectInformation>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
 		<p.TypeReference TypeId="0e074b31d92146e0bab53fb5259ae7b0">
