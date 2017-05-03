@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0504D163DDED47673344D3E1E22BFD3D" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ApplicationVersionInfo Build="4.9.1.56780" Name="NI Application" Version="4.9.1.56780" />
+	</SourceModelFeatureSet>
+	<EnvoyManagerFile Id="1" LazyInitialize="True" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="2" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,EmbeddedReference" Id="3" ModelDefinitionType="PackageInterfaceDefinition" Name="jki\-jkistatemachine\-jkistatemachine\-src\-1\.0\.0\.0\.niaddon">
+			<PackageInterfaceDefinition PackageName="jki-jkistatemachine-jkistatemachine-src-1.0.0.0" xmlns="http://www.ni.com/GComponent.xsd" />
+			<SourceFileReference Bindings="EnvoyManager,ReferencedComponentDefinition,ComponentMoC,Envoy,DefinitionReference,ComponentDefinition,NationalInstruments.Component.Moc,FileReference,SourceFileReference" Id="4" ModelDefinitionType="ComponentDefinition" Name="JKI\.Library\.JKI\ State\ Machine\.gcomp" OverridingModelDefinitionType="ReferencedComponentDefinition" StoragePath="JKI.Library.JKI State Machine.gcomp" />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="5" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="JKI\.Library\.JKI\ State\ Machine_Default\.pal">
+				<ExternalFile>
+					<p.StoragePath>JKI.Library.JKI State Machine_Default.pal</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="6" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="JKI\ State\ Machine\.gconversion">
+				<ExternalFile>
+					<p.StoragePath>"National Instruments\\LabVIEW NXG\\GlobalCGAPIs\\JKI State Machine.gconversion"</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+		</EmbeddedDefinitionReference>
+	</EnvoyManagerFile>
+</SourceFile>
