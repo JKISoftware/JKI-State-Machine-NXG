@@ -1,0 +1,1 @@
+"C:\program files\national instruments\ni package manager\nipkg.exe" pack "%cd%\src" "%cd%\pkg"

@@ -6,14 +6,14 @@
 		<ApplicationVersionInfo Build="4.9.1.6881" Name="LabVIEW Conversion" Version="4.9.1.6881" />
 	</SourceModelFeatureSet>
 	<MappingDefinition xmlns="http://www.ni.com/LabVIEW.Migration">
-		<FilePathSource FilePath="&lt;vilib&gt;:\addons\_JKI\ Toolkits\State\ Machine\_JKI_lib_State_Machine\.llb\Parse\ State\ Queue__JKI_lib_State_Machine\.vi" VersionRange="*">
-			<FileQualifiedNameTarget QualifiedName="JKI:Library:JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi" />
+		<FilePathSource FilePath="&lt;vilib&gt;:\addons\_JKI Toolkits\State Machine\_JKI_lib_State_Machine.llb\Parse State Queue__JKI_lib_State_Machine.vi" VersionRange="*">
+			<FileQualifiedNameTarget QualifiedName="JKI\.Library\.JKI\ State\ Machine:Parse\ State\ Queue\.gvi" />
 		</FilePathSource>
-		<FilePathSource FilePath="&lt;vilib&gt;:\addons\_JKI\ Toolkits\State\ Machine\_JKI_lib_State_Machine\.llb\Add\ State\(s\)\ to\ Queue__JKI_lib_State_Machine\.vi" VersionRange="*">
-			<FileQualifiedNameTarget QualifiedName="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" />
+		<FilePathSource FilePath="&lt;vilib&gt;:\addons\_JKI Toolkits\State Machine\_JKI_lib_State_Machine.llb\Add State(s) to Queue__JKI_lib_State_Machine.vi" VersionRange="*">
+			<FileQualifiedNameTarget QualifiedName="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" />
 		</FilePathSource>
-		<FileQualifiedNameSource QualifiedName="&lt;vilib&gt;:\addons\_JKI\ Toolkits\State\ Machine\_JKI_lib_State_Machine\.llb\Build\ State\ String\ with\ Arguments__JKI_lib_State_Machine\.vi">
-			<FileQualifiedNameTarget QualifiedName="JKI:Library:JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi" />
-		</FileQualifiedNameSource>
+		<FilePathSource QualifiedName="&lt;vilib&gt;:\addons\_JKI Toolkits\State Machine\_JKI_lib_State_Machine.llb\Build State String with Arguments__JKI_lib_State_Machine.vi" VersionRange="*">
+			<FileQualifiedNameTarget QualifiedName="JKI\.Library\.JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi" />
+		</FilePathSource>
 	</MappingDefinition>
 </SourceFile>
