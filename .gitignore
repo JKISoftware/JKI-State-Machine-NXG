@@ -20,3 +20,4 @@ source/.cache/
 *.gcompcache
 
 *.lvprojectcache
+*.DS_Store
