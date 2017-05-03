@@ -49,7 +49,7 @@ Essential: no
 Eula: eula-jki-license
 Filename: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1_1.0.0.0_windows_x64.nipkg
 Homepage: http://jki.net/state-machine
-MD5Sum: 73e769f43051baabf26d91fd2b933121
+MD5Sum: 9eaccc27a4d5c41dc2d37683270d1438
 Maintainer: JKI <info@jki.net>
 Package: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-1
 Plugin: file
@@ -57,7 +57,7 @@ Priority: optional
 Provides: 
 Recommends: 
 Section: Add-Ons
-Size: 19452
+Size: 599624
 StoreProduct: no
 Suggests: 
 UserVisible: no
