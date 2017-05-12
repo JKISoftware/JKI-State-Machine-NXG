@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentDefinition xmlns="http://www.ni.com/PlatformFramework" PageIdentifier="{7B498882-3276-4C51-A84A-D835178F080B}">
+  <ContentCategory> 
+    <ProjectFileReference StoragePath="JKI State Machine/JKI State Machine.lvproject"/>
+  </ContentCategory>
+</ContentDefinition>
