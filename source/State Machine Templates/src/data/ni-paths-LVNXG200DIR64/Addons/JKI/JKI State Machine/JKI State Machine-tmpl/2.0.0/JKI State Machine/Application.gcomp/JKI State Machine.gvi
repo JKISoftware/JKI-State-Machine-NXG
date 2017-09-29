@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3C438E93BB40E5391C54AA1512392748" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A006FC23D9D05AEC28D6B373938A0DAD" Timestamp="1D33959316B4D45" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
-		<ApplicationVersionInfo Build="4.9.1.56780" Name="LabVIEW NXG" Version="1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.4" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.2.0.6404" Name="LabVIEW NXG" Version="2.0.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument CustomTitle="JKI State Machine" Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
 		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">This VI template must be instantiated by dropping it on the diagram of a new blank VI directly from the palettes. Do not use the template directly.&lt;br/&gt;&lt;br/&gt;The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts.&lt;br/&gt;&lt;br/&gt;For instructions on how to use the JKI State Machine, examples and video tutorials, visit:&lt;br/&gt;http://jki.net/state-machine/&lt;br/&gt;</p.UserDescription>
 		<Icon Id="15" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="17" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-				<IconTemplate Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Id="598" Left="[float]0" TemplateName="Custom18" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+				<IconTemplate Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Id="598" Left="[float]0" TemplateName="[string]Custom18" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
 					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]36" HorizontalAlignment="[HorizontalAlignment]Left" Id="599" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2" RadiusY="[float]2" Stroke="[SMSolidColorBrush]#ff4d5359" StrokeThickness="[float]1" Top="[float]2" VerticalAlignment="[VerticalAlignment]Top" Width="[float]36" />
-					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 24,0 L 0,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]0" HorizontalAlignment="[HorizontalAlignment]Left" Id="600" Left="[float]8" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff65c865" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" Width="[float]24" />
-					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 24,0 L 0,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]0" HorizontalAlignment="[HorizontalAlignment]Left" Id="601" Left="[float]8" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff65c865" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]27" VerticalAlignment="[VerticalAlignment]Top" Width="[float]24" />
-					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 26,0 L 0,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]0" HorizontalAlignment="[HorizontalAlignment]Left" Id="602" Left="[float]7" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffcaea9c" StrokeStyle="[LineStyle]Dot" StrokeThickness="[float]1" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" Width="[float]26" />
-					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 26,0 L 0,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]0" HorizontalAlignment="[HorizontalAlignment]Left" Id="603" Left="[float]7" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffcaea9c" StrokeStyle="[LineStyle]Dot" StrokeThickness="[float]1" Top="[float]27" VerticalAlignment="[VerticalAlignment]Top" Width="[float]26" />
-					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,7.5 L 1.900002,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7.5" HorizontalAlignment="[HorizontalAlignment]Left" Id="604" Left="[float]17" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#fff3f3f3" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1.90000153" />
-					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,7.5 L 1.900002,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7.5" HorizontalAlignment="[HorizontalAlignment]Left" Id="605" Left="[float]20" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#fff3f3f3" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1.90000153" />
-					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,7.5 L 1.900002,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7.5" HorizontalAlignment="[HorizontalAlignment]Left" Id="606" Left="[float]17" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#fff3f3f3" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1.90000153" />
-					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,7.5 L 1.900002,0 " EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7.5" HorizontalAlignment="[HorizontalAlignment]Left" Id="607" Left="[float]20" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#fff3f3f3" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1.90000153" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 24,0 L 0,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]0" HorizontalAlignment="[HorizontalAlignment]Left" Id="600" Left="[float]8" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff65c865" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" Width="[float]24" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 24,0 L 0,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]0" HorizontalAlignment="[HorizontalAlignment]Left" Id="601" Left="[float]8" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff65c865" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]27" VerticalAlignment="[VerticalAlignment]Top" Width="[float]24" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 26,0 L 0,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]0" HorizontalAlignment="[HorizontalAlignment]Left" Id="602" Left="[float]7" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffcaea9c" StrokeStyle="[LineStyle]Dot" StrokeThickness="[float]1" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" Width="[float]26" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 26,0 L 0,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]0" HorizontalAlignment="[HorizontalAlignment]Left" Id="603" Left="[float]7" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffcaea9c" StrokeStyle="[LineStyle]Dot" StrokeThickness="[float]1" Top="[float]27" VerticalAlignment="[VerticalAlignment]Top" Width="[float]26" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,7.5 L 1.900002,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7.5" HorizontalAlignment="[HorizontalAlignment]Left" Id="604" Left="[float]17" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#fff3f3f3" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1.90000153" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,7.5 L 1.900002,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7.5" HorizontalAlignment="[HorizontalAlignment]Left" Id="605" Left="[float]20" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#fff3f3f3" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1.90000153" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,7.5 L 1.900002,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7.5" HorizontalAlignment="[HorizontalAlignment]Left" Id="606" Left="[float]17" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#fff3f3f3" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1.90000153" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,7.5 L 1.900002,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7.5" HorizontalAlignment="[HorizontalAlignment]Left" Id="607" Left="[float]20" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#fff3f3f3" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1.90000153" />
 					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Id="608" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0.5" RadiusY="[float]0.5" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]8" />
-					<Path Data="[PathGeometry]M 1.5,0.521881 L 1,1.021881 L 0.5,0.521881 L 0,0.02188098 L 1,0.02188098 L 2,0.02188098 L 1.5,0.521881 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Id="609" Left="[float]3" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]13" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Path Data="[PathGeometry]M 1.5,0.521880984 L 1,1.02188098 L 0.5,0.521880984 L 0,0.0218809806 L 1,0.0218809806 L 2,0.0218809806 L 1.5,0.521880984 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Id="609" Left="[float]3" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]13" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Id="610" Left="[float]32" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0.5" RadiusY="[float]0.5" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]8" />
-					<Path Data="[PathGeometry]M 1.5,0.478119 L 1,-0.02188098 L 0.5,0.478119 L 0,0.978119 L 1,0.978119 L 2,0.978119 L 1.5,0.478119 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Id="611" Left="[float]35" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]13" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Path Data="[PathGeometry]M 1.5,0.478118986 L 1,-0.0218809806 L 0.5,0.478118986 L 0,0.978119016 L 1,0.978119016 L 2,0.978119016 L 1.5,0.478118986 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Id="611" Left="[float]35" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]13" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Id="612" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0.5" RadiusY="[float]0.5" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]8" />
-					<Path Data="[PathGeometry]M 1.5,0.521881 L 1,1.021881 L 0.5,0.521881 L 0,0.02188098 L 1,0.02188098 L 2,0.02188098 L 1.5,0.521881 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Id="613" Left="[float]3" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]26" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Path Data="[PathGeometry]M 1.5,0.521880984 L 1,1.02188098 L 0.5,0.521880984 L 0,0.0218809806 L 1,0.0218809806 L 2,0.0218809806 L 1.5,0.521880984 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Id="613" Left="[float]3" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]26" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Id="614" Left="[float]32" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0.5" RadiusY="[float]0.5" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]8" />
-					<Path Data="[PathGeometry]M 1.5,0.478119 L 1,-0.02188098 L 0.5,0.478119 L 0,0.978119 L 1,0.978119 L 2,0.978119 L 1.5,0.478119 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Id="615" Left="[float]35" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]26" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Path Data="[PathGeometry]M 1.5,0.478118986 L 1,-0.0218809806 L 0.5,0.478118986 L 0,0.978119016 L 1,0.978119016 L 2,0.978119016 L 1.5,0.478118986 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Id="615" Left="[float]35" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]26" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 				</IconTemplate>
 			</IconPanel>
 		</Icon>
@@ -48,38 +48,38 @@
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
-		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="12">
-			<Literal Bounds="155 125 115 15" DataType="String" Facade="String" Id="24" xmlns="http://www.ni.com/MocCommon">
+			<Literal Bounds="155 125 115 15" DataType="String" Id="24" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>Macro: Initialize</p.Data>
 				<StringBehavior TextDisplayMode="Default" />
 			</Literal>
 			<WhileLoop Bounds="325 15 710 590" DiagramId="28" Id="27" Label="31">
 				<LoopCondition Bounds="680 540 15 15" Id="29" />
 				<LoopIteration Bounds="10 555 15 15" Id="30" />
-				<Literal Bounds="20 160 40 16" DataType="Int32" Facade="Numeric" Id="38" Label="39" xmlns="http://www.ni.com/MocCommon">
+				<Literal Bounds="20 160 40 15" DataType="Int32" Id="38" Label="39" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>-1</p.Data>
-					<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
+					<NumericBehavior Interpretation="Exact" Radix="Decimal" RadixVisibility="Hidden" ValueFormatter="Decimal, Uppercase, Signed" />
 				</Literal>
-				<NodeLabel AttachedTo="38" Bounds="20 179 50 14" Id="39" SizeToText="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="38" Bounds="20 178 50 14" Id="39" SizeToText="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Timeout</p.Text>
 				</NodeLabel>
-				<CaseStructure Bounds="70 25 600 545" DataType="String" Default="45" Id="42" IgnoreUpperLowerCase="True" Selected="43" UserSelectorBounds="172.8 0 255.2 16.8">
+				<CaseStructure Bounds="70 25 600 545" DataType="String" Default="45" Id="42" IgnoreUpperLowerCase="True" Selected="43" UserSelectorBounds="172 0 255 17">
 					<CaseStructure.Case Bounds="5 5 590 535" Id="43" Pattern="&quot;&quot;, &quot;Event Structure&quot;, &quot;Idle&quot;">
-						<EventStructure Bounds="20 35 553 488" Id="72" Selected="75" UserSelectorBounds="20 0 512.8 16.8">
-							<EventStructure.EventCase Bounds="20 10 511 472" Id="73">
-								<EventStructure.AttachedEvent EventId="{DF1EFEBC-BF4C-4B72-8E78-D711B1FAC11A}" EventIndex="1073741825" EventName="Timeout" EventSourceType="Application" SourceContent="1" SourceName="Application" />
-								<EventStructure.EventData Bounds="0 145 62.4 35" HasErrorTerminals="False" Id="74" InstanceDataType="@b4eb4cf28c0d465e8e3bf8bf6e8ef9ce" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time">
-									<EventPropertyItemTerminal DataType="UInt32" Hotspot="62.4 15" Id="c0t0v" Path="Time" Usage="Optional" />
+						<EventStructure Bounds="20 35 553 488" Id="72" Selected="75" UserSelectorBounds="20 0 513 17">
+							<EventStructure.EventCase Bounds="20 20 511 462" Id="73">
+								<EventStructure.AttachedEvent EventId="{DF1EFEBC-BF4C-4B72-8E78-D711B1FAC11A}" EventIndex="1073741825" EventName="Timeout" EventSourceType="Application" SourceContent="72" SourceName="Timeout" />
+								<EventStructure.EventData Bounds="0 145 62.4 35" HasErrorTerminals="False" Id="74" InstanceDataType="@16be735c996c46419931b15bf6d60482" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time">
+									<EventPropertyItemTerminal DataType="UInt32" Hotspot="62.4 15" Id="c0t0v" Path="Time" PathElementMemberKinds="Field" Usage="Optional" />
 								</EventStructure.EventData>
 								<Comment Bounds="70 45 360 28" Id="89" xmlns="http://www.ni.com/MocCommon">
 									<p.Text>"Timeout Frame\n(this will only execute if the Event Structure timeout is &gt;= 0)"</p.Text>
 								</Comment>
-								<Wire Id="286" Joints="N(82:73)|(3,15) N(85:73)|(510,15)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="287" Joints="N(84:73)|(3,455) N(83:73)|(510,455)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="288" Joints="N(661:R1)|(495,35) N(81:73)|(510,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="289" Joints="N(80:73)|(3,35) N(661:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<MethodCall Bounds="455 20 40 30" DomainName="JKI.Library.JKI State Machine" Id="661" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="286" Joints="N(82:73)|(3,5) N(85:73)|(510,5)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="287" Joints="N(84:73)|(3,445) N(83:73)|(510,445)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="288" Joints="N(661:R1)|(495,35) h(15) N(81:73)|(510,25)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="289" Joints="N(80:73)|(3,25) h(452) N(661:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
+								<MethodCall Bounds="455 20 40 30" DomainName="JKI:Library:JKI State Machine" Id="661" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -94,10 +94,10 @@
 									<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								</MethodCall>
 							</EventStructure.EventCase>
-							<EventStructure.EventCase Bounds="20 10 511 472" Id="75">
-								<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventName="Value changed" EventSourceType="Content" EventType="@a69034116a9145468b62265fe53daae8" SourceContent="22" SourceName="Stop" />
-								<EventStructure.EventData Bounds="0 125 62.4 35" HasErrorTerminals="False" Id="76" InstanceDataType="@c8c573ace0be446c94c9544d53c014d4" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Old Value,New Value">
-									<EventPropertyItemTerminal DataType="UInt32" Hotspot="62.4 15" Id="c0t0v" Path="Time" Usage="Optional" />
+							<EventStructure.EventCase Bounds="20 20 511 462" Id="75">
+								<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventName="Value changed" EventSourceType="Content" EventType="@1588c5982ac54601aef6dbbc2d744239" SourceContent="22" SourceName="Stop" />
+								<EventStructure.EventData Bounds="0 125 62 35" HasErrorTerminals="False" Id="76" InstanceDataType="@3a2f353a53a14b54a9f525b3e411c113" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Old Value,New Value">
+									<EventPropertyItemTerminal DataType="UInt32" Hotspot="62 15" Id="c0t0v" Path="Time" PathElementMemberKinds="Field" Usage="Optional" />
 								</EventStructure.EventData>
 								<DataAccessor Bounds="125 135 40 15" DataItem="14" Id="90" Label="91" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -105,18 +105,18 @@
 								<NodeLabel AttachedTo="90" Bounds="125 153 26 14" Id="91" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>Stop</p.Text>
 								</NodeLabel>
-								<Literal Bounds="290 135 90 15" DataType="String" Facade="String" Id="92" xmlns="http://www.ni.com/MocCommon">
+								<Literal Bounds="290 135 90 15" DataType="String" Id="92" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>Macro: Exit</p.Data>
 									<StringBehavior TextDisplayMode="Default" />
 								</Literal>
 								<Comment Bounds="110 45 280 28" Id="95" xmlns="http://www.ni.com/MocCommon">
 									<p.Text>"Stop Button Value Change (pressed) Event\n(this executes Macro: Exit to terminate the VI)"</p.Text>
 								</Comment>
-								<Wire Id="292" Joints="N(84:75)|(3,455) N(83:75)|(510,455)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="293" Joints="N(656:R1)|(495,35) N(81:75)|(510,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="294" Joints="N(80:75)|(3,35) N(656:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="645" Joints="N(82:75)|(3,15) N(85:75)|(510,15)" xmlns="http://www.ni.com/PlatformFramework" />
-								<MethodCall Bounds="455 20 40 30" DomainName="JKI.Library.JKI State Machine" Id="656" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="292" Joints="N(84:75)|(3,445) N(83:75)|(510,445)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="293" Joints="N(656:R1)|(495,35) h(15) N(81:75)|(510,25)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="294" Joints="N(80:75)|(3,25) h(452) N(656:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="645" Joints="N(82:75)|(3,5) N(85:75)|(510,5)" xmlns="http://www.ni.com/PlatformFramework" />
+								<MethodCall Bounds="455 20 40 30" DomainName="JKI:Library:JKI State Machine" Id="656" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -132,11 +132,11 @@
 								</MethodCall>
 								<Wire Id="660" Joints="N(92:Out)|(380,140) h(60) v(-115) N(656:L0)|(455,25)" xmlns="http://www.ni.com/PlatformFramework" />
 							</EventStructure.EventCase>
-							<EventStructure.EventCase Bounds="20 10 511 472" Id="724">
-								<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventName="Value changed" EventSourceType="Content" EventType="@fbeb29b036f34615a3724ebc8f3c2e98" SourceContent="737" SourceName="Help" />
-								<EventStructure.EventData Bounds="0 125 92 50" HasErrorTerminals="False" Id="725" InstanceDataType="@f5251ec5d7c643f5b441e0a7c8f7e193" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time,Old Value,New Value">
-									<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 15" Id="c0t0v" Path="Old Value" Usage="Optional" />
-									<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 30" Id="c1t0v" Path="New Value" Usage="Optional" />
+							<EventStructure.EventCase Bounds="20 20 511 462" Id="724">
+								<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventName="Value changed" EventSourceType="Content" EventType="@1588c5982ac54601aef6dbbc2d744239" SourceContent="737" SourceName="Help" />
+								<EventStructure.EventData Bounds="0 125 92 50" HasErrorTerminals="False" Id="725" InstanceDataType="@3a2f353a53a14b54a9f525b3e411c113" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time,Old Value,New Value">
+									<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 15" Id="c0t0v" Path="Old Value" PathElementMemberKinds="Field" Usage="Optional" />
+									<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 30" Id="c1t0v" Path="New Value" PathElementMemberKinds="Field" Usage="Optional" />
 								</EventStructure.EventData>
 								<DataAccessor Bounds="125 135 40 15" DataItem="736" Id="726" Label="727" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -144,18 +144,18 @@
 								<NodeLabel AttachedTo="726" Bounds="125 153 25 14" Id="727" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>Help</p.Text>
 								</NodeLabel>
-								<Literal Bounds="220 135 215 15" DataType="String" Facade="String" Id="728" xmlns="http://www.ni.com/MocCommon">
+								<Literal Bounds="220 135 215 15" DataType="String" Id="728" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>UI: Help &gt;&gt; jki.net/state-machine</p.Data>
 									<StringBehavior TextDisplayMode="Default" />
 								</Literal>
 								<Comment Bounds="110 45 280 28" Id="729" xmlns="http://www.ni.com/MocCommon">
 									<p.Text>"Exit Button Value Change (pressed) Event\n(this executes Macro: Exit to terminate the VI)"</p.Text>
 								</Comment>
-								<Wire Id="730" Joints="N(84:724)|(3,455) N(83:724)|(510,455)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="731" Joints="N(734:R1)|(495,35) N(81:724)|(510,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="732" Joints="N(80:724)|(3,35) N(734:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="733" Joints="N(82:724)|(3,15) N(85:724)|(510,15)" xmlns="http://www.ni.com/PlatformFramework" />
-								<MethodCall Bounds="455 20 40 30" DomainName="JKI.Library.JKI State Machine" Id="734" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="730" Joints="N(84:724)|(3,445) N(83:724)|(510,445)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="731" Joints="N(734:R1)|(495,35) h(15) N(81:724)|(510,25)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="732" Joints="N(80:724)|(3,25) h(452) N(734:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="733" Joints="N(82:724)|(3,5) N(85:724)|(510,5)" xmlns="http://www.ni.com/PlatformFramework" />
+								<MethodCall Bounds="455 20 40 30" DomainName="JKI:Library:JKI State Machine" Id="734" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -179,7 +179,7 @@
 							<EventStructure.Tunnel Bounds="-2 460 25 10" Docking="Left" Id="84" Terminals="72=303, 73=287, 75=292, 724=730" />
 							<EventStructure.Tunnel Bounds="530 20 25 10" DefaultIfUnwired="False" Docking="Right" Id="85" Terminals="72=302, 73=286, 75=645, 724=733" />
 						</EventStructure>
-						<Comment Bounds="175 15 244.8 15.2" Id="105" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="175 15 245 15" Id="105" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>executes when the state queue is empty</p.Text>
 						</Comment>
 						<Wire Id="301" Joints="N(71:43)|(4,135) N(79:72)|(18,135)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -198,7 +198,7 @@
 						<Wire Id="309" Joints="N(67:44)|(4,500) N(66:44)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="310" Joints="N(664:R1)|(550,80) N(68:44)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="311" Joints="N(63:44)|(4,80) N(664:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="510 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="664" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="510 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="664" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -214,21 +214,21 @@
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="45" Pattern="Default">
-						<Literal Bounds="40 405 160 35" DataType="String" Facade="String" Id="109" Label="110" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="40 405 160 35" DataType="String" Id="109" Label="110" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>Software Exception: Unhandled State "%s".</p.Data>
 							<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 						</Literal>
 						<NodeLabel AttachedTo="109" Bounds="40 443 65 18" Id="110" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>message</p.Text>
 						</NodeLabel>
-						<Literal Bounds="430 415 25 15" DataType="Boolean" Facade="True Constant" Id="111" Label="112" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="430 415 25 15" DataType="Boolean" Id="111" Label="112" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
 						<NodeLabel AttachedTo="111" Bounds="430 433 176 18" Id="112" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>show call chain? (False)</p.Text>
 						</NodeLabel>
-						<Literal Bounds="310 440 125 15" DataType="Int32" Facade="Ring" Id="113" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="310 440 125 15" DataType="Int32" Id="113" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>42</p.Data>
 							<RingBehavior ValueFormatter="LV:G6">
 								<RingConstantInfo DisplayValue="No error" ValueType="Int32">
@@ -574,7 +574,7 @@
 						<Wire Id="319" Joints="N(116:errOut)|(240,490) N(670:L0)|(465,490)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="321" Joints="N(113:Out)|(435,445) h(20) v(55) N(670:L1)|(465,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="322" Joints="N(109:Out)|(200,410) h(25) N(116:formatString)|(225,465)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="510 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="667" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="510 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="667" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -588,7 +588,7 @@
 							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<MethodCall Bounds="465 485 40 40" DomainName="NI:G Core:Error" Id="670" ResolveFailedHint="" Target="NI:G\ Core:Error:Build\ Error\ Cluster\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="465 485 40 40" DomainName="NI:G Core:Error" Id="670" ResolveFailedHint="Build Error Cluster.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 2.0.0)" Target="NI:G\ Core:Error:Build\ Error\ Cluster\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L1" Desc="code" />
@@ -599,9 +599,9 @@
 									<Parameter Id="R0" Desc="error out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
+							<Terminal DataType="Error" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Int32" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="Error" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Boolean" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Boolean" Direction="Input" Hotspot="25 0" Id="T1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
@@ -609,9 +609,9 @@
 						<Wire Id="676" Joints="N(116:outString)|(240,470) h(200) v(40) N(670:L2)|(465,510)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="46" Pattern="&quot;Initialize Core Data&quot;">
-						<PropertyNode Bounds="270 95 160 50" HasErrorTerminals="False" Id="133" InstanceDataType="@5eaff3a1fd04498a8748c9fdf3182e88" ListViewAutoSize="False" Mode="InstanceProperties">
-							<PropertyItemTerminal Action="Write" DataType="@25b81d859b994f41833e69768d124314" Hotspot="0 15" Id="c0t0v" Path="Core:Current VI Reference" Usage="Required" />
-							<PropertyItemTerminal Action="Write" DataType="Boolean" Hotspot="0 30" Id="c1t0v" Path="Core:Close Panel on Exit?" Usage="Required" />
+						<PropertyNode Bounds="270 95 160 50" HasErrorTerminals="False" Id="133" InstanceDataType="@5eaff3a1fd04498a8748c9fdf3182e88" ListViewAutoSize="False" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+							<PropertyItemTerminal Action="Write" DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" Hotspot="0 15" Id="c0t0v" Path="Core:Current VI Reference" PathElementMemberKinds="Field:Field" Usage="Required" />
+							<PropertyItemTerminal Action="Write" DataType="Boolean" Hotspot="0 30" Id="c1t0v" Path="Core:Close Panel on Exit?" PathElementMemberKinds="Field:Field" Usage="Required" />
 						</PropertyNode>
 						<Comment Bounds="155 20 295 28" Id="134" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Do not delete, rename, or modify this frame.\n(this is used to determine panel behavior on exit)"</p.Text>
@@ -621,7 +621,7 @@
 						<Wire Id="332" Joints="N(133:instance out)|(430,100) h(10) v(-40) N(70:46)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="333" Joints="N(677:R1)|(525,80) N(68:46)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="334" Joints="N(63:46)|(4,80) N(677:L1)|(485,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<OpaqueRefnumLiteral Bounds="200 105 40 15" DataType="@25b81d859b994f41833e69768d124314" Facade="OpaqueRefnumLiteral" Id="454" Label="455" xmlns="http://www.ni.com/MocCommon">
+						<OpaqueRefnumLiteral Bounds="200 105 40 15" DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" Id="454" Label="455" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>0</p.Data>
 							<OpaqueRefnumLiteralBehavior />
 						</OpaqueRefnumLiteral>
@@ -629,7 +629,7 @@
 							<p.Text>Core:Current VI Reference</p.Text>
 						</NodeLabel>
 						<Wire Id="456" Joints="N(454:Out)|(240,110) N(133:c0t0v)|(270,110)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Literal Bounds="200 120 25 15" DataType="Boolean" Facade="False Constant" Id="457" Label="458" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="200 120 25 15" DataType="Boolean" Id="457" Label="458" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>False</p.Data>
 							<BooleanBehavior />
 						</Literal>
@@ -637,7 +637,7 @@
 							<p.Text>Core:Close Panel on Exit?</p.Text>
 						</NodeLabel>
 						<Wire Id="459" Joints="N(457:Out)|(225,125) N(133:c1t0v)|(270,125)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="485 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="677" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="485 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="677" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -653,11 +653,11 @@
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="47" Pattern="&quot;Error Handler&quot;">
-						<Literal Bounds="280 95 135 15" DataType="String" Facade="String" Id="138" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="280 95 135 15" DataType="String" Id="138" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>/* Post Error States</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
-						<ClusterLiteral Bounds="445 385 61 89" DataType="Error" Facade="Cluster" Id="141" Label="148" p7:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+						<ClusterLiteral Bounds="445 385 61 89" DataType="Error" Id="141" Label="148" p7:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>
 								<Cluster>
 									<Field1>False</Field1>
@@ -670,21 +670,21 @@
 								<p7:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
 							</p7:p.TypeDefinitionTargets>
 							<ClusterBehavior AutoArrange="SizeToFit" />
-							<Literal Bounds="13 2 15 15" DataType="Boolean" Facade="False Constant" Id="142" Label="143">
+							<Literal Bounds="13 2 15 15" DataType="Boolean" Id="142" Label="143">
 								<p.Data>False</p.Data>
 								<BooleanBehavior />
 							</Literal>
 							<NodeLabel AttachedTo="142" Bounds="13 -16 30 15" Id="143" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>status</p.Text>
 							</NodeLabel>
-							<Literal Bounds="2 32 40 16" DataType="Int32" Facade="Numeric" Id="144" Label="145">
+							<Literal Bounds="2 32 40 16" DataType="Int32" Id="144" Label="145">
 								<p.Data>0</p.Data>
-								<NumericBehavior Interpretation="Exact" RadixVisibility="Visible" ValueFormatter="LV:G6" />
+								<NumericBehavior Interpretation="Exact" Radix="Decimal" RadixVisibility="Visible" ValueFormatter="Decimal, Uppercase, Signed" />
 							</Literal>
 							<NodeLabel AttachedTo="144" Bounds="2 14 30 15" Id="145" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>code</p.Text>
 							</NodeLabel>
-							<Literal Bounds="2 62 40 15" DataType="String" Facade="String" Id="146" Label="147">
+							<Literal Bounds="2 62 40 15" DataType="String" Id="146" Label="147">
 								<p.Data>""</p.Data>
 								<StringBehavior TextDisplayMode="Default" />
 							</Literal>
@@ -695,7 +695,7 @@
 						<NodeLabel AttachedTo="141" Bounds="445 477 66 18" Id="148" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>error out</p.Text>
 						</NodeLabel>
-						<MethodCall Bounds="80 455 40 40" DomainName="NI:G Core:Error" Id="151" Label="152" ResolveFailedHint="" Target="NI:G\ Core:Error:Display\ Error\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="80 455 40 40" DomainName="NI:G Core:Error" Id="151" Label="152" ResolveFailedHint="Display Error.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 2.0.0)" Target="NI:G\ Core:Error:Display\ Error\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L1" Desc="type of dialog" />
@@ -706,8 +706,8 @@
 									<Parameter Id="R3" Desc="description" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="@42ba709613234c74949e131b1527c9ba" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@42ba709613234c74949e131b1527c9ba" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Int32" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
@@ -731,7 +731,7 @@
 						<Wire Id="338" Joints="N(141:Out)|(506,390) h(25) v(110) N(66:47)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="339" Joints="N(680:R1)|(525,80) N(68:47)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="340" Joints="N(63:47)|(4,80) N(680:L1)|(485,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="485 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="680" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="485 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="680" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -747,7 +747,7 @@
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="48" Pattern="&quot;Exit&quot;">
-						<Literal Bounds="500 500 25 15" DataType="Boolean" Facade="True Constant" Id="156" Label="466" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="500 500 25 15" DataType="Boolean" Id="156" Label="466" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
@@ -762,7 +762,7 @@
 						<NodeLabel AttachedTo="156" Bounds="469 500 26 14" Id="466" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Stop</p.Text>
 						</NodeLabel>
-						<MethodCall Bounds="465 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="684" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="465 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="684" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -785,7 +785,7 @@
 						<Wire Id="347" Joints="N(67:49)|(4,500) N(66:49)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="348" Joints="N(687:R1)|(515,80) N(68:49)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="349" Joints="N(63:49)|(4,80) N(687:L1)|(475,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="475 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="687" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="475 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="687" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -801,14 +801,14 @@
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="50" Pattern="&quot;Data: Initialize&quot;">
-						<Literal Bounds="45 345 40 15" DataType="String" Facade="String" Id="163" Label="164" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="45 345 40 15" DataType="String" Id="163" Label="164" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>""</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 						<NodeLabel AttachedTo="163" Bounds="45 328 89 14" Id="164" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Your string data</p.Text>
 						</NodeLabel>
-						<Literal Bounds="47 300 25 15" DataType="Boolean" Facade="True Constant" Id="165" Label="166" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="47 300 25 15" DataType="Boolean" Id="165" Label="166" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
@@ -818,17 +818,17 @@
 						<NodeLabel AttachedTo="167" Bounds="50 234 26 14" Id="168" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Core</p.Text>
 						</NodeLabel>
-						<ClusterLiteral Bounds="50 185 61 46" DataType="@e636caaad4f94ee88f62dbb663772dcb" Facade="Cluster" Id="167" Label="168" xmlns="http://www.ni.com/MocCommon">
+						<ClusterLiteral Bounds="50 185 61 46" DataType="@e636caaad4f94ee88f62dbb663772dcb" Id="167" Label="168" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>0_False_</p.Data>
 							<ClusterBehavior AutoArrange="SizeToFit" />
-							<OpaqueRefnumLiteral Bounds="2 2 40 15" DataType="@25b81d859b994f41833e69768d124314" Facade="OpaqueRefnumLiteral" Id="169" Label="170">
+							<OpaqueRefnumLiteral Bounds="2 2 40 15" DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" Id="169" Label="170">
 								<p.Data>0</p.Data>
 								<OpaqueRefnumLiteralBehavior />
 							</OpaqueRefnumLiteral>
 							<NodeLabel AttachedTo="169" Bounds="2 -16 30 15" Id="170" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>Current VI Reference</p.Text>
 							</NodeLabel>
-							<Literal Bounds="12 19 15 15" DataType="Boolean" Facade="False Constant" Id="171" Label="172">
+							<Literal Bounds="12 19 15 15" DataType="Boolean" Id="171" Label="172">
 								<p.Data>False</p.Data>
 								<BooleanBehavior />
 							</Literal>
@@ -836,12 +836,12 @@
 								<p.Text>Close Panel on Exit?</p.Text>
 							</NodeLabel>
 						</ClusterLiteral>
-						<PropertyNode Bounds="430 175 50 65" HasErrorTerminals="False" Id="173" InstanceDataType="@5eaff3a1fd04498a8748c9fdf3182e88" ListViewAutoSize="False" Mode="InstanceProperties">
-							<PropertyItemTerminal Action="Write" DataType="@e636caaad4f94ee88f62dbb663772dcb" Hotspot="0 15" Id="c0t0v" Path="Core" Usage="Required" />
-							<PropertyItemTerminal Action="Write" DataType="Boolean" Hotspot="0 30" Id="c1t0v" Path="Your Boolean data" Usage="Required" />
-							<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 45" Id="c2t0v" Path="Your string data" Usage="Required" />
+						<PropertyNode Bounds="430 175 50 65" HasErrorTerminals="False" Id="173" InstanceDataType="@5eaff3a1fd04498a8748c9fdf3182e88" ListViewAutoSize="False" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+							<PropertyItemTerminal Action="Write" DataType="@e636caaad4f94ee88f62dbb663772dcb" Hotspot="0 15" Id="c0t0v" Path="Core" PathElementMemberKinds="Field" Usage="Required" />
+							<PropertyItemTerminal Action="Write" DataType="Boolean" Hotspot="0 30" Id="c1t0v" Path="Your Boolean data" PathElementMemberKinds="Field" Usage="Required" />
+							<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 45" Id="c2t0v" Path="Your string data" PathElementMemberKinds="Field" Usage="Required" />
 						</PropertyNode>
-						<ClusterLiteral Bounds="418 176 12 9" DataType="@5eaff3a1fd04498a8748c9fdf3182e88" Facade="DockedConstantFacade" Id="174" xmlns="http://www.ni.com/MocCommon">
+						<ClusterLiteral Bounds="418 176 12 9" DataType="@5eaff3a1fd04498a8748c9fdf3182e88" Id="174" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>
 								<Cluster>
 									<Field1>0_False_</Field1>
@@ -850,17 +850,17 @@
 								</Cluster>
 							</p.Data>
 							<ClusterBehavior AutoArrange="ArrangeVertically" />
-							<ClusterLiteral Bounds="5 20 104 88" DataType="@e636caaad4f94ee88f62dbb663772dcb" Facade="Cluster" Id="175" Label="176">
+							<ClusterLiteral Bounds="5 20 104 88" DataType="@e636caaad4f94ee88f62dbb663772dcb" Id="175" Label="176">
 								<p.Data>0_False_</p.Data>
 								<ClusterBehavior AutoArrange="ArrangeVertically" />
-								<OpaqueRefnumLiteral Bounds="5 20 65 15" DataType="@25b81d859b994f41833e69768d124314" Facade="OpaqueRefnumLiteral" Id="181" Label="182">
+								<OpaqueRefnumLiteral Bounds="5 20 65 15" DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" Id="181" Label="182">
 									<p.Data>0</p.Data>
 									<OpaqueRefnumLiteralBehavior />
 								</OpaqueRefnumLiteral>
 								<NodeLabel AttachedTo="181" Bounds="0 -15 30 15" Id="182" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>Current VI Reference</p.Text>
 								</NodeLabel>
-								<Literal Bounds="5 50 26 15" DataType="Boolean" Facade="False Constant" Id="183" Label="184">
+								<Literal Bounds="5 50 26 15" DataType="Boolean" Id="183" Label="184">
 									<p.Data>False</p.Data>
 									<BooleanBehavior />
 								</Literal>
@@ -871,14 +871,14 @@
 							<NodeLabel AttachedTo="175" Bounds="0 -15 30 15" Id="176" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>Core</p.Text>
 							</NodeLabel>
-							<Literal Bounds="5 50 26 15" DataType="Boolean" Facade="False Constant" Id="177" Label="178">
+							<Literal Bounds="5 50 26 15" DataType="Boolean" Id="177" Label="178">
 								<p.Data>False</p.Data>
 								<BooleanBehavior />
 							</Literal>
 							<NodeLabel AttachedTo="177" Bounds="0 -15 30 15" Id="178" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>Your Boolean data</p.Text>
 							</NodeLabel>
-							<Literal Bounds="5 80 40 15" DataType="String" Facade="String" Id="179" Label="180">
+							<Literal Bounds="5 80 40 15" DataType="String" Id="179" Label="180">
 								<p.Data>""</p.Data>
 								<StringBehavior TextDisplayMode="Default" />
 							</Literal>
@@ -909,7 +909,7 @@
 						<Wire Id="354" Joints="N(173:instance out)|(480,180) h(35) v(-120) N(70:50)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="355" Joints="N(690:R1)|(465,80) N(68:50)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="356" Joints="N(63:50)|(4,80) N(690:L1)|(425,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="425 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="690" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="425 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="690" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -926,8 +926,8 @@
 						<Wire Id="693" Joints="N(167:Out)|(111,190) N(173:c0t0v)|(430,190)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="51" Pattern="&quot;Data: Cleanup&quot;">
-						<PropertyNode Bounds="30 160 130 35" HasErrorTerminals="False" Id="193" InstanceDataType="@5eaff3a1fd04498a8748c9fdf3182e88" ListViewAutoSize="False" Mode="InstanceProperties">
-							<PropertyItemTerminal DataType="@25b81d859b994f41833e69768d124314" Hotspot="130 15" Id="c0t0v" Path="Core:Current VI Reference" Usage="Optional" />
+						<PropertyNode Bounds="30 160 130 35" HasErrorTerminals="False" Id="193" InstanceDataType="@5eaff3a1fd04498a8748c9fdf3182e88" ListViewAutoSize="False" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+							<PropertyItemTerminal DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" Hotspot="130 15" Id="c0t0v" Path="Core:Current VI Reference" PathElementMemberKinds="Field:Field" Usage="Optional" />
 						</PropertyNode>
 						<Comment Bounds="155 20 285 28" Id="197" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Cleanup any data and references, here.\n(this is called automatically, by the Macro: Exit)"</p.Text>
@@ -936,7 +936,7 @@
 						<Wire Id="359" Joints="N(67:51)|(4,500) N(66:51)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="361" Joints="N(694:R1)|(535,80) N(68:51)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="362" Joints="N(63:51)|(4,80) N(694:L1)|(495,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="495 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="694" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="495 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="694" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -959,7 +959,7 @@
 						<Wire Id="364" Joints="N(67:52)|(4,500) N(66:52)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="365" Joints="N(697:R1)|(435,80) N(68:52)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="366" Joints="N(63:52)|(4,80) N(697:L1)|(395,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="395 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="697" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="395 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="697" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -982,7 +982,7 @@
 						<Wire Id="368" Joints="N(65:53)|(4,60) N(70:53)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="369" Joints="N(700:R1)|(520,80) N(68:53)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="370" Joints="N(63:53)|(4,80) N(700:L1)|(480,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="480 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="700" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="480 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="700" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1002,7 +1002,7 @@
 							<p.Text>"Opens a help URL in the browser. "</p.Text>
 						</Comment>
 						<Wire Id="743" Joints="N(745:R1)|(520,80) N(68:740)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="480 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="745" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="480 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="745" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1018,7 +1018,7 @@
 						</MethodCall>
 						<Wire Id="747" Joints="N(63:740)|(4,80) N(745:L1)|(480,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="748" Joints="N(65:740)|(4,60) N(70:740)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="275 230 40 40" DomainName="NI:G Core:URL" Id="749" ResolveFailedHint="" Target="NI:G\ Core:URL:Open\ URL\ in\ Default\ Browser\ \(string\)\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="275 230 40 40" DomainName="NI:G Core:URL" Id="749" ResolveFailedHint="Open URL in Default Browser (string).gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 2.0.0)" Target="NI:G\ Core:URL:Open\ URL\ in\ Default\ Browser\ \(string\)\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="URL" />
@@ -1044,7 +1044,7 @@
 						<Wire Id="411" Joints="N(67:56)|(4,500) N(66:56)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="412" Joints="N(703:R1)|(450,80) N(68:56)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="413" Joints="N(63:56)|(4,80) N(703:L1)|(410,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="410 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="703" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="410 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="703" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1060,7 +1060,7 @@
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="57" Pattern="&quot;Macro: Initialize&quot;">
-						<Literal Bounds="200 90 210 55" DataType="String" Facade="String" Id="257" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="200 90 210 55" DataType="String" Id="257" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>"Data: Initialize\nInitialize Core Data\nUI: Initialize\n// UI: Front Panel State &gt;&gt; Open"</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
@@ -1072,7 +1072,7 @@
 						<Wire Id="416" Joints="N(67:57)|(4,500) N(66:57)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="417" Joints="N(706:R1)|(520,80) N(68:57)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="418" Joints="N(63:57)|(4,80) N(706:L1)|(480,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="480 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="706" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="480 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="706" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1088,7 +1088,7 @@
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="58" Pattern="&quot;Macro: Exit&quot;">
-						<Literal Bounds="245 125 105 28" DataType="String" Facade="String" Id="261" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="245 125 105 28" DataType="String" Id="261" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>"Data: Cleanup\nExit"</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
@@ -1100,7 +1100,7 @@
 						<Wire Id="427" Joints="N(710:R1)|(505,80) N(68:58)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="428" Joints="N(63:58)|(4,80) N(710:L1)|(465,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="460" Joints="N(65:58)|(4,60) N(70:58)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="465 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="710" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="465 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="710" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1123,7 +1123,7 @@
 						<Wire Id="430" Joints="N(67:59)|(4,500) N(66:59)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="431" Joints="N(714:R1)|(525,80) N(68:59)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="432" Joints="N(63:59)|(4,80) N(714:L1)|(485,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="485 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="714" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="485 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="714" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1146,7 +1146,7 @@
 						<Wire Id="434" Joints="N(67:60)|(4,500) N(66:60)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="435" Joints="N(717:R1)|(505,80) N(68:60)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="436" Joints="N(63:60)|(4,80) N(717:L1)|(465,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="465 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="717" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="465 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="717" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1169,7 +1169,7 @@
 						<Wire Id="438" Joints="N(67:61)|(4,500) N(66:61)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="439" Joints="N(720:R1)|(505,80) N(68:61)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="440" Joints="N(63:61)|(4,80) N(720:L1)|(465,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="465 65 40 30" DomainName="JKI.Library.JKI State Machine" Id="720" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="465 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="720" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1184,16 +1184,16 @@
 							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
-					<CaseStructure.Selector Bounds="-4 90 26 10" Docking="Left" Id="62" Terminals="42=652, 43, 44, 45=312, 46, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58, 59, 60, 61, 740" />
-					<CaseStructure.Tunnel Bounds="-4 80 13 10" Docking="Left" Id="63" Terminals="42=655, 43=307, 44=311, 45=316, 46=334, 47=340, 48=345, 49=349, 50=356, 51=362, 52=366, 53=370, 56=413, 57=418, 58=428, 59=432, 60=436, 61=440, 740=747" />
-					<CaseStructure.Tunnel Bounds="-4 60 13 10" Docking="Left" Id="65" Terminals="42=443, 43=305, 44=308, 45=314, 46=325, 47=337, 48=343, 49=346, 50, 51=357, 52=363, 53=368, 56=410, 57=415, 58=460, 59=429, 60=433, 61=437, 740=748" />
-					<CaseStructure.Tunnel Bounds="591 500 13 10" Docking="Right" Id="66" Terminals="42=447, 43=304, 44=309, 45=318, 46=331, 47=338, 48=342, 49=347, 50=353, 51=359, 52=364, 53=367, 56=411, 57=416, 58=426, 59=430, 60=434, 61=438, 740=751" />
-					<CaseStructure.Tunnel Bounds="-4 500 13 10" Docking="Left" Id="67" Terminals="42=500, 43=303, 44=309, 45=317, 46=331, 47=336, 48=342, 49=347, 50=353, 51=359, 52=364, 53=367, 56=411, 57=416, 58=426, 59=430, 60=434, 61=438, 740=750" />
-					<CaseStructure.Tunnel Bounds="591 80 13 10" Docking="Right" Id="68" Terminals="42=446, 43=306, 44=310, 45=315, 46=333, 47=339, 48=344, 49=348, 50=355, 51=361, 52=365, 53=369, 56=412, 57=417, 58=427, 59=431, 60=435, 61=439, 740=743" />
-					<CaseStructure.Tunnel Bounds="591 515 13 10" DefaultIfUnwired="True" Docking="Right" Id="69" Terminals="42=445, 43, 44, 45, 46, 47, 48=341, 49, 50, 51, 52, 53, 56, 57, 58, 59, 60, 61, 740" />
-					<CaseStructure.Tunnel Bounds="591 60 13 10" Docking="Right" Id="70" Terminals="42=444, 43=302, 44=308, 45=314, 46=332, 47=337, 48=343, 49=346, 50=354, 51=357, 52=363, 53=368, 56=410, 57=415, 58=460, 59=429, 60=433, 61=437, 740=748" />
-					<CaseStructure.Tunnel Bounds="-4 135 13 10" Docking="Left" Id="71" Terminals="42=442, 43=301, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58, 59, 60, 61, 740" />
-					<CaseStructure.Tunnel Bounds="-4 100 13 10" Docking="Left" Id="654" Terminals="42=653, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58, 59, 60, 61, 740=752" />
+					<CaseStructure.Selector Bounds="-4 90 26 10" Docking="Left" Id="62" Terminals="42=652, 43, 44, 45=312, 46, 47, 48, 49, 50, 51, 52, 53, 740, 56, 57, 58, 59, 60, 61" />
+					<CaseStructure.Tunnel Bounds="-4 80 13 10" Docking="Left" Id="63" Terminals="42=655, 43=307, 44=311, 45=316, 46=334, 47=340, 48=345, 49=349, 50=356, 51=362, 52=366, 53=370, 740=747, 56=413, 57=418, 58=428, 59=432, 60=436, 61=440" />
+					<CaseStructure.Tunnel Bounds="-4 60 13 10" Docking="Left" Id="65" Terminals="42=443, 43=305, 44=308, 45=314, 46=325, 47=337, 48=343, 49=346, 50, 51=357, 52=363, 53=368, 740=748, 56=410, 57=415, 58=460, 59=429, 60=433, 61=437" />
+					<CaseStructure.Tunnel Bounds="591 500 13 10" Docking="Right" Id="66" Terminals="42=447, 43=304, 44=309, 45=318, 46=331, 47=338, 48=342, 49=347, 50=353, 51=359, 52=364, 53=367, 740=751, 56=411, 57=416, 58=426, 59=430, 60=434, 61=438" />
+					<CaseStructure.Tunnel Bounds="-4 500 13 10" Docking="Left" Id="67" Terminals="42=500, 43=303, 44=309, 45=317, 46=331, 47=336, 48=342, 49=347, 50=353, 51=359, 52=364, 53=367, 740=750, 56=411, 57=416, 58=426, 59=430, 60=434, 61=438" />
+					<CaseStructure.Tunnel Bounds="591 80 13 10" Docking="Right" Id="68" Terminals="42=446, 43=306, 44=310, 45=315, 46=333, 47=339, 48=344, 49=348, 50=355, 51=361, 52=365, 53=369, 740=743, 56=412, 57=417, 58=427, 59=431, 60=435, 61=439" />
+					<CaseStructure.Tunnel Bounds="591 515 13 10" DefaultIfUnwired="True" Docking="Right" Id="69" Terminals="42=445, 43, 44, 45, 46, 47, 48=341, 49, 50, 51, 52, 53, 740, 56, 57, 58, 59, 60, 61" />
+					<CaseStructure.Tunnel Bounds="591 60 13 10" Docking="Right" Id="70" Terminals="42=444, 43=302, 44=308, 45=314, 46=332, 47=337, 48=343, 49=346, 50=354, 51=357, 52=363, 53=368, 740=748, 56=410, 57=415, 58=460, 59=429, 60=433, 61=437" />
+					<CaseStructure.Tunnel Bounds="-4 135 13 10" Docking="Left" Id="71" Terminals="42=442, 43=301, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 740, 56, 57, 58, 59, 60, 61" />
+					<CaseStructure.Tunnel Bounds="-4 100 13 10" Docking="Left" Id="654" Terminals="42=653, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 740=752, 56, 57, 58, 59, 60, 61" />
 				</CaseStructure>
 				<Wire Id="442" Joints="N(38:Out)|(60,165) N(71:42)|(66,165)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="443" Joints="N(33:i0)|(4,90) N(65:42)|(66,90)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1206,7 +1206,7 @@
 				<Comment Bounds="0 0 695 15.2" Id="644" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
 					<p.Text>"JKI State Machine NXG 1.0\t\t\t\tTemplate Copyright © 2017 JKI\t - http://jki.net/state-machine"</p.Text>
 				</Comment>
-				<MethodCall Bounds="20 105 40 30" DomainName="JKI.Library.JKI State Machine" Id="649" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Parse\ State\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<MethodCall Bounds="20 105 40 30" DomainName="JKI:Library:JKI State Machine" Id="649" ResolveFailedHint="Parse State Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="State Queue" />
@@ -1238,9 +1238,15 @@
 			<NodeLabel AttachedTo="27" Bounds="325 -2 300 14" Id="31" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>JKI - String-Based Queued State Machine (Basic) v1.0</p.Text>
 			</NodeLabel>
-			<Wire Id="452" Joints="N(646:R1)|(315,130) N(37:o0)|(321,130)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="453" Joints="N(24:Out)|(270,130) N(646:L1)|(275,130)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="275 115 40 30" DomainName="JKI.Library.JKI State Machine" Id="646" ResolveFailedHint="" Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="452" Joints="N(754:R1)|(315,130) N(37:o0)|(321,130)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="453" Joints="N(24:Out)|(270,130) N(754:L1)|(275,130)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Comment Bounds="425 620 530 95.2" Id="721" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>"For instructions on how to use the JKI State Machine, examples and video tutorials, visit:\r\nhttp://jki.net/state-machine/\r\n\r\nJKI State Machine™\r\nhttp://jki.net/state-machine/\r\nCopyright (C) 2005-2017, JKI &lt;info@jki.net&gt;\r\nALL RIGHTS RESERVED"</p.Text>
+			</Comment>
+			<Comment Bounds="155 155 160 390" Id="722" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>"= State Syntax = \r\nStateCategory: State &gt;&gt; Argument\r\nLine Terminator: Line feed\r\nExample:\r\nUI: Help &gt;&gt; About\r\n\r\nWhere "UI" is the state category\r\nWhere "Help" is the state\r\nWhere "About" is the argument\r\nOther Examples:\r\nApp Data: Initialize\r\nUI: Initialize\r\nHelp &gt;&gt; About\r\n\r\n= Commenting =\r\nTo add a comment use "//" or "#" and all text to the right will be ignored\r\nCommenting Example:\r\nUI: Initialize // This initializes the UI\r\n# This whole line is a comment\r\n// Another comment line\r\n"</p.Text>
+			</Comment>
+			<MethodCall Bounds="275 115 40 30" DomainName="JKI:Library:JKI State Machine" Id="754" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.1)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1254,19 +1260,14 @@
 				<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<Comment Bounds="425 620 530 95.2" Id="721" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
-				<p.Text>"For instructions on how to use the JKI State Machine, examples and video tutorials, visit:\r\nhttp://jki.net/state-machine/\r\n\r\nJKI State Machine™\r\nhttp://jki.net/state-machine/\r\nCopyright (C) 2005-2017, JKI &lt;info@jki.net&gt;\r\nALL RIGHTS RESERVED"</p.Text>
-			</Comment>
-			<Comment Bounds="155 155 160 390" Id="722" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
-				<p.Text>"= State Syntax = \r\nStateCategory: State &gt;&gt; Argument\r\nLine Terminator: Line feed\r\nExample:\r\nUI: Help &gt;&gt; About\r\n\r\nWhere "UI" is the state category\r\nWhere "Help" is the state\r\nWhere "About" is the argument\r\nOther Examples:\r\nApp Data: Initialize\r\nUI: Initialize\r\nHelp &gt;&gt; About\r\n\r\n= Commenting =\r\nTo add a comment use "//" or "#" and all text to the right will be ignored\r\nCommenting Example:\r\nUI: Initialize // This initializes the UI\r\n# This whole line is a comment\r\n// Another comment line\r\n"</p.Text>
-			</Comment>
 		</BlockDiagram>
-		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MatchFileName="[bool]False" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]2000">
+		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]Title">
 			<Button ClickMode="[ClickMode]Release" Content="[string]Stop" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" Height="[float]24" Id="22" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]23" Left="[float]458" MinHeight="[float]23.96" MinWidth="[float]32.1366653" TabIndex="[int]0" Top="[float]228" Value="{DataItemBinding Id=14}" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Id="23" LabelOwner="[UIModel]22" Left="[float]458" Text="[string]Stop" Top="[float]208" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
 			<Button ClickMode="[ClickMode]Release" Content="[string]Help" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" Height="[float]24" Id="737" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]738" Left="[float]318" MinHeight="[float]23.96" MinWidth="[float]32.7566681" TabIndex="[int]1" Top="[float]228" Value="{DataItemBinding Id=736}" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Id="738" LabelOwner="[UIModel]737" Left="[float]318" Text="[string]Help" Top="[float]208" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
-		</CPFrontPanel>
+			<PanelExecutionWindow Id="753" />
+		</NativeFrontPanel>
 		<DataItem DataType="Boolean" Id="14" IsLatched="True" Name="Stop" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
@@ -1275,50 +1276,32 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="b4eb4cf28c0d465e8e3bf8bf6e8ef9ce">
+		<p.TypeReference TypeId="16be735c996c46419931b15bf6d60482">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Source" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Type" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="a69034116a9145468b62265fe53daae8">
-			<Attributed AttributedType="@7d0f40053ba249cb9fd3073d2048ffc9">
+		<p.TypeReference TypeId="1588c5982ac54601aef6dbbc2d744239">
+			<Attributed AttributedType="@de5806b1ce0f4498af9ba1b7efc6e344">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c8c573ace0be446c94c9544d53c014d4">
+		<p.TypeReference TypeId="3a2f353a53a14b54a9f525b3e411c113">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Source" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Type" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.PanelRuntime.BooleanButtonProxy, NationalInstruments.Controls.Runtime" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Boolean" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="fbeb29b036f34615a3724ebc8f3c2e98">
-			<Attributed AttributedType="@7d782c1616314a8ba6d487e998829b66">
-				<AttributeValues>
-					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="f5251ec5d7c643f5b441e0a7c8f7e193">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Source" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Type" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.PanelRuntime.BooleanControlBaseProxy, NationalInstruments.Controls.Runtime" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Boolean" />
 				</Members>
@@ -1333,13 +1316,6 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="25b81d859b994f41833e69768d124314">
-			<Attributed AttributedType="@62de4b7ae7cc437598ac437a9c45711a">
-				<AttributeValues>
-					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
 		<p.TypeReference TypeId="42ba709613234c74949e131b1527c9ba">
 			<Attributed AttributedType="@5a0b83b50bd842469a8f9ec749b3a30f">
 				<AttributeValues>
@@ -1350,65 +1326,30 @@
 		<p.TypeReference TypeId="e636caaad4f94ee88f62dbb663772dcb">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Current VI Reference" DataType="@25b81d859b994f41833e69768d124314" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current VI Reference" DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Close Panel on Exit?" DataType="Boolean" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="7d0f40053ba249cb9fd3073d2048ffc9">
+		<p.TypeReference TypeId="de5806b1ce0f4498af9ba1b7efc6e344">
 			<Event Id="1" Name="Value changed" GenericTypeDefinition="Void">
 				<Parameters>
-					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="@e0a505720b8f4f23b904bcefb1be8441" />
+					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="@8e6cb426f4494cb4ae47b96a5107c0d6" />
 				</Parameters>
 			</Event>
-		</p.TypeReference>
-		<p.TypeReference TypeId="7d782c1616314a8ba6d487e998829b66">
-			<Event Id="1" Name="Value changed" GenericTypeDefinition="Void">
-				<Parameters>
-					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="@555b2c8319d14bc9a61f579ff118519e" />
-				</Parameters>
-			</Event>
-		</p.TypeReference>
-		<p.TypeReference TypeId="62de4b7ae7cc437598ac437a9c45711a">
-			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.VIRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="Read" Name="Exec.State" DataType="@7fc2c9ac16cb4bd380295474681ff240" />
-				</Members>
-			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="5a0b83b50bd842469a8f9ec749b3a30f">
 			<Typedef TypedefName="Error Dialog Type.gtype" UnderlyingType="@aed0e95ad3fd4ea08e7376092a7f6db7" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="e0a505720b8f4f23b904bcefb1be8441">
+		<p.TypeReference TypeId="8e6cb426f4494cb4ae47b96a5107c0d6">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.PanelRuntime.BooleanButtonProxy, NationalInstruments.Controls.Runtime" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.PanelRuntime.BooleanControlBaseProxy, NationalInstruments.Controls.Runtime" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Boolean" />
 				</Members>
 			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="555b2c8319d14bc9a61f579ff118519e">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Boolean" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="7fc2c9ac16cb4bd380295474681ff240">
-			<Enumeration>
-				<Members>
-					<EnumerationMember Value="0" Name="Bad" />
-					<EnumerationMember Value="1" Name="Idle" />
-					<EnumerationMember Value="2" Name="Running Top Level" />
-					<EnumerationMember Value="3" Name="Running" />
-				</Members>
-				<DataType>UInt16</DataType>
-			</Enumeration>
 		</p.TypeReference>
 		<p.TypeReference TypeId="aed0e95ad3fd4ea08e7376092a7f6db7">
 			<Enumeration>
@@ -1424,27 +1365,27 @@
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.IconModel Target="JKI\.Library\.JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi">
+		<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 30">
 						<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Custom14" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+							<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="[string]Custom14" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]17" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]33" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
-								<Path Data="[PathGeometry]M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]9" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+								<Path Data="[PathGeometry]M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]9" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]17" VerticalAlignment="[VerticalAlignment]Top" Width="[float]3" />
-								<Path Data="[PathGeometry]M 2.299835,-0.4799306 L 0,1.607183 L 2.400055,3.698067 L 2.299835,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.17799759" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]28" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.40005541" />
+								<Path Data="[PathGeometry]M 2.29983497,-0.479930609 L 0,1.60718298 L 2.40005493,3.69806695 L 2.29983497,-0.479930609 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.17799759" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]28" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.40005541" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]30" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]17" VerticalAlignment="[VerticalAlignment]Top" Width="[float]3" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]22" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
 							</IconTemplate>
-							<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]JKI.Library.JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]JKI.Library.JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
@@ -1455,11 +1396,11 @@
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
 						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<Path Data="[PathGeometry]M 4,0 L 36,0 C 38.209,0 40,1.791 40,4 L 40,36 C 40,38.209 38.209,40 36,40 L 4,40 C 1.791,40 0,38.209 0,36 L 0,4 C 0,1.791 1.791,0 4,0 " Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.657,1 39,2.343 39,4 L 39,36 C 39,37.657 37.657,39 36,39 L 4,39 C 2.343,39 1,37.657 1,36 L 1,4 C 1,2.343 2.343,1 4,1 " Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4,2 L 36,2 C 37.104,2 38,2.896 38,4 L 38,36 C 38,37.105 37.104,38 36,38 L 4,38 C 2.896,38 2,37.105 2,36 L 2,4 C 2,2.896 2.896,2 4,2 " Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4.001,2.001 C 2.897,2.001 2.001,2.966 2.001,4.155 L 2.001,16 L 16,16 L 16,2 L 4.001,2.001 Z M 4.239,11.354 L 4.024,9.42 L 7.893,9.42 L 4.239,11.354 Z M 3.452,5.968 L 5.1,4.036 L 8.897,7.903 L 3.452,5.968 Z M 12.954,14 L 10.233,14 L 10.233,12.222 L 12.954,12.222 L 12.954,14 Z M 12.692,11.11 L 10.495,11.11 L 10.186,3.97 L 13.002,3.97 L 12.692,11.11 Z" Fill="[SMSolidColorBrush]#ffa0a017" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 24.747,23.174 L 27.703,17.512 L 22.034,20.461 L 20.118,13.191 L 18.195,20.458 L 12.53,17.502 L 15.479,23.171 L 8.044,25.087 L 15.479,27.01 L 12.523,32.675 L 18.192,29.723 L 20.108,36.993 L 22.027,29.726 L 27.692,32.682 L 24.743,27.013 L 32.013,25.097 L 24.747,23.174 " Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,0 L 36,0 C 38.2089996,0 40,1.79100001 40,4 L 40,36 C 40,38.2089996 38.2089996,40 36,40 L 4,40 C 1.79100001,40 0,38.2089996 0,36 L 0,4 C 0,1.79100001 1.79100001,0 4,0" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.6570015,1 39,2.34299994 39,4 L 39,36 C 39,37.6570015 37.6570015,39 36,39 L 4,39 C 2.34299994,39 1,37.6570015 1,36 L 1,4 C 1,2.34299994 2.34299994,1 4,1" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,2 L 36,2 C 37.1040001,2 38,2.89599991 38,4 L 38,36 C 38,37.1049995 37.1040001,38 36,38 L 4,38 C 2.89599991,38 2,37.1049995 2,36 L 2,4 C 2,2.89599991 2.89599991,2 4,2" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4.00099993,2.00099993 C 2.89700007,2.00099993 2.00099993,2.96600008 2.00099993,4.15500021 L 2.00099993,16 L 16,16 L 16,2 L 4.00099993,2.00099993 Z M 4.23899984,11.3540001 L 4.02400017,9.42000008 L 7.89300013,9.42000008 L 4.23899984,11.3540001 Z M 3.4519999,5.96799994 L 5.0999999,4.03599977 L 8.89700031,7.90299988 L 3.4519999,5.96799994 Z M 12.9540005,14 L 10.2329998,14 L 10.2329998,12.2220001 L 12.9540005,12.2220001 L 12.9540005,14 Z M 12.6920004,11.1099997 L 10.4949999,11.1099997 L 10.1859999,3.97000003 L 13.0019999,3.97000003 L 12.6920004,11.1099997 Z" Fill="[SMSolidColorBrush]#ffa0a017" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 24.7469997,23.1739998 L 27.7029991,17.5119991 L 22.0340004,20.4610004 L 20.118,13.191 L 18.1949997,20.4580002 L 12.5299997,17.5020008 L 15.4790001,23.1709995 L 8.04399967,25.0869999 L 15.4790001,27.0100002 L 12.5229998,32.6749992 L 18.1919994,29.7229996 L 20.1079998,36.993 L 22.0270004,29.7259998 L 27.6919994,32.6819992 L 24.743,27.0130005 L 32.0130005,25.0970001 L 24.7469997,23.1739998" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
@@ -1470,11 +1411,11 @@
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
 						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<Path Data="[PathGeometry]M 4,0 L 36,0 C 38.209,0 40,1.791 40,4 L 40,36 C 40,38.209 38.209,40 36,40 L 4,40 C 1.791,40 0,38.209 0,36 L 0,4 C 0,1.791 1.791,0 4,0 " Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.657,1 39,2.343 39,4 L 39,36 C 39,37.657 37.657,39 36,39 L 4,39 C 2.343,39 1,37.657 1,36 L 1,4 C 1,2.343 2.343,1 4,1 " Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4,2 L 36,2 C 37.104,2 38,2.896 38,4 L 38,36 C 38,37.105 37.104,38 36,38 L 4,38 C 2.896,38 2,37.105 2,36 L 2,4 C 2,2.896 2.896,2 4,2 " Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4.001,2.001 C 2.897,2.001 2.001,2.966 2.001,4.155 L 2.001,16 L 16,16 L 16,2 L 4.001,2.001 Z M 4.239,11.354 L 4.024,9.42 L 7.893,9.42 L 4.239,11.354 Z M 3.452,5.968 L 5.1,4.036 L 8.897,7.903 L 3.452,5.968 Z M 12.954,14 L 10.233,14 L 10.233,12.222 L 12.954,12.222 L 12.954,14 Z M 12.692,11.11 L 10.495,11.11 L 10.186,3.97 L 13.002,3.97 L 12.692,11.11 Z" Fill="[SMSolidColorBrush]#ffa0a017" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 18,18 L 4,18 L 4,17 L 17,17 L 17,10 L 18,10 L 18,18 Z M 33.971,10 L 19,10 L 19,18 L 19,19 L 18,19 L 4,19 L 4,26.971 C 4,28.092 4.908,29 6.029,29 L 28,29 L 28,33 L 31.971,29 L 33.971,29 C 35.091,29 36,28.092 36,26.971 L 36,12.029 C 36,10.908 35.091,10 33.971,10 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,0 L 36,0 C 38.2089996,0 40,1.79100001 40,4 L 40,36 C 40,38.2089996 38.2089996,40 36,40 L 4,40 C 1.79100001,40 0,38.2089996 0,36 L 0,4 C 0,1.79100001 1.79100001,0 4,0" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.6570015,1 39,2.34299994 39,4 L 39,36 C 39,37.6570015 37.6570015,39 36,39 L 4,39 C 2.34299994,39 1,37.6570015 1,36 L 1,4 C 1,2.34299994 2.34299994,1 4,1" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,2 L 36,2 C 37.1040001,2 38,2.89599991 38,4 L 38,36 C 38,37.1049995 37.1040001,38 36,38 L 4,38 C 2.89599991,38 2,37.1049995 2,36 L 2,4 C 2,2.89599991 2.89599991,2 4,2" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4.00099993,2.00099993 C 2.89700007,2.00099993 2.00099993,2.96600008 2.00099993,4.15500021 L 2.00099993,16 L 16,16 L 16,2 L 4.00099993,2.00099993 Z M 4.23899984,11.3540001 L 4.02400017,9.42000008 L 7.89300013,9.42000008 L 4.23899984,11.3540001 Z M 3.4519999,5.96799994 L 5.0999999,4.03599977 L 8.89700031,7.90299988 L 3.4519999,5.96799994 Z M 12.9540005,14 L 10.2329998,14 L 10.2329998,12.2220001 L 12.9540005,12.2220001 L 12.9540005,14 Z M 12.6920004,11.1099997 L 10.4949999,11.1099997 L 10.1859999,3.97000003 L 13.0019999,3.97000003 L 12.6920004,11.1099997 Z" Fill="[SMSolidColorBrush]#ffa0a017" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 18,18 L 4,18 L 4,17 L 17,17 L 17,10 L 18,10 L 18,18 Z M 33.9710007,10 L 19,10 L 19,18 L 19,19 L 18,19 L 4,19 L 4,26.9710007 C 4,28.0919991 4.90799999,29 6.02899981,29 L 28,29 L 28,33 L 31.9710007,29 L 33.9710007,29 C 35.0909996,29 36,28.0919991 36,26.9710007 L 36,12.0290003 C 36,10.908 35.0909996,10 33.9710007,10 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
@@ -1485,27 +1426,27 @@
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
 						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<Path Data="[PathGeometry]M 36,1 C 37.654,1 39,2.293 39,3.947 L 39,36 C 39,37.654 37.654,39 36,39 L 4.083,39 C 2.429,39 1,37.654 1,36 L 1,3.947 C 1,2.293 2.429,1 4.083,1 L 36,1 " Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 36,1 C 37.654,1 39,2.293 39,3.947 L 39,36 C 39,37.654 37.654,39 36,39 L 4.083,39 C 2.429,39 1,37.654 1,36 L 1,3.947 C 1,2.293 2.429,1 4.083,1 L 36,1  M 36,0 L 4.083,0 C 1.883,0 0,1.747 0,3.947 L 0,36 C 0,38.2 1.883,40 4.083,40 L 36,40 C 38.2,40 40,38.2 40,36 L 40,3.947 C 40,1.747 38.2,0 36,0 L 36,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 38,36.053 C 38,37.153 37.1,38 36,38 L 4,38 C 2.9,38 2,37.153 2,36.053 L 2,4 C 2,2.9 2.9,2 4,2 L 36,2 C 37.1,2 38,2.9 38,4 L 38,36.053 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 10.97,17.765 L 13.794,16.296 L 12.322,19.116 L 15.942,20.074 L 12.32,21.029 L 13.789,23.853 L 10.966,22.381 L 10.011,26 L 9.056,22.379 L 6.231,23.849 L 7.704,21.027 L 4,20.069 L 7.704,19.115 L 6.235,16.29 L 9.058,17.763 L 10.016,14.143 L 10.97,17.765 Z M 15.261,5.244 C 15.172,5.207 15.069,5.185 14.95,5.178 C 14.831,5.17 14.694,5.166 14.536,5.166 L 14.061,5.166 L 14.061,6.537 L 14.464,6.537 C 14.673,6.537 14.849,6.527 14.99,6.506 C 15.131,6.485 15.25,6.439 15.345,6.366 C 15.436,6.295 15.503,6.218 15.545,6.132 C 15.587,6.047 15.608,5.932 15.608,5.789 C 15.608,5.662 15.582,5.552 15.529,5.461 C 15.476,5.37 15.389,5.296 15.261,5.244 Z M 36,2 L 4,2 C 2.9,2 2,2.9 2,4 L 2,12 L 38,12 L 38,4 C 38,2.9 37.1,2 36,2 Z M 11.529,7.476 C 11.529,8.105 11.338,8.587 10.955,8.922 C 10.572,9.257 10.008,9.424 9.263,9.424 C 8.518,9.424 7.954,9.257 7.573,8.922 C 7.191,8.587 7,8.106 7,7.479 L 7,4.229 L 8.319,4.229 L 8.319,7.404 C 8.319,7.757 8.393,8.02 8.541,8.194 C 8.689,8.368 8.93,8.454 9.262,8.454 C 9.59,8.454 9.83,8.371 9.981,8.204 C 10.133,8.037 10.209,7.771 10.209,7.404 L 10.209,4.229 L 11.528,4.229 L 11.528,7.476 Z M 16.054,9.318 L 14.669,7.452 L 14.061,7.452 L 14.061,9.318 L 12.755,9.318 L 12.755,4.229 L 14.956,4.229 C 15.257,4.229 15.516,4.246 15.732,4.28 C 15.948,4.314 16.151,4.388 16.34,4.502 C 16.531,4.616 16.683,4.763 16.797,4.945 C 16.909,5.126 16.966,5.353 16.966,5.627 C 16.966,6.003 16.879,6.31 16.704,6.546 C 16.53,6.783 16.281,6.98 15.957,7.137 L 17.656,9.318 L 16.054,9.318 Z M 21.902,9.318 L 18.231,9.318 L 18.231,4.229 L 19.543,4.229 L 19.543,8.334 L 21.901,8.334 L 21.901,9.318 Z M 24.09,9.318 L 22.812,9.318 L 22.812,7.975 L 24.09,7.975 L 24.09,9.318 Z M 24.09,6.823 L 22.812,6.823 L 22.812,5.48 L 24.09,5.48 L 24.09,6.823 Z M 26.329,10.426 L 25.28,10.426 L 27.979,4 L 29.039,4 L 26.329,10.426 Z M 29.915,10.426 L 28.866,10.426 L 31.565,4 L 32.625,4 L 29.915,10.426 Z" Fill="[SMSolidColorBrush]#ff4b92db" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 30.382,15 L 27.893,15.459 C 27.039,15.523 26.451,15.588 26.058,15.588 C 24.027,15.72 22.486,16.047 21.439,16.506 C 20.39,16.997 19.474,17.783 18.722,18.899 C 18,19.913 17.574,21.19 17.411,22.73 L 19.835,21.549 C 19.835,19.977 20.294,18.732 21.209,17.881 C 22.127,17.03 23.47,16.571 25.174,16.571 C 25.828,16.571 26.583,16.635 27.498,16.735 L 22.193,25.874 C 20.685,28.427 19.409,30.231 18.36,31.213 C 17.313,32.227 16.165,32.718 14.986,32.718 C 13.709,32.718 12.694,32.13 11.939,30.918 L 10.269,32.589 C 11.384,33.603 12.693,34.095 14.199,34.095 C 15.771,34.095 17.148,33.636 18.326,32.752 C 19.472,31.867 20.684,30.295 21.994,28.035 L 28.709,28.035 L 29.201,34.094 L 34.834,33.143 L 35,32.359 C 34.182,32.427 33.69,32.427 33.56,32.427 C 32.774,32.427 32.25,32.131 31.955,31.477 C 31.628,30.854 31.397,29.543 31.266,27.578 L 30.546,19.094 L 30.382,15 Z M 22.522,27.118 L 27.827,17.914 L 28.613,27.118 L 22.522,27.118 Z" Fill="[SMSolidColorBrush]#ff4d4d4d" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.29299998 39,3.94700003 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4.08300018,39 C 2.4289999,39 1,37.6539993 1,36 L 1,3.94700003 C 1,2.29299998 2.4289999,1 4.08300018,1 L 36,1" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.29299998 39,3.94700003 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4.08300018,39 C 2.4289999,39 1,37.6539993 1,36 L 1,3.94700003 C 1,2.29299998 2.4289999,1 4.08300018,1 L 36,1 M 36,0 L 4.08300018,0 C 1.88300002,0 0,1.74699998 0,3.94700003 L 0,36 C 0,38.2000008 1.88300002,40 4.08300018,40 L 36,40 C 38.2000008,40 40,38.2000008 40,36 L 40,3.94700003 C 40,1.74699998 38.2000008,0 36,0 L 36,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 38,36.0530014 C 38,37.1529999 37.0999985,38 36,38 L 4,38 C 2.9000001,38 2,37.1529999 2,36.0530014 L 2,4 C 2,2.9000001 2.9000001,2 4,2 L 36,2 C 37.0999985,2 38,2.9000001 38,4 L 38,36.0530014 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 10.9700003,17.7649994 L 13.7939997,16.2959995 L 12.3219995,19.1159992 L 15.9420004,20.0739994 L 12.3199997,21.0289993 L 13.7889996,23.8530006 L 10.9659996,22.3810005 L 10.0109997,26 L 9.05599976,22.3789997 L 6.23099995,23.8490009 L 7.704,21.0270004 L 4,20.0690002 L 7.704,19.1149998 L 6.23500013,16.2900009 L 9.05799961,17.7630005 L 10.0159998,14.1429996 L 10.9700003,17.7649994 Z M 15.2609997,5.24399996 C 15.1719999,5.20699978 15.0690002,5.18499994 14.9499998,5.17799997 C 14.8310003,5.17000008 14.6940002,5.16599989 14.5360003,5.16599989 L 14.0609999,5.16599989 L 14.0609999,6.53700018 L 14.4639997,6.53700018 C 14.6730003,6.53700018 14.849,6.52699995 14.9899998,6.50600004 C 15.1309996,6.48500013 15.25,6.43900013 15.3450003,6.36600018 C 15.4359999,6.29500008 15.5030003,6.21799994 15.5450001,6.13199997 C 15.5869999,6.04699993 15.6079998,5.93200016 15.6079998,5.78900003 C 15.6079998,5.66200018 15.5819998,5.55200005 15.5290003,5.46099997 C 15.4759998,5.36999989 15.3889999,5.296 15.2609997,5.24399996 Z M 36,2 L 4,2 C 2.9000001,2 2,2.9000001 2,4 L 2,12 L 38,12 L 38,4 C 38,2.9000001 37.0999985,2 36,2 Z M 11.5290003,7.47599983 C 11.5290003,8.10499954 11.3380003,8.58699989 10.9549999,8.92199993 C 10.5719995,9.25699997 10.0080004,9.42399979 9.26299953,9.42399979 C 8.51799965,9.42399979 7.954,9.25699997 7.57299995,8.92199993 C 7.19099998,8.58699989 7,8.10599995 7,7.47900009 L 7,4.22900009 L 8.31900024,4.22900009 L 8.31900024,7.40399981 C 8.31900024,7.75699997 8.39299965,8.02000046 8.54100037,8.19400024 C 8.68900013,8.36800003 8.93000031,8.45400047 9.26200008,8.45400047 C 9.59000015,8.45400047 9.82999992,8.37100029 9.98099995,8.20400047 C 10.1330004,8.0369997 10.2089996,7.77099991 10.2089996,7.40399981 L 10.2089996,4.22900009 L 11.5279999,4.22900009 L 11.5279999,7.47599983 Z M 16.0540009,9.31799984 L 14.6689997,7.45200014 L 14.0609999,7.45200014 L 14.0609999,9.31799984 L 12.7550001,9.31799984 L 12.7550001,4.22900009 L 14.9560003,4.22900009 C 15.257,4.22900009 15.5159998,4.24599981 15.7320004,4.28000021 C 15.948,4.31400013 16.1509991,4.38800001 16.3400002,4.50199986 C 16.5310001,4.61600018 16.6830006,4.76300001 16.7970009,4.94500017 C 16.9090004,5.12599993 16.9659996,5.35300016 16.9659996,5.62699986 C 16.9659996,6.00299978 16.8789997,6.30999994 16.7040005,6.546 C 16.5300007,6.78299999 16.2810001,6.98000002 15.9569998,7.13700008 L 17.6560001,9.31799984 L 16.0540009,9.31799984 Z M 21.9020004,9.31799984 L 18.2310009,9.31799984 L 18.2310009,4.22900009 L 19.5429993,4.22900009 L 19.5429993,8.33399963 L 21.9009991,8.33399963 L 21.9009991,9.31799984 Z M 24.0900002,9.31799984 L 22.8120003,9.31799984 L 22.8120003,7.9749999 L 24.0900002,7.9749999 L 24.0900002,9.31799984 Z M 24.0900002,6.82299995 L 22.8120003,6.82299995 L 22.8120003,5.48000002 L 24.0900002,5.48000002 L 24.0900002,6.82299995 Z M 26.3290005,10.4259996 L 25.2800007,10.4259996 L 27.9790001,4 L 29.0389996,4 L 26.3290005,10.4259996 Z M 29.9150009,10.4259996 L 28.8659992,10.4259996 L 31.5650005,4 L 32.625,4 L 29.9150009,10.4259996 Z" Fill="[SMSolidColorBrush]#ff4b92db" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 30.382,15 L 27.8929996,15.4589996 C 27.0389996,15.5229998 26.4510002,15.5880003 26.0580006,15.5880003 C 24.0270004,15.7200003 22.4860001,16.0470009 21.4389992,16.5060005 C 20.3899994,16.9969997 19.4740009,17.7830009 18.7220001,18.8990002 C 18,19.9130001 17.5739994,21.1900005 17.4109993,22.7299995 L 19.8349991,21.5489998 C 19.8349991,19.9769993 20.2940006,18.7320004 21.2089996,17.8810005 C 22.1270008,17.0300007 23.4699993,16.5709991 25.1739998,16.5709991 C 25.8279991,16.5709991 26.5830002,16.6350002 27.4979992,16.7350006 L 22.1930008,25.8740005 C 20.6849995,28.427 19.4090004,30.2310009 18.3600006,31.2129993 C 17.3129997,32.2270012 16.1650009,32.7179985 14.9860001,32.7179985 C 13.7089996,32.7179985 12.6940002,32.1300011 11.9390001,30.9179993 L 10.2690001,32.5890007 C 11.3839998,33.6030006 12.6929998,34.0950012 14.1990004,34.0950012 C 15.7709999,34.0950012 17.1480007,33.6360016 18.3260002,32.7519989 C 19.4720001,31.8670006 20.684,30.2950001 21.9939995,28.0349998 L 28.7089996,28.0349998 L 29.2010002,34.0940018 L 34.8339996,33.1430016 L 35,32.3590012 C 34.1819992,32.4269981 33.6899986,32.4269981 33.5600014,32.4269981 C 32.7739983,32.4269981 32.25,32.1310005 31.9549999,31.4769993 C 31.6280003,30.8540001 31.3969994,29.5429993 31.2660007,27.5779991 L 30.5459995,19.0939999 L 30.382,15 Z M 22.5219994,27.118 L 27.8269997,17.9139996 L 28.6130009,27.118 L 22.5219994,27.118 Z" Fill="[SMSolidColorBrush]#ff4d4d4d" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
 			</MergeScript>
 		</p.IconModel>
-		<p.IconModel Target="JKI\.Library\.JKI\ State\ Machine:Parse\ State\ Queue\.gvi">
+		<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 30">
 						<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="Custom13" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+							<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="[string]Custom13" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]10" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]15" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]20" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
-								<Path Data="[PathGeometry]M 0.0002369881,-0.4799306 L 2.300072,1.607183 L -2.384186E-07,3.598065 L 0.0002369881,-0.4799306 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]34" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+								<Path Data="[PathGeometry]M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]34" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]24" VerticalAlignment="[VerticalAlignment]Top" Width="[float]22" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]25" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
@@ -1513,7 +1454,7 @@
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
 								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]3" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]21" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1" />
 							</IconTemplate>
-							<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[Comp]JKI.Library.JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]JKI.Library.JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>

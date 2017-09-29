@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="5E24E722951C4AB5972740B54C103CFA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="5E93C2F4572C6A284840FA472A97F6F5" Timestamp="1D33959A5F58882" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.9.1.56780" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
-		<ApplicationVersionInfo Build="4.9.1.56780" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.2.0.6404" Name="LabVIEW NXG" Version="2.0.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition BusId="0" Company="JKI" ContentType="src" DisplayName="JKI State Machine" DistributionOutputType="NiPackage" Homepage="http://jki.net/state-machine" IsStoreProduct="True" MaintainerEmail="info@jki.net" MaintainerName="JKI" ModelId="0" OutputDirectory="&quot;C:\\dev\\pkg\\jkism&quot;" Product="JKI State Machine" ShortDescription="The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts." TargetedProduct="LabVIEW" VendorId="0" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
-		<DistributionMemberDependencySource Id="2" RelativeLocation="&quot;National Instruments\\LabVIEW NXG\\GlobalCGAPIs&quot;" RootLocation="ApplicationFiles_64" Target="JKI\ State\ Machine\.gconversion" />
-		<DistributionMemberDependencySource Id="3" MemberContentType="Library" Target="JKI\.Library\.JKI\ State\ Machine\.gcomp" />
-		<DistributionMemberDependencySource Id="4" MemberContentType="EULA" Target="LICENSE\.rtf" />
+	<DistributionDefinition BusId="0" Company="JKI" DisplayName="JKI State Machine" DistributionOutputType="NiPackage" Homepage="http://jki.net/state-machine" IsStoreProduct="True" MaintainerEmail="info@jki.net" MaintainerName="JKI" ModelId="0" OutputDirectory="&quot;C:\\dev\\pkg\\jkism&quot;" Product="JKI State Machine" ShortDescription="The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts." TargetedProduct="LabVIEW" VendorId="0" Version="2.0.0.3" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionMemberDependencySource Id="2" MemberContentType="Conversion" Target=":NullTarget:JKI\ State\ Machine\.gconversion" />
+		<DistributionMemberDependencySource Id="3" MemberContentType="Library" Target=":PC:Interactive:JKI\.Library\.JKI\ State\ Machine\.gcomp" />
+		<DistributionMemberDependencySource Id="4" MemberContentType="Eula" Target=":NullTarget:LICENSE\.rtf" />
+		<DistributionBuildTarget Id="5" Target=":PC" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG" Id="6" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-2.0.0" Version="5.2.0.32842" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG G Standard Library Files" Id="7" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-2.0.0-g-stdlib-bin" Version="5.2.0.32842" />
 	</DistributionDefinition>
 </SourceFile>

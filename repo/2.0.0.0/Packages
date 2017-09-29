@@ -1,0 +1,65 @@
+﻿Architecture: windows_x64
+Built-Using: nipkg
+CompatibilityVersion: 170500
+Depends: ni-labview-nxg-2.0.0 (>= 5.2.0.32842), ni-labview-nxg-2.0.0-g-stdlib-bin (>= 5.2.0.32842),
+Description: The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts.
+DisplayName: JKI State Machine
+Essential: no
+Eula: eula-jki-license
+Filename: jki-jkistatemachine-labview-jkistatemachine-src-2_2.0.0.2_windows_x64.nipkg
+Homepage: http://jki.net/state-machine
+MD5Sum: 970f53fe8d80c9823a479883ee545b92
+Maintainer: JKI <info@jki.net>
+Package: jki-jkistatemachine-labview-jkistatemachine-src-2
+Plugin: file
+Priority: optional
+Provides: jki-jkistatemachine-jkistatemachine
+Recommends: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-2
+Section: Add-Ons
+Size: 39078
+StoreProduct: yes
+Suggests: 
+UserVisible: yes
+Version: 2.0.0.2
+
+Architecture: windows_x64
+CompatibilityVersion: 170500
+Conflicts: ni-package-manager
+Description: End-User License Agreement
+DisplayName: LICENSE
+EulaPriority: 0
+EulaTitle: LICENSE
+Filename: eula-jki-license_2.0.0.2_windows_x64.nipkg
+MD5Sum: da9892cedf8055df8149f401393359d1
+Maintainer: JKI <info@jki.net>
+Package: eula-jki-license
+Plugin: eula
+Section: Infrastructure
+Size: 1606
+UserVisible: no
+Version: 2.0.0.2
+
+Architecture: windows_x64
+Built-Using: nipkg
+CompatibilityVersion: 170006
+Depends: ni-labview-nxg-2.0.0 (>= 5.2.0.32842), jki-jkistatemachine-labview-jkistatemachine-src-2
+Description: The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts.
+DisplayName: JKI State Machine Templates
+Essential: no
+Eula: eula-jki-license
+Filename: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-2_2.0.0.0_windows_x64.nipkg
+Homepage: http://jki.net/state-machine
+MD5Sum: ffd5c207ef4bfff0b183959ebd68e1a7
+Maintainer: JKI <info@jki.net>
+Package: jki-jkistatemachinetpl-labview-jkistatemachinetpl-src-2
+Plugin: file
+Priority: optional
+Provides: 
+Recommends: 
+Section: Add-Ons
+Size: 597364
+StoreProduct: no
+Suggests: 
+UserVisible: no
+Version: 2.0.0.0
+
