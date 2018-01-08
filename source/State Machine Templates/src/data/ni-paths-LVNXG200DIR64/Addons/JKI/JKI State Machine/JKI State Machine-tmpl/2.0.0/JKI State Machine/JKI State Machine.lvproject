@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="BEF9AA38CE7702FB948D8B0A658E041F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B568A396606099BFB000CC7D16EB720C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Desktop SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/MetaDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.1.0.5" Version="5.2.0.49152" />
-		<ApplicationVersionInfo Build="5.2.0.6404" Name="LabVIEW NXG" Version="2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Desktop SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/MetaDiagram" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.1.0.5" Version="5.2.0.49152" />
+		<ApplicationVersionInfo Build="5.2.0.56172" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
 		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
@@ -124,15 +124,6 @@
 						<WeakDefaultComponentConfigurationReference Id="381" Target="openg\.library\.time\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="382" Target="openg\.library\.variantdata\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="384" Target="JKI\.Library\.JKI\ State\ Machine\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="420" PackageName="ni-analysis-control-src-1.0.6.2.niaddon" Target="Control_DesignPID\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="421" PackageName="ni-analysis-control-src-1.0.6.2.niaddon" Target="Control_Linear\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="422" PackageName="ni-analysis-control-src-1.0.6.2.niaddon" Target="Control_Nonlinear\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="423" PackageName="ni-analysis-control-src-1.0.6.2.niaddon" Target="Control_PIDGain\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="424" PackageName="ni-analysis-control-src-1.0.6.2.niaddon" Target="Control_SignalGeneration\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="425" PackageName="ni-analysis-control-src-1.0.6.2.niaddon" Target="Control_Conversion\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="427" PackageName="ni-analysis-controlbasic-src-1.0.6.2.niaddon" Target="Control_Controller\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="428" PackageName="ni-analysis-controlbasic-src-1.0.6.2.niaddon" Target="Control_Conversion_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="429" PackageName="ni-analysis-controlbasic-src-1.0.6.2.niaddon" Target="Control_PIDGain_Base\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="431" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Configuration\ File\ \(INI\)\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="432" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Data\ Type\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="433" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Error\.gcomp" />
@@ -159,78 +150,91 @@
 						<WeakDefaultComponentConfigurationReference Id="454" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Data\ Communications\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="455" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Color\ Picker\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="456" PackageName="ni-g-stdlib-src-1.0.5.17.niaddon" Target="NI\.G\ Core\.Execution\ Control\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="458" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Array\.1D\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="459" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Array\.2D\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="460" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Application\ Control\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="461" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Bezier\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="462" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Boolean\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="463" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Cluster\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="464" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Coordinates\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="465" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Error\ Handling\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="466" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.File\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="467" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Graph\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="468" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Matrix\ \&amp;\ Vector\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="469" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Numeric\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="470" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Picture\ \&amp;\ Image\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="471" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Read\ Write\ Anything\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="472" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Spline\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="473" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.String\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="474" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Timing\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="475" PackageName="mgi-library-mgilibrary-src-2.0.0.3.niaddon" Target="MGI\.Library\.Tree\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="477" PackageName="ni-mscript-basic-src-1.0.0.4.niaddon" Target="NI\.MScript\.Basic\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="479" PackageName="ni-analysis-standard-src-1.0.6.1.niaddon" Target="AAL_Measurement_Standard\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="481" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Conditioning_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="482" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Filtering_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="483" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Fitting_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="484" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Generation_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="485" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Interpolation_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="486" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Linear_Algebra_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="487" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Measurement_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="488" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Operations_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="489" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Resampling_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="490" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Statistics_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="491" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Support_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="492" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Transforms_Base\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="493" PackageName="ni-analysis-basic-src-1.0.6.2.niaddon" Target="AAL_Windows_Base\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="495" PackageName="jki-jkistatemachine-jkistatemachine-src-2.0.0.1.niaddon" Target="JKI\.Library\.JKI\ State\ Machine\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="497" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Conditioning\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="498" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Fitting\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="499" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Formula\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="500" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Generation\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="501" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Geometry\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="502" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Integral_Differentiation\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="503" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Interpolation\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="504" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Linear_Algebra\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="505" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Matrix\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="506" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Measurement\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="507" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Operations\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="508" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Polynomial\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="509" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Probability\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="510" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Resampling\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="511" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_SML\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="512" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Statistics\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="513" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Support\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="514" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Transforms\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="515" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Windows\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="516" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Filtering\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="517" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_BLAS\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="518" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Special_Func\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="519" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Differential_Equations\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="520" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Optimization\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="521" PackageName="ni-analysis-advanced-src-1.0.6.3.niaddon" Target="AAL_Zeros\.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="523" PackageName="ni-g-http-src-1.0.0.12.niaddon" Target="NI\.HTTP\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="525" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.array\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="526" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.boolean\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="527" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.comparison\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="528" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.error\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="529" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.file\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="530" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.largefile\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="531" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.md5\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="532" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.numeric\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="533" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.string\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="534" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.time\.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="535" PackageName="openg-library-openglibrary-src-2.0.0.18.niaddon" Target="openg\.library\.variantdata\.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="538" Target="Application\.gcomp:Configuration1" />
+						<WeakDefaultComponentConfigurationReference Id="568" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Conditioning_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="569" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Filtering_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="570" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Fitting_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="571" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Generation_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="572" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Interpolation_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="573" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Linear_Algebra_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="574" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Measurement_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="575" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Operations_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="576" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Resampling_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="577" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Statistics_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="578" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Support_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="579" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Transforms_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="580" PackageName="ni-analysis-basic-src-1.0.7.1.niaddon" Target="AAL_Windows_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="582" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Conditioning\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="583" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Fitting\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="584" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Formula\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="585" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Generation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="586" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Geometry\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="587" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Integral_Differentiation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="588" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Interpolation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="589" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Linear_Algebra\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="590" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Matrix\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="591" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Measurement\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="592" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Operations\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="593" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Polynomial\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="594" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Probability\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="595" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Resampling\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="596" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_SML\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="597" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Statistics\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="598" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Support\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="599" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Transforms\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="600" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Windows\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="601" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Filtering\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="602" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_BLAS\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="603" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Special_Func\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="604" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Differential_Equations\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="605" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Optimization\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="606" PackageName="ni-analysis-advanced-src-1.0.7.1.niaddon" Target="AAL_Zeros\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="608" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_DesignPID\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="609" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_Linear\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="610" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_Nonlinear\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="611" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_PIDGain\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="612" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_SignalGeneration\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="613" PackageName="ni-analysis-control-src-1.0.7.1.niaddon" Target="Control_Conversion\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="615" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Array\.1D\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="616" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Array\.2D\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="617" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Application\ Control\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="618" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Bezier\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="619" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Boolean\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="620" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Cluster\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="621" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Coordinates\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="622" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Error\ Handling\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="623" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.File\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="624" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Graph\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="625" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Matrix\ \&amp;\ Vector\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="626" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Numeric\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="627" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Picture\ \&amp;\ Image\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="628" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Read\ Write\ Anything\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="629" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Spline\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="630" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.String\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="631" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Timing\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="632" PackageName="mgi-library-mgilibrary-src-2.0.0.4.niaddon" Target="MGI\.Library\.Tree\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="634" PackageName="ni-analysis-controlbasic-src-1.0.7.1.niaddon" Target="Control_Controller\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="635" PackageName="ni-analysis-controlbasic-src-1.0.7.1.niaddon" Target="Control_Conversion_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="636" PackageName="ni-analysis-controlbasic-src-1.0.7.1.niaddon" Target="Control_PIDGain_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="638" PackageName="ni-analysis-standard-src-1.0.7.1.niaddon" Target="AAL_Measurement_Standard\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="640" PackageName="ni-fpga-conversion-src-1.0.0.5.niaddon" Target="NI\.FPGA\.Conversion\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="642" PackageName="ni-fpga-base-src-1.0.0.3.niaddon" Target="NI\.FPGA\.Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="644" PackageName="ni-fpga-linearalgebra-src-1.0.0.1.niaddon" Target="NI\.FPGA\.LinearAlgebra\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="646" PackageName="ni-fpga-htmath-src-1.0.0.10.niaddon" Target="NI\.Fpga\.HTMath\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="657" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.array\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="658" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.boolean\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="659" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.comparison\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="660" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.error\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="661" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.file\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="662" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.largefile\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="663" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.md5\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="664" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.numeric\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="665" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.string\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="666" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.time\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="667" PackageName="openg-library-openglibrary-src-2.0.0.21.niaddon" Target="openg\.library\.variantdata\.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC" Id="49" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
 						<SparseEnvoyManager Id="50">
@@ -255,16 +259,20 @@
 					<EmbeddedDefinitionReference Id="157" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
 						<SourceFileReference Bindings="EnvoyManager" Id="398" ModelDefinitionType="PackageInterfaceDefinition" Name="jki\-jkistatemachine\-jkistatemachine\-src\-2\.0\.0\.1\.niaddon" StoragePath="ref://JKI/JKI State Machine/JKI State Machine-src/2.0.0.1" />
-						<SourceFileReference Bindings="EnvoyManager" Id="400" ModelDefinitionType="PackageInterfaceDefinition" Name="mgi\-library\-mgilibrary\-src\-2\.0\.0\.3\.niaddon" StoragePath="ref://MGI/Library/MGI Library-src/2.0.0.3" />
-						<SourceFileReference Bindings="EnvoyManager" Id="402" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-advanced\-src\-1\.0\.6\.3\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.6.3" />
-						<SourceFileReference Bindings="EnvoyManager" Id="404" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-basic\-src\-1\.0\.6\.2\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.6.2" />
-						<SourceFileReference Bindings="EnvoyManager" Id="406" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-control\-src\-1\.0\.6\.2\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.6.2" />
-						<SourceFileReference Bindings="EnvoyManager" Id="408" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-controlbasic\-src\-1\.0\.6\.2\.niaddon" StoragePath="ref://NI/analysis/controlbasic-src/1.0.6.2" />
-						<SourceFileReference Bindings="EnvoyManager" Id="410" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-standard\-src\-1\.0\.6\.1\.niaddon" StoragePath="ref://NI/analysis/standard-src/1.0.6.1" />
 						<SourceFileReference Bindings="EnvoyManager" Id="412" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-http\-src\-1\.0\.0\.12\.niaddon" StoragePath="ref://NI/G/http-src/1.0.0.12" />
 						<SourceFileReference Bindings="EnvoyManager" Id="414" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-stdlib\-src\-1\.0\.5\.17\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.5.17" />
 						<SourceFileReference Bindings="EnvoyManager" Id="416" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-mscript\-basic\-src\-1\.0\.0\.4\.niaddon" StoragePath="ref://NI/mscript/basic-src/1.0.0.4" />
-						<SourceFileReference Bindings="EnvoyManager" Id="418" ModelDefinitionType="PackageInterfaceDefinition" Name="openg\-library\-openglibrary\-src\-2\.0\.0\.18\.niaddon" StoragePath="ref://OpenG/Library/OpenG Library-src/2.0.0.18" />
+						<SourceFileReference Bindings="EnvoyManager" Id="548" ModelDefinitionType="PackageInterfaceDefinition" Name="mgi\-library\-mgilibrary\-src\-2\.0\.0\.4\.niaddon" StoragePath="ref://MGI/Library/MGI Library-src/2.0.0.4" />
+						<SourceFileReference Bindings="EnvoyManager" Id="550" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-advanced\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/advanced-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="552" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-basic\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/basic-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="554" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-control\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/control-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="556" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-controlbasic\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/controlbasic-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="558" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-standard\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/standard-src/1.0.7.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="560" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-base\-src\-1\.0\.0\.3\.niaddon" StoragePath="ref://ni/fpga/base-src/1.0.0.3" />
+						<SourceFileReference Bindings="EnvoyManager" Id="562" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-conversion\-src\-1\.0\.0\.5\.niaddon" StoragePath="ref://ni/fpga/conversion-src/1.0.0.5" />
+						<SourceFileReference Bindings="EnvoyManager" Id="564" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-htmath\-src\-1\.0\.0\.10\.niaddon" StoragePath="ref://ni/fpga/htmath-src/1.0.0.10" />
+						<SourceFileReference Bindings="EnvoyManager" Id="566" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-linearalgebra\-src\-1\.0\.0\.1\.niaddon" StoragePath="ref://ni/fpga/linearalgebra-src/1.0.0.1" />
+						<SourceFileReference Bindings="EnvoyManager" Id="655" ModelDefinitionType="PackageInterfaceDefinition" Name="openg\-library\-openglibrary\-src\-2\.0\.0\.21\.niaddon" StoragePath="ref://OpenG/Library/OpenG Library-src/2.0.0.21" />
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="537" ModelDefinitionType="ComponentDefinition" Name="Application\.gcomp" StoragePath="Application.gcomp\Application.gcomp" />
 				</NameScopingEnvoy>
@@ -276,6 +284,9 @@
 				</EmbeddedDefinitionReference>
 				<EmbeddedDefinitionReference Id="397" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
 					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Id="547" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Fpga" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Fpga&quot;" />
 				</EmbeddedDefinitionReference>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
@@ -302,29 +313,37 @@
 			</EmbeddedDefinitionReference>
 			<EmbeddedDefinitionReference Id="23" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 				<PackageReferencesDefinition>
-					<PackageInterfaceDefinitionContents Contents="Control_DesignPID.gcomp,Control_Linear.gcomp,Control_Nonlinear.gcomp,Control_PIDGain.gcomp,Control_SignalGeneration.gcomp,Control_Conversion.gcomp" Id="426" PackageInterfaceDefinitionEnvoyId="407" />
-					<PackageInterfaceDefinitionContents Contents="Control_Controller.gcomp,Control_Conversion_Base.gcomp,Control_PIDGain_Base.gcomp" Id="430" PackageInterfaceDefinitionEnvoyId="409" />
 					<PackageInterfaceDefinitionContents Contents="NI.G Core.Configuration File (INI).gcomp,NI.G Core.Data Type.gcomp,NI.G Core.Error.gcomp,NI.G Core.File IO (General).gcomp,NI.G Core.Input Devices.gcomp,NI.G Core.Libraries and Executables.gcomp,NI.G Core.Numeric.gcomp,NI.G Core.Operating System.gcomp,NI.G Core.Registry.gcomp,NI.G Core.Rendezvous.gcomp,NI.G Core.Semaphore.gcomp,NI.G Core.SMTP Email.gcomp,NI.G Core.Sound.gcomp,NI.G Core.Strings.gcomp,NI.G Core.TCP.gcomp,NI.G Core.TDMS.gcomp,NI.G Core.Timed Loop.gcomp,NI.G Core.Timing.gcomp,NI.G Core.URL.gcomp,NI.G Core.Waveform.gcomp,NI.G Core.Zip.gcomp,NI.G Core.Localization.gcomp,NI.G Core.User Interface.gcomp,NI.G Core.Data Communications.gcomp,NI.G Core.Color Picker.gcomp,NI.G Core.Execution Control.gcomp" Id="457" PackageInterfaceDefinitionEnvoyId="415" />
-					<PackageInterfaceDefinitionContents Contents="MGI.Library.Array.1D.gcomp,MGI.Library.Array.2D.gcomp,MGI.Library.Application Control.gcomp,MGI.Library.Bezier.gcomp,MGI.Library.Boolean.gcomp,MGI.Library.Cluster.gcomp,MGI.Library.Coordinates.gcomp,MGI.Library.Error Handling.gcomp,MGI.Library.File.gcomp,MGI.Library.Graph.gcomp,MGI.Library.Matrix &amp; Vector.gcomp,MGI.Library.Numeric.gcomp,MGI.Library.Picture &amp; Image.gcomp,MGI.Library.Read Write Anything.gcomp,MGI.Library.Spline.gcomp,MGI.Library.String.gcomp,MGI.Library.Timing.gcomp,MGI.Library.Tree.gcomp" Id="476" PackageInterfaceDefinitionEnvoyId="401" />
 					<PackageInterfaceDefinitionContents Contents="NI.MScript.Basic.gcomp" Id="478" PackageInterfaceDefinitionEnvoyId="417" />
-					<PackageInterfaceDefinitionContents Contents="AAL_Measurement_Standard.gcomp" Id="480" PackageInterfaceDefinitionEnvoyId="411" />
-					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning_Base.gcomp,AAL_Filtering_Base.gcomp,AAL_Fitting_Base.gcomp,AAL_Generation_Base.gcomp,AAL_Interpolation_Base.gcomp,AAL_Linear_Algebra_Base.gcomp,AAL_Measurement_Base.gcomp,AAL_Operations_Base.gcomp,AAL_Resampling_Base.gcomp,AAL_Statistics_Base.gcomp,AAL_Support_Base.gcomp,AAL_Transforms_Base.gcomp,AAL_Windows_Base.gcomp" Id="494" PackageInterfaceDefinitionEnvoyId="405" />
 					<PackageInterfaceDefinitionContents Contents="JKI.Library.JKI State Machine.gcomp" Id="496" PackageInterfaceDefinitionEnvoyId="399" />
-					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning.gcomp,AAL_Fitting.gcomp,AAL_Formula.gcomp,AAL_Generation.gcomp,AAL_Geometry.gcomp,AAL_Integral_Differentiation.gcomp,AAL_Interpolation.gcomp,AAL_Linear_Algebra.gcomp,AAL_Matrix.gcomp,AAL_Measurement.gcomp,AAL_Operations.gcomp,AAL_Polynomial.gcomp,AAL_Probability.gcomp,AAL_Resampling.gcomp,AAL_SML.gcomp,AAL_Statistics.gcomp,AAL_Support.gcomp,AAL_Transforms.gcomp,AAL_Windows.gcomp,AAL_Filtering.gcomp,AAL_BLAS.gcomp,AAL_Special_Func.gcomp,AAL_Differential_Equations.gcomp,AAL_Optimization.gcomp,AAL_Zeros.gcomp" Id="522" PackageInterfaceDefinitionEnvoyId="403" />
 					<PackageInterfaceDefinitionContents Contents="NI.HTTP.gcomp" Id="524" PackageInterfaceDefinitionEnvoyId="413" />
-					<PackageInterfaceDefinitionContents Contents="openg.library.array.gcomp,openg.library.boolean.gcomp,openg.library.comparison.gcomp,openg.library.error.gcomp,openg.library.file.gcomp,openg.library.largefile.gcomp,openg.library.md5.gcomp,openg.library.numeric.gcomp,openg.library.string.gcomp,openg.library.time.gcomp,openg.library.variantdata.gcomp" Id="536" PackageInterfaceDefinitionEnvoyId="419" />
+					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning_Base.gcomp,AAL_Filtering_Base.gcomp,AAL_Fitting_Base.gcomp,AAL_Generation_Base.gcomp,AAL_Interpolation_Base.gcomp,AAL_Linear_Algebra_Base.gcomp,AAL_Measurement_Base.gcomp,AAL_Operations_Base.gcomp,AAL_Resampling_Base.gcomp,AAL_Statistics_Base.gcomp,AAL_Support_Base.gcomp,AAL_Transforms_Base.gcomp,AAL_Windows_Base.gcomp" Id="581" PackageInterfaceDefinitionEnvoyId="553" />
+					<PackageInterfaceDefinitionContents Contents="AAL_Conditioning.gcomp,AAL_Fitting.gcomp,AAL_Formula.gcomp,AAL_Generation.gcomp,AAL_Geometry.gcomp,AAL_Integral_Differentiation.gcomp,AAL_Interpolation.gcomp,AAL_Linear_Algebra.gcomp,AAL_Matrix.gcomp,AAL_Measurement.gcomp,AAL_Operations.gcomp,AAL_Polynomial.gcomp,AAL_Probability.gcomp,AAL_Resampling.gcomp,AAL_SML.gcomp,AAL_Statistics.gcomp,AAL_Support.gcomp,AAL_Transforms.gcomp,AAL_Windows.gcomp,AAL_Filtering.gcomp,AAL_BLAS.gcomp,AAL_Special_Func.gcomp,AAL_Differential_Equations.gcomp,AAL_Optimization.gcomp,AAL_Zeros.gcomp" Id="607" PackageInterfaceDefinitionEnvoyId="551" />
+					<PackageInterfaceDefinitionContents Contents="Control_DesignPID.gcomp,Control_Linear.gcomp,Control_Nonlinear.gcomp,Control_PIDGain.gcomp,Control_SignalGeneration.gcomp,Control_Conversion.gcomp" Id="614" PackageInterfaceDefinitionEnvoyId="555" />
+					<PackageInterfaceDefinitionContents Contents="MGI.Library.Array.1D.gcomp,MGI.Library.Array.2D.gcomp,MGI.Library.Application Control.gcomp,MGI.Library.Bezier.gcomp,MGI.Library.Boolean.gcomp,MGI.Library.Cluster.gcomp,MGI.Library.Coordinates.gcomp,MGI.Library.Error Handling.gcomp,MGI.Library.File.gcomp,MGI.Library.Graph.gcomp,MGI.Library.Matrix &amp; Vector.gcomp,MGI.Library.Numeric.gcomp,MGI.Library.Picture &amp; Image.gcomp,MGI.Library.Read Write Anything.gcomp,MGI.Library.Spline.gcomp,MGI.Library.String.gcomp,MGI.Library.Timing.gcomp,MGI.Library.Tree.gcomp" Id="633" PackageInterfaceDefinitionEnvoyId="549" />
+					<PackageInterfaceDefinitionContents Contents="Control_Controller.gcomp,Control_Conversion_Base.gcomp,Control_PIDGain_Base.gcomp" Id="637" PackageInterfaceDefinitionEnvoyId="557" />
+					<PackageInterfaceDefinitionContents Contents="AAL_Measurement_Standard.gcomp" Id="639" PackageInterfaceDefinitionEnvoyId="559" />
+					<PackageInterfaceDefinitionContents Contents="NI.FPGA.Conversion.gcomp" Id="641" PackageInterfaceDefinitionEnvoyId="563" />
+					<PackageInterfaceDefinitionContents Contents="NI.FPGA.Base.gcomp" Id="643" PackageInterfaceDefinitionEnvoyId="561" />
+					<PackageInterfaceDefinitionContents Contents="NI.FPGA.LinearAlgebra.gcomp" Id="645" PackageInterfaceDefinitionEnvoyId="567" />
+					<PackageInterfaceDefinitionContents Contents="NI.Fpga.HTMath.gcomp" Id="647" PackageInterfaceDefinitionEnvoyId="565" />
+					<PackageInterfaceDefinitionContents Contents="openg.library.array.gcomp,openg.library.boolean.gcomp,openg.library.comparison.gcomp,openg.library.error.gcomp,openg.library.file.gcomp,openg.library.largefile.gcomp,openg.library.md5.gcomp,openg.library.numeric.gcomp,openg.library.string.gcomp,openg.library.time.gcomp,openg.library.variantdata.gcomp" Id="668" PackageInterfaceDefinitionEnvoyId="656" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="EnvoyManager" Id="399" ModelDefinitionType="PackageInterfaceDefinition" Name="jki\-jkistatemachine\-jkistatemachine\-src\-2\.0\.0\.1\.niaddon" StoragePath="ref://JKI/JKI State Machine/JKI State Machine-src/2.0.0.1" />
-				<SourceFileReference Bindings="EnvoyManager" Id="401" ModelDefinitionType="PackageInterfaceDefinition" Name="mgi\-library\-mgilibrary\-src\-2\.0\.0\.3\.niaddon" StoragePath="ref://MGI/Library/MGI Library-src/2.0.0.3" />
-				<SourceFileReference Bindings="EnvoyManager" Id="403" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-advanced\-src\-1\.0\.6\.3\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.6.3" />
-				<SourceFileReference Bindings="EnvoyManager" Id="405" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-basic\-src\-1\.0\.6\.2\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.6.2" />
-				<SourceFileReference Bindings="EnvoyManager" Id="407" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-control\-src\-1\.0\.6\.2\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.6.2" />
-				<SourceFileReference Bindings="EnvoyManager" Id="409" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-controlbasic\-src\-1\.0\.6\.2\.niaddon" StoragePath="ref://NI/analysis/controlbasic-src/1.0.6.2" />
-				<SourceFileReference Bindings="EnvoyManager" Id="411" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-standard\-src\-1\.0\.6\.1\.niaddon" StoragePath="ref://NI/analysis/standard-src/1.0.6.1" />
 				<SourceFileReference Bindings="EnvoyManager" Id="413" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-http\-src\-1\.0\.0\.12\.niaddon" StoragePath="ref://NI/G/http-src/1.0.0.12" />
 				<SourceFileReference Bindings="EnvoyManager" Id="415" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-g\-stdlib\-src\-1\.0\.5\.17\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.5.17" />
 				<SourceFileReference Bindings="EnvoyManager" Id="417" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-mscript\-basic\-src\-1\.0\.0\.4\.niaddon" StoragePath="ref://NI/mscript/basic-src/1.0.0.4" />
-				<SourceFileReference Bindings="EnvoyManager" Id="419" ModelDefinitionType="PackageInterfaceDefinition" Name="openg\-library\-openglibrary\-src\-2\.0\.0\.18\.niaddon" StoragePath="ref://OpenG/Library/OpenG Library-src/2.0.0.18" />
+				<SourceFileReference Bindings="EnvoyManager" Id="549" ModelDefinitionType="PackageInterfaceDefinition" Name="mgi\-library\-mgilibrary\-src\-2\.0\.0\.4\.niaddon" StoragePath="ref://MGI/Library/MGI Library-src/2.0.0.4" />
+				<SourceFileReference Bindings="EnvoyManager" Id="551" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-advanced\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/advanced-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="553" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-basic\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/basic-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="555" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-control\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/control-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="557" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-controlbasic\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/controlbasic-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="559" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-analysis\-standard\-src\-1\.0\.7\.1\.niaddon" StoragePath="ref://ni/analysis/standard-src/1.0.7.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="561" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-base\-src\-1\.0\.0\.3\.niaddon" StoragePath="ref://ni/fpga/base-src/1.0.0.3" />
+				<SourceFileReference Bindings="EnvoyManager" Id="563" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-conversion\-src\-1\.0\.0\.5\.niaddon" StoragePath="ref://ni/fpga/conversion-src/1.0.0.5" />
+				<SourceFileReference Bindings="EnvoyManager" Id="565" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-htmath\-src\-1\.0\.0\.10\.niaddon" StoragePath="ref://ni/fpga/htmath-src/1.0.0.10" />
+				<SourceFileReference Bindings="EnvoyManager" Id="567" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-fpga\-linearalgebra\-src\-1\.0\.0\.1\.niaddon" StoragePath="ref://ni/fpga/linearalgebra-src/1.0.0.1" />
+				<SourceFileReference Bindings="EnvoyManager" Id="656" ModelDefinitionType="PackageInterfaceDefinition" Name="openg\-library\-openglibrary\-src\-2\.0\.0\.21\.niaddon" StoragePath="ref://OpenG/Library/OpenG Library-src/2.0.0.21" />
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 		<NameScopingEnvoy Id="24" ModelDefinitionType="DataDepot" Name="DataDepot">

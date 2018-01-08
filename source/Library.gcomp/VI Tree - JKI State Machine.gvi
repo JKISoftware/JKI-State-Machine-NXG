@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9359A33A6D489BD69874F5CECD72B1D2" Timestamp="1D388C0C24D422D" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.2.0.56172" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="14" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="16" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="17" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="18" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="19" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="20" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABoSURBVEhL7dJBDoAwCETR3v/SiCFpxqEQ0ujChrcwWOxfOeQznSadJqX0GPdn+Kw4OK1m8VfpDZ0mJ6X1DzM05yuyPlXzAg0YiqIm3GHR4KufvVIaB2wlXRXukrSh2VufvqLTpNMPIhd0DOaYnB/LxwAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<Literal Bounds="325 215 40 15" DataType="String" Id="23" Label="24" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>""</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<NodeLabel AttachedTo="23" Bounds="325 194 92 18" Id="24" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>State Queue</p.Text>
+			</NodeLabel>
+			<ClusterLiteral Bounds="225 200 61 89" DataType="Error" Id="27" Label="34" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Cluster>
+						<Field1>False</Field1>
+						<Field2>0</Field2>
+						<Field3>""</Field3>
+					</Cluster>
+				</p.Data>
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<ClusterBehavior AutoArrange="SizeToFit" />
+				<Literal Bounds="13 2 15 15" DataType="Boolean" Id="28" Label="29">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="28" Bounds="13 -16 30 15" Id="29" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>status</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 32 40 16" DataType="Int32" Id="30" Label="31">
+					<p.Data>0</p.Data>
+					<NumericBehavior Interpretation="Exact" Radix="Decimal" RadixVisibility="Visible" ValueFormatter="Decimal, Uppercase, Signed" />
+				</Literal>
+				<NodeLabel AttachedTo="30" Bounds="2 14 30 15" Id="31" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>code</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 62 40 15" DataType="String" Id="32" Label="33">
+					<p.Data>""</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+				</Literal>
+				<NodeLabel AttachedTo="32" Bounds="-3 -33 30 15" Id="33" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>source</p.Text>
+				</NodeLabel>
+			</ClusterLiteral>
+			<NodeLabel AttachedTo="27" Bounds="225 179 37 18" Id="34" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Error</p.Text>
+			</NodeLabel>
+			<Literal Bounds="325 325 40 15" DataType="String" Id="35" Label="36" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>""</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<NodeLabel AttachedTo="35" Bounds="325 304 72 18" Id="36" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>State ("")</p.Text>
+			</NodeLabel>
+			<MethodCall Bounds="375 335 40 30" DomainName="JKI:Library:JKI State Machine" Id="37" Label="38" Target="JKI:Library:JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L1" Desc="State" />
+						<Parameter Id="L2" Desc="Arguments (&quot;&quot;)" />
+						<Parameter Id="R1" Desc="State with Arguments" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<NodeLabel AttachedTo="37" Bounds="375 318 190 14" Id="38" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Build State String with Arguments</p.Text>
+			</NodeLabel>
+			<MethodCall Bounds="375 275 40 30" DomainName="JKI:Library:JKI State Machine" Id="39" Label="40" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
+						<Parameter Id="L1" Desc="State(s) in (&quot;&quot;)" />
+						<Parameter Id="L2" Desc="State(s) at Back (&quot;&quot;)" />
+						<Parameter Id="R1" Desc="States Out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<NodeLabel AttachedTo="39" Bounds="375 258 125 14" Id="40" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Add State(s) to Queue</p.Text>
+			</NodeLabel>
+			<MethodCall Bounds="375 215 40 30" DomainName="JKI:Library:JKI State Machine" Id="43" Label="44" Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="State Queue" />
+						<Parameter Id="L2" Desc="Error In (no error)" />
+						<Parameter Id="R0" Desc="Remaining States" />
+						<Parameter Id="R1" Desc="Current State" />
+						<Parameter Id="R2" Desc="Arguments" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<NodeLabel AttachedTo="43" Bounds="375 198 103 14" Id="44" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Parse State Queue</p.Text>
+			</NodeLabel>
+			<Wire Id="46" Joints="N(35:Out)|(365,330) h(5) v(20) N(37:L1)|(375,350)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="47" Joints="N(27:Out)|(286,205) h(10) v(35) N(43:L2)|(375,240)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="48" Joints="N(23:Out)|(365,220) N(43:L0)|(375,220)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="375 120 40 40" DomainName="Library" Id="49" Label="50" ResolveFailedHint="&quot;C:\\JKI-State-Machine-NXG\\source\\State Machine Templates\\String-Based Queued State Machine (Basic 1.0).gvi&quot;" Target="Library:String\-Based\ Queued\ State\ Machine\ \(Basic\ 1\.0\)\.gvi" xmlns="http://www.ni.com/MocCommon" />
+			<NodeLabel AttachedTo="49" Bounds="375 103 100 14" Id="50" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>String-Based Queued State Machine (Basic 1.0)</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]2000">
+			<Text Foreground="[SMColor]#ff000000" Height="[float]16" Id="21" Left="[float]149" Text="[string]VI TREE" TextWrapping="[TextWrapping]Wrap" Top="[float]30" Width="[float]40" xmlns="http://www.ni.com/PlatformFramework" />
+			<Text Height="[float]112" Id="22" Left="[float]100" Text="[string]For instructions on how to use the JKI State Machine, examples and video tutorials, visit:&#xA;http://jki.net/state-machine/&#xA;&#xA;JKI State Machine™&#xA;http://jki.net/state-machine/&#xA;Copyright (C) 2005-2014, JKI &lt;info@jki.net&gt;&#xA;ALL RIGHTS RESERVED" TextWrapping="[TextWrapping]Wrap" Top="[float]120" Width="[float]464" xmlns="http://www.ni.com/PlatformFramework" />
+			<PanelExecutionWindow Id="51" />
+		</NativeFrontPanel>
+	</VirtualInstrument>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 30">
+						<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="[string]Custom12" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]6" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]6" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]18" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]30" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]16" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Path Data="[PathGeometry]M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]23" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]5" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
+								<Path Data="[PathGeometry]M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]26" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+							</IconTemplate>
+							<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]JKI.Library.JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 30">
+						<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="[string]Custom14" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]17" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]33" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Path Data="[PathGeometry]M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]9" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]17" VerticalAlignment="[VerticalAlignment]Top" Width="[float]3" />
+								<Path Data="[PathGeometry]M 2.29983497,-0.479930609 L 0,1.60718298 L 2.40005493,3.69806695 L 2.29983497,-0.479930609 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.17799759" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]28" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]16" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.40005541" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]30" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]17" VerticalAlignment="[VerticalAlignment]Top" Width="[float]3" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]22" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]11" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]7" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
+							</IconTemplate>
+							<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]JKI.Library.JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 30">
+						<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Center" Left="[float]0" TemplateName="[string]Custom13" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]28" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff838383" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]10" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]15" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]20" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Path Data="[PathGeometry]M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]4.0779953" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]34" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]23" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2.300072" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]1" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]24" VerticalAlignment="[VerticalAlignment]Top" Width="[float]22" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff4d5359" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]25" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]10" VerticalAlignment="[VerticalAlignment]Top" Width="[float]5" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff65c865" Height="[float]9" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]1" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f3f3" Height="[float]5" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]6" VerticalAlignment="[VerticalAlignment]Top" Width="[float]38" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]30" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]5" RadiusY="[float]5" Stroke="[SMSolidColorBrush]#ff838383" StrokeStyle="[LineStyle]Solid" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
+								<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]3" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]12" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff65c865" StrokeThickness="[float]1" Top="[float]21" VerticalAlignment="[VerticalAlignment]Top" Width="[float]1" />
+							</IconTemplate>
+							<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]JKI.Library.JKI State Machine.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="ADD9AD1C17E6003468E8440826C98C27" Timestamp="1D33953E0287BCA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="629F04CE98C05BD755701B53CA75EA6E" Timestamp="1D388C1B6000921" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-		<ApplicationVersionInfo Build="5.2.0.6404" Name="LabVIEW NXG" Version="2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.2.0.56172" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<PaletteDefinition BindingKeywords="NativeTarget" PaletteBaseName="Diagram" xmlns="http://www.ni.com/PlatformFramework">
 		<PaletteContentCategory Display="Add-ons" Id="1" ShortName="Add-ons" UniqueId="NI.LabVIEW.VI:PaletteCategory.Addons" Weight="35">

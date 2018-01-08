@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A67963AE7A700BE6D0E32CEBA616AE57" Timestamp="1D33954FE347AF5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E93B75700CB0F40671B8243E3098191D" Timestamp="1D388C1B868FA01" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.4" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-		<ApplicationVersionInfo Build="5.2.0.6404" Name="LabVIEW NXG" Version="2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.2.0.56172" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument CustomTitle="Parse State Queue" Id="1" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
 		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Parses the JKI State Machine state queue and returns the current state that will execute next with the associated arguments.&lt;br/&gt;&lt;br/&gt;For instructions on how to use the JKI State Machine, examples and video tutorials, visit:&lt;br/&gt;http://jkisoft.com/state-machine/&lt;br/&gt;&lt;br/&gt;&lt;B&gt;Inputs:&lt;/B&gt;&lt;br/&gt;     &lt;B&gt;State Queue:&lt;/B&gt; The entire state queue is wired to this input. This should come from the main JKI State Machine shift register.&lt;br/&gt;     &lt;B&gt;Error In&lt;/B&gt; The error cluster from the JKI State Machine is wired to this input. If an error occures and appears on this input, the current state output returns the "Error Handler" state.&lt;br/&gt;&lt;br/&gt;&lt;B&gt;Outputs:&lt;/B&gt;&lt;br/&gt;     &lt;B&gt;Remaining States:&lt;/B&gt; Returns all the next states that should execute after the current state completes. These should be passed through the current state in the state machine. These can also be modified or augmented within the current state if necessary.&lt;br/&gt;     &lt;B&gt;Current State:&lt;/B&gt; Returns the current state that should execute next in the state machine. If an error is wired to the Error input then the current state output becomes "Error Handler".&lt;br/&gt;     &lt;B&gt;Arguments:&lt;/B&gt;  Returns any argument(s) that may be used in the current state string. These arguments come after the "&gt;&gt;" characters. &lt;B&gt;Note:&lt;/B&gt; The arguments variable must not contain any unprintable characters like linefeed or carriage return.&lt;br/&gt;&lt;br/&gt;&lt;B&gt;State Syntax:&lt;/B&gt;&lt;br/&gt;StateCategory: State &gt;&gt; Argument&lt;br/&gt;Line Terminator: Line feed&lt;br/&gt;     &lt;B&gt;Example:&lt;/B&gt;&lt;br/&gt;UI: Help &gt;&gt; About&lt;br/&gt;&lt;br/&gt;Where "UI" is the state category&lt;br/&gt;Where "Help" is the state&lt;br/&gt;Where "About" is the argument&lt;br/&gt;     &lt;B&gt;Other Examples:&lt;/B&gt;&lt;br/&gt;App Data: Initialize&lt;br/&gt;UI: Initialize&lt;br/&gt;Help &gt;&gt; About&lt;br/&gt;&lt;br/&gt;&lt;B&gt;Commenting:&lt;/B&gt;&lt;br/&gt;To add a comment use "//" or "#" and all text to the right will be ignored&lt;br/&gt;     &lt;B&gt;Commenting Example:&lt;/B&gt;&lt;br/&gt;UI: Initialize // This initializes the UI&lt;br/&gt;# This whole line is a comment&lt;br/&gt;// Another comment line&lt;br/&gt;</p.UserDescription>
@@ -122,7 +122,7 @@
 								<p.Text>regular expression</p.Text>
 							</NodeLabel>
 							<MatchPattern Bounds="100 180 40 40" Id="100" />
-							<MethodCall Bounds="840 260 40 20" DomainName="NI:G Core:Strings" Id="101" Label="102" ResolveFailedHint="Trim Whitespace.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 2.0.0)" Target="NI:G\ Core:Strings:Trim\ Whitespace\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="840 260 40 20" DomainName="NI:G Core:Strings" Id="101" Label="102" ResolveFailedHint="Trim Whitespace.gvi, Package: (NI G Standard Library, Version: 1.0.5.17)" Target="NI:G\ Core:Strings:Trim\ Whitespace\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="T0" Desc="location" />
@@ -131,7 +131,7 @@
 									</MethodDeclaration>
 								</p.MethodDeclaration>
 								<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@ef8d5b5341a4495099fce7cf60b4b8d8" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@a14829d83f0544c8860c92aa6d96b170" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="101" Bounds="840 239 140 18" Id="102" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -154,7 +154,7 @@
 							</ForLoop>
 							<ArrayMaxAndMin Bounds="575 100 40 40" Id="114" />
 							<ArrayIndex Bounds="635 80 40 30" Id="115" Terminals="array=157, c0t0v=158, c0out=144" />
-							<MethodCall Bounds="840 20 40 20" DomainName="NI:G Core:Strings" Id="116" Label="117" ResolveFailedHint="Trim Whitespace.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 2.0.0)" Target="NI:G\ Core:Strings:Trim\ Whitespace\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="840 20 40 20" DomainName="NI:G Core:Strings" Id="116" Label="117" ResolveFailedHint="Trim Whitespace.gvi, Package: (NI G Standard Library, Version: 1.0.5.17)" Target="NI:G\ Core:Strings:Trim\ Whitespace\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="T0" Desc="location" />
@@ -163,14 +163,14 @@
 									</MethodDeclaration>
 								</p.MethodDeclaration>
 								<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@ef8d5b5341a4495099fce7cf60b4b8d8" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@a14829d83f0544c8860c92aa6d96b170" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="116" Bounds="840 -1 140 18" Id="117" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>Trim Whitespace</p.Text>
 							</NodeLabel>
 							<MatchPattern Bounds="755 100 40 40" Id="118" />
-							<MethodCall Bounds="840 120 40 20" DomainName="NI:G Core:Strings" Id="119" Label="120" ResolveFailedHint="Trim Whitespace.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 2.0.0)" Target="NI:G\ Core:Strings:Trim\ Whitespace\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="840 120 40 20" DomainName="NI:G Core:Strings" Id="119" Label="120" ResolveFailedHint="Trim Whitespace.gvi, Package: (NI G Standard Library, Version: 1.0.5.17)" Target="NI:G\ Core:Strings:Trim\ Whitespace\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="T0" Desc="location" />
@@ -179,13 +179,13 @@
 									</MethodDeclaration>
 								</p.MethodDeclaration>
 								<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@ef8d5b5341a4495099fce7cf60b4b8d8" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@a14829d83f0544c8860c92aa6d96b170" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="119" Bounds="840 99 140 18" Id="120" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>Trim Whitespace</p.Text>
 							</NodeLabel>
-							<MethodCall Bounds="840 75 40 20" DomainName="NI:G Core:Strings" Id="121" Label="122" ResolveFailedHint="Trim Whitespace.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 2.0.0)" Target="NI:G\ Core:Strings:Trim\ Whitespace\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="840 75 40 20" DomainName="NI:G Core:Strings" Id="121" Label="122" ResolveFailedHint="Trim Whitespace.gvi, Package: (NI G Standard Library, Version: 1.0.5.17)" Target="NI:G\ Core:Strings:Trim\ Whitespace\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="T0" Desc="location" />
@@ -194,7 +194,7 @@
 									</MethodDeclaration>
 								</p.MethodDeclaration>
 								<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@ef8d5b5341a4495099fce7cf60b4b8d8" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@a14829d83f0544c8860c92aa6d96b170" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
 							<NodeLabel AttachedTo="121" Bounds="840 54 140 18" Id="122" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -388,7 +388,7 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="ef8d5b5341a4495099fce7cf60b4b8d8">
+		<p.TypeReference TypeId="a14829d83f0544c8860c92aa6d96b170">
 			<Attributed AttributedType="@d36e8499bcee4bd3b5b9a4d988e9e4d7">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:G\ Core:Strings" />

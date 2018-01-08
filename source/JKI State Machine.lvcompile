@@ -9,7 +9,7 @@
       <DistributionTypeIdentifier>Distribution:NiPackagePartial</DistributionTypeIdentifier>
       <BuildId>C:\dev\pkg\jkism</BuildId>
     </RootBuildId>
-    <OutputPath>file:\\\C:\dev\pkg\jkism\jki-jkistatemachine-labview-jkistatemachine-src-2_2.0.0.2_windows_x64.nipkg</OutputPath>
+    <OutputPath>file:\\\C:\dev\pkg\jkism\jki-jkistatemachine-labview-jkistatemachine-src-2_2.0.0.3_windows_x64.nipkg</OutputPath>
     <BuildName>JKI State Machine</BuildName>
     <State>Success</State>
     <LastTotalTime>00:00:07</LastTotalTime>
