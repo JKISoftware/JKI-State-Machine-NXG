@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A7D0CAB8EEC79377C75B13633A4F13CD" Timestamp="1D388C20F2A0B44" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="ACEF3064B5922BBC8542AA5F4404D145" Timestamp="1D39481FF7D7BF4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ApplicationVersionInfo Build="5.2.0.56171" Name="LabVIEW NXG" Version="2.0.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition BusId="0" Company="JKI" DisplayName="JKI State Machine" DistributionOutputType="NiPackage" Homepage="http://jki.net/state-machine" IsStoreProduct="True" MaintainerEmail="info@jki.net" MaintainerName="JKI" ModelId="0" OutputDirectory="&quot;C:\\dev\\pkg\\jkism&quot;" Product="JKI State Machine" ShortDescription="The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts." TargetedProduct="LabVIEW" VendorId="0" Version="2.0.0.4" xmlns="http://www.ni.com/GComponent.xsd">
+	<DistributionDefinition BusId="0" Company="JKI" DisplayName="JKI State Machine" DistributionOutputType="NiPackage" Homepage="http://jki.net/state-machine" IsStoreProduct="True" MaintainerEmail="info@jki.net" MaintainerName="JKI" ModelId="0" OutputDirectory="&quot;C:\\dev\\pkg\\jkism&quot;" Product="JKI State Machine" ShortDescription="The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts." TargetedProduct="LabVIEW" VendorId="0" Version="2.0.0.5" xmlns="http://www.ni.com/GComponent.xsd">
 		<DistributionMemberDependencySource Id="2" MemberContentType="Conversion" Target=":NullTarget:JKI\ State\ Machine\.gconversion" />
 		<DistributionMemberDependencySource Id="3" MemberContentType="Library" Target=":PC:Interactive:JKI\.Library\.JKI\ State\ Machine\.gcomp" />
 		<DistributionMemberDependencySource Id="4" MemberContentType="Eula" Target=":NullTarget:LICENSE\.rtf" />

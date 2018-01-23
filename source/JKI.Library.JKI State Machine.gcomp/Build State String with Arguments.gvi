@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="896B4F6230576C86CA16E56053F5A653" Timestamp="1D388C1B80D927A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="206A8ECE55E8116FA3DDED399B180EE3" Timestamp="1D3947ED043F886" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56172" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-		<ApplicationVersionInfo Build="5.2.0.56172" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.2.0.56171" Name="LabVIEW NXG" Version="2.0.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument CustomTitle="Build State String with Arguments" Id="1" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
 		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Builds a state string that contains arguments for the JKI State Machine.&lt;br/&gt;&lt;B&gt;For Example:&lt;/B&gt; If State = A and Arguments = B then State with Arguments = A &gt;&gt; B&lt;br/&gt;&lt;br/&gt;For instructions on how to use the JKI State Machine, examples and video tutorials, visit:&lt;br/&gt;http://jkisoft.com/state-machine/&lt;br/&gt;&lt;br/&gt;&lt;B&gt;Inputs:&lt;/B&gt;&lt;br/&gt;     &lt;B&gt;State:&lt;/B&gt; The State string that requires the argument.&lt;br/&gt;     &lt;B&gt;Arguments:&lt;/B&gt; The Argument string to add to the state. The default is an empty string. If Argument is an empty string then State will be returned to the output. &lt;B&gt;Note:&lt;/B&gt; The arguments input must not contain any unprintable characters like linefeed or carriage return.&lt;br/&gt;&lt;br/&gt;&lt;B&gt;Outputs:&lt;/B&gt;&lt;br/&gt;     &lt;B&gt;State with Arguments:&lt;/B&gt; This output returns the new string that contains the State and the Argument. &lt;B&gt;For Example:&lt;/B&gt; If State = A and Arguments = B then State with Arguments = A &gt;&gt; B&lt;br/&gt;</p.UserDescription>
