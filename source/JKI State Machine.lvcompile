@@ -2,18 +2,18 @@
 <JobList>
   <Job OutputType="Distribution:NiPackagePartial">
     <CurrentBuildId>
-      <DistributionTypeIdentifier>Distribution:NiPackagePartial</DistributionTypeIdentifier>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
       <BuildId>C:\dev\pkg\jkism</BuildId>
     </CurrentBuildId>
     <RootBuildId>
-      <DistributionTypeIdentifier>Distribution:NiPackagePartial</DistributionTypeIdentifier>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
       <BuildId>C:\dev\pkg\jkism</BuildId>
     </RootBuildId>
-    <OutputPath>file:\\\C:\dev\pkg\jkism\jki-jkistatemachine-labview-jkistatemachine-src-2_2.0.0.4_windows_x64.nipkg</OutputPath>
+    <OutputPath>.\file:\\\C:\dev\pkg\jkism\jki-jkistatemachine-labview-jkistatemachine-src-2_2.0.0.4_windows_x64.nipkg</OutputPath>
     <BuildName>JKI State Machine</BuildName>
     <State>Success</State>
     <LastTotalTime>00:00:07</LastTotalTime>
     <HasChild>False</HasChild>
-    <QualifiedName>:NullTarget:JKI\ State\ Machine\.lvdist</QualifiedName>
+    <QualifiedName>::NullTarget::JKI State Machine.lvdist</QualifiedName>
   </Job>
 </JobList>
