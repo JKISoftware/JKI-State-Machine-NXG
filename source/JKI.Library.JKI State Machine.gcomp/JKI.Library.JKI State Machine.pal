@@ -210,119 +210,223 @@
 						<ColorTable />
 					</NineGridDictionary>
 				</Image>
-				<Leaf Display="Add State(s) to Queue" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Add State(s) to Queue" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Add State(s) to Queue.gvi" ElementId="JKI:Library:JKI State Machine:Add State(s) to Queue.gvi">
+				<Category Display="Support for State Machine" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Support for State Machine" Weight="0.5" UniqueId="e23b2755-6131-4732-b584-885dd5e32f4f" ElementId="e23b2755-6131-4732-b584-885dd5e32f4f">
 					<Image>
 						<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
 							<Items>
-								<NineGridPathList Width="40" Height="30">
+								<NineGridPathList Width="40" Height="40">
 									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F0 M1,1h38v38h-38v-38z M0,0h40v40h-40v-40z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
+								<NineGridPathList Width="10" Height="10">
 									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F0 M1,1h8v8h-8v-8z M0,0h10v10h-10v-10z" Color="#00FFFFFF" X="0" Y="0" Width="10" Height="10" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="38" Height="28">
+								<NineGridPathList Width="40" Height="40">
 									<Paths>
-										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 39,5 H 1 V 39 H 39 V 5 M 40,7 V 40 H 0 V 4 H 40 V 7 Z" Color="#FF8D9194" Stroke="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
+								<NineGridPathList Width="40" Height="40">
 									<Paths>
-										<NineGridPath Data="F1 M2.5,11.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="M 39,39 H 1 V 5 H 39 V 39 Z" Color="#FFF3F4F5" Stroke="#00FFFFFF" X="0" Y="0" Width="40" Height="40" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
+								<NineGridPathList Width="32" Height="10">
 									<Paths>
-										<NineGridPath Data="F1 M12.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
-									<Paths>
-										<NineGridPath Data="F1 M17.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
-									<Paths>
-										<NineGridPath Data="F1 M33.5,11.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F1 M 6.78218746,30.12146 C 7.19104147,30.12146 7.56604147,30.1605225 7.90718746,30.2386475 C 8.24833298,30.3167725 8.55041695,30.4131279 8.81343746,30.52771 L 8.81343746,31.4417725 L 8.75874996,31.4417725 C 8.53739548,31.2542725 8.24637985,31.0986748 7.88570309,30.9749756 C 7.52502584,30.8512783 7.15588522,30.7894287 6.77828121,30.7894287 C 6.36421871,30.7894287 6.0315361,30.8753662 5.78023434,31.0472412 C 5.52893209,31.2191162 5.40328121,31.4404716 5.40328121,31.7113037 C 5.40328121,31.9534912 5.46578121,32.1435966 5.59078121,32.2816162 C 5.71578121,32.4196358 5.93583298,32.5251045 6.25093746,32.5980225 C 6.41760397,32.6344795 6.65458298,32.6787529 6.96187496,32.730835 C 7.26916647,32.782917 7.52958298,32.8363037 7.74312496,32.8909912 C 8.17541695,33.0055733 8.50093746,33.1787529 8.71968746,33.4105225 C 8.93843746,33.642292 9.04781246,33.9665108 9.04781246,34.3831787 C 9.04781246,34.6097412 8.99507809,34.8336983 8.88960934,35.0550537 C 8.78414059,35.2764091 8.63635445,35.4639091 8.44624996,35.6175537 C 8.23791695,35.7842216 7.99507809,35.9144287 7.71773434,36.0081787 C 7.44039059,36.1019287 7.10640621,36.1488037 6.71578121,36.1488037 C 6.29651022,36.1488037 5.91955709,36.1097412 5.58492184,36.0316162 C 5.2502861,35.9534912 4.90979147,35.8376045 4.56343746,35.68396 L 4.56343746,34.71521 L 4.61812496,34.71521 C 4.91239548,34.9600029 5.25223923,35.1488037 5.63765621,35.2816162 C 6.02307272,35.4144287 6.38505173,35.480835 6.72359371,35.480835 C 7.20276022,35.480835 7.57580709,35.3909912 7.84273434,35.2113037 C 8.1096611,35.0316162 8.24312496,34.7920341 8.24312496,34.4925537 C 8.24312496,34.2347412 8.1799736,34.0446358 8.05367184,33.9222412 C 7.92736959,33.7998466 7.73531246,33.704792 7.47749996,33.637085 C 7.28218746,33.5850029 7.0705986,33.5420341 6.84273434,33.5081787 C 6.61486959,33.4743233 6.37333298,33.4313545 6.11812496,33.3792725 C 5.60249996,33.2698975 5.22033834,33.0830498 4.97164059,32.8187256 C 4.72294283,32.5544014 4.59859371,32.2100029 4.59859371,31.7855225 C 4.59859371,31.2985439 4.80432272,30.899456 5.21578121,30.5882568 C 5.62723923,30.2770596 6.14937496,30.12146 6.78218746,30.12146 Z M 10.2034063,31.6800537 L 10.9377813,31.6800537 L 10.9377813,34.1644287 C 10.9377813,34.3857841 10.9481983,34.5752373 10.9690313,34.7327881 C 10.9898643,34.8903389 11.0341358,35.0251045 11.1018438,35.137085 C 11.1721563,35.251667 11.2633018,35.3350029 11.3752813,35.387085 C 11.4872608,35.439167 11.6500206,35.46521 11.8635626,35.46521 C 12.0536671,35.46521 12.2613487,35.4157295 12.4866095,35.3167725 C 12.7118702,35.2178154 12.9221563,35.0915108 13.1174688,34.9378662 L 13.1174688,31.6800537 L 13.8518438,31.6800537 L 13.8518438,36.043335 L 13.1174688,36.043335 L 13.1174688,35.55896 C 12.8700733,35.7542725 12.6330938,35.9040108 12.4065313,36.0081787 C 12.1799688,36.1123466 11.9299688,36.1644287 11.6565313,36.1644287 C 11.1981983,36.1644287 10.8414268,36.024456 10.5862188,35.7445068 C 10.3310108,35.4645576 10.2034063,35.0537529 10.2034063,34.512085 L 10.2034063,31.6800537 Z M 17.2830315,32.2581787 C 17.072094,32.2581787 16.8598537,32.3037529 16.6463127,32.3948975 C 16.4327717,32.486042 16.228344,32.605835 16.0330315,32.7542725 L 16.0330315,35.2269287 C 16.2413654,35.3206787 16.4204006,35.3844795 16.5701408,35.418335 C 16.7198811,35.4521904 16.8898029,35.4691162 17.0799065,35.4691162 C 17.48876,35.4691162 17.8077698,35.3310966 18.0369377,35.0550537 C 18.2661037,34.7790108 18.3806877,34.3701591 18.3806877,33.8284912 C 18.3806877,33.3024483 18.290844,32.9092216 18.1111565,32.6488037 C 17.931469,32.3883858 17.6554279,32.2581787 17.2830315,32.2581787 Z M 17.4705315,31.55896 C 17.9965725,31.55896 18.4060783,31.7575283 18.6990471,32.1546631 C 18.9920158,32.5517998 19.1385002,33.1032295 19.1385002,33.80896 C 19.1385002,34.1631279 19.087719,34.4866943 18.9861565,34.7796631 C 18.884594,35.0726318 18.7413635,35.3206787 18.556469,35.5238037 C 18.384594,35.7165108 18.1821194,35.8656006 17.9490471,35.9710693 C 17.7159729,36.0765381 17.4692287,36.1292725 17.2088127,36.1292725 C 16.9822502,36.1292725 16.7771721,36.1045341 16.5935783,36.0550537 C 16.4099846,36.0055733 16.223135,35.9287529 16.0330315,35.824585 L 16.0330315,37.65271 L 15.2986565,37.65271 L 15.2986565,31.6800537 L 16.0330315,31.6800537 L 16.0330315,32.137085 C 16.228344,31.9730225 16.4477444,31.8356533 16.6912346,31.7249756 C 16.9347248,31.6142998 17.1944904,31.55896 17.4705315,31.55896 Z M 22.2670307,32.2581787 C 22.0560932,32.2581787 21.843853,32.3037529 21.630312,32.3948975 C 21.4167709,32.486042 21.2123432,32.605835 21.0170307,32.7542725 L 21.0170307,35.2269287 C 21.2253647,35.3206787 21.4043999,35.3844795 21.5541401,35.418335 C 21.7038803,35.4521904 21.8738022,35.4691162 22.0639057,35.4691162 C 22.4727592,35.4691162 22.7917709,35.3310966 23.020937,35.0550537 C 23.250103,34.7790108 23.364687,34.3701591 23.364687,33.8284912 C 23.364687,33.3024483 23.2748432,32.9092216 23.0951557,32.6488037 C 22.9154682,32.3883858 22.6394272,32.2581787 22.2670307,32.2581787 Z M 22.4545307,31.55896 C 22.9805717,31.55896 23.3900776,31.7575283 23.6830463,32.1546631 C 23.9760151,32.5517998 24.1224995,33.1032295 24.1224995,33.80896 C 24.1224995,34.1631279 24.0717182,34.4866943 23.9701557,34.7796631 C 23.8685932,35.0726318 23.7253647,35.3206787 23.5404682,35.5238037 C 23.3685932,35.7165108 23.1661186,35.8656006 22.9330463,35.9710693 C 22.6999741,36.0765381 22.453228,36.1292725 22.192812,36.1292725 C 21.9662495,36.1292725 21.7611713,36.1045341 21.5775776,36.0550537 C 21.3939838,36.0055733 21.2071342,35.9287529 21.0170307,35.824585 L 21.0170307,37.65271 L 20.2826557,37.65271 L 20.2826557,31.6800537 L 21.0170307,31.6800537 L 21.0170307,32.137085 C 21.2123432,31.9730225 21.4317436,31.8356533 21.6752338,31.7249756 C 21.9187241,31.6142998 22.1784897,31.55896 22.4545307,31.55896 Z M 26.9736881,32.1917725 C 26.5752506,32.1917725 26.2660065,32.3291435 26.0459538,32.6038818 C 25.825901,32.8786201 25.7158756,33.298542 25.7158756,33.8636475 C 25.7158756,34.4105225 25.8265533,34.8252373 26.0479069,35.1077881 C 26.2692604,35.3903389 26.5778542,35.5316162 26.9736881,35.5316162 C 27.3643131,35.5316162 27.6709538,35.3916435 27.89361,35.1116943 C 28.1162663,34.8317451 28.2275944,34.4157295 28.2275944,33.8636475 C 28.2275944,33.298542 28.1169167,32.8786201 27.8955631,32.6038818 C 27.6742096,32.3291435 27.3669167,32.1917725 26.9736881,32.1917725 Z M 26.9736881,31.55896 C 27.5856667,31.55896 28.0739479,31.7653408 28.4385319,32.1781006 C 28.8031158,32.5908623 28.9854069,33.15271 28.9854069,33.8636475 C 28.9854069,34.574585 28.8031158,35.1357841 28.4385319,35.5472412 C 28.0739479,35.9586983 27.5856667,36.1644287 26.9736881,36.1644287 C 26.3565006,36.1644287 25.8662663,35.9586983 25.502985,35.5472412 C 25.1397038,35.1357841 24.9580631,34.574585 24.9580631,33.8636475 C 24.9580631,33.15271 25.1397038,32.5908623 25.502985,32.1781006 C 25.8662663,31.7653408 26.3565006,31.55896 26.9736881,31.55896 Z M 30.1226559,31.6800537 L 30.8570309,31.6800537 L 30.8570309,32.324585 C 31.1486969,32.09021 31.405859,31.9241943 31.6285152,31.8265381 C 31.8511715,31.7288818 32.0783844,31.6800537 32.3101578,31.6800537 C 32.4377594,31.6800537 32.5302086,31.6833096 32.5875015,31.6898193 C 32.6447906,31.696331 32.7307281,31.7087002 32.845314,31.7269287 L 32.845314,32.480835 L 32.8062515,32.480835 C 32.6968765,32.454792 32.5907555,32.4359131 32.4878922,32.4241943 C 32.385025,32.4124756 32.2632828,32.4066162 32.1226578,32.4066162 C 31.8960934,32.4066162 31.6773434,32.4567451 31.4664059,32.5570068 C 31.2554684,32.6572685 31.0523434,32.7868233 30.8570309,32.9456787 L 30.8570309,36.043335 L 30.1226559,36.043335 L 30.1226559,31.6800537 Z M 33.5542831,30.4261475 L 34.2886581,30.4261475 L 34.2886581,31.6800537 L 35.8042831,31.6800537 L 35.8042831,32.2972412 L 34.2886581,32.2972412 L 34.2886581,34.2855225 C 34.2886581,34.5146904 34.2938652,34.6937256 34.3042831,34.8226318 C 34.3147011,34.9515381 34.3511581,35.0719795 34.4136581,35.18396 C 34.4709511,35.2881279 34.5497246,35.3642998 34.6499863,35.4124756 C 34.750248,35.4606514 34.9032402,35.4847412 35.1089706,35.4847412 C 35.2287636,35.4847412 35.3537636,35.4671631 35.4839706,35.4320068 C 35.6141777,35.3968506 35.7079277,35.3675537 35.7652206,35.3441162 L 35.8042831,35.3441162 L 35.8042831,36.0042725 C 35.6662636,36.0407295 35.515873,36.0706787 35.3531113,36.0941162 C 35.1903496,36.1175537 35.0451698,36.1292725 34.9175644,36.1292725 C 34.4722519,36.1292725 34.133709,36.0094795 33.9019394,35.7698975 C 33.6701698,35.5303154 33.5542831,35.1461983 33.5542831,34.6175537 L 33.5542831,32.2972412 L 33.0581894,32.2972412 L 33.0581894,31.6800537 L 33.5542831,31.6800537 L 33.5542831,30.4261475 Z" Color="#FF2B3033" X="0" Y="0" Width="0" Height="0" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
 								<NineGridPathList Width="2.300072" Height="4.0779953">
 									<Paths>
-										<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="9" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="3" Height="1">
-									<Paths>
-										<NineGridPath Data="F1 M7.5,17.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="11" Y="17" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
 								<NineGridPathList Width="2.40005541" Height="4.17799759">
 									<Paths>
-										<NineGridPath Data="M 2.29983497,-0.479930609 L 0,1.60718298 L 2.40005493,3.69806695 L 2.29983497,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="28" Y="16" Width="2.40005541" Height="4.17799759" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="M 2.29983497,-0.479930609 L 0,1.60718298 L 2.40005493,3.69806695 L 2.29983497,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="25" Y="17" Width="2.40005541" Height="4.17799759" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="31" Height="8">
+									<Paths>
+										<NineGridPath Data="F1 M4.5,12c0,-1.933,1.7909,-3.5,4,-3.5h22c2.2091,0,4,1.567,4,3.5v0c0,1.933,-1.7909,3.5,-4,3.5h-22c-2.2091,0,-4,-1.567,-4,-3.5v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="31" Height="8" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="31" Height="5">
+									<Paths>
+										<NineGridPath Data="F1 M4.5,12.5h30v4h-30v-4z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="31" Height="5" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="33" Height="21">
+									<Paths>
+										<NineGridPath Data="F1 M3.5,12.5c0,-2.7614,2.2386,-5,5,-5h22c2.7614,0,5,2.2386,5,5v10c0,2.7614,-2.2386,5,-5,5h-22c-2.7614,0,-5,-2.2386,-5,-5v-10z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="33" Height="21" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+									</Paths>
+									<Tags />
+								</NineGridPathList>
+								<NineGridPathList Width="4" Height="9">
+									<Paths>
+										<NineGridPath Data="F1 M5.5,14.5h3v8h-3v-8z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="4" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
 								<NineGridPathList Width="3" Height="1">
 									<Paths>
-										<NineGridPath Data="F1 M30.5,17.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F1 M9.5,18.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
+								<NineGridPathList Width="4" Height="9">
 									<Paths>
-										<NineGridPath Data="F1 M22.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F1 M13.5,14.5h3v8h-3v-8z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="4" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="38" Height="9">
+								<NineGridPathList Width="4" Height="9">
 									<Paths>
-										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F1 M17.5,14.5h3v8h-3v-8z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="4" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="38" Height="7">
+								<NineGridPathList Width="4" Height="9">
 									<Paths>
-										<NineGridPath Data="F1 M1.5,6.5h37v6h-37v-6z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F1 M21.5,14.5h3v8h-3v-8z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="4" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
+								<NineGridPathList Width="3" Height="1">
 									<Paths>
-										<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F1 M26.5,18.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
+								<NineGridPathList Width="4" Height="9">
 									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										<NineGridPath Data="F1 M29.5,14.5h3v8h-3v-8z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="4" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
 									</Paths>
 									<Tags />
 								</NineGridPathList>
 							</Items>
 							<ColorTable />
 						</NineGridDictionary>
-					</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
+					</Image>
+					<Leaf Display="Add State(s) to Queue" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Add State(s) to Queue" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Add State(s) to Queue.gvi" ElementId="JKI:Library:JKI State Machine:Add State(s) to Queue.gvi">
+						<Image>
+							<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+								<Items>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="28">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M2.5,11.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M12.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M17.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M33.5,11.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="2.300072" Height="4.0779953">
+										<Paths>
+											<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="9" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="3" Height="1">
+										<Paths>
+											<NineGridPath Data="F1 M7.5,17.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="2.40005541" Height="4.17799759">
+										<Paths>
+											<NineGridPath Data="M 2.29983497,-0.479930609 L 0,1.60718298 L 2.40005493,3.69806695 L 2.29983497,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="28" Y="16" Width="2.40005541" Height="4.17799759" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="3" Height="1">
+										<Paths>
+											<NineGridPath Data="F1 M30.5,17.5h2v0h-2v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="3" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M22.5,11.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="9">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="7">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,6.5h37v6h-37v-6z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+								</Items>
+								<ColorTable />
+							</NineGridDictionary>
+						</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
 	<MergeFeatureSet>
 		<SourceModelFeatureSet>
-			<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
-			<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-			<ApplicationVersionInfo Build="5.2.0.56171" Name="LabVIEW NXG" Version="2.0.0" />
+			<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+			<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+			<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 		</SourceModelFeatureSet>
 	</MergeFeatureSet>
 	<MergeItem Path="." IsPrimary="True">
-		<MethodCall Bounds="0 0 40 30" DomainName="JKI:Library:JKI State Machine" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+		<MethodCall Bounds="0 0 40 30" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 			<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 			<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 			<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
@@ -331,7 +435,7 @@
 	</MergeItem>
 	<MergeItem Path="." IsPrimary="True">
 		<IconTable>
-			<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi">
+			<p.IconModel Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi">
 				<MergeScript>
 					<MergeItem Path="." IsPrimary="True">
 						<Icon ListViewIconCrop="0 0 40 30">
@@ -360,101 +464,101 @@
 		</IconTable>
 	</MergeItem>
 </MergeScript></Leaf>
-				<Leaf Display="Build State String with Arguments" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Build State String with Arguments" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Build State String with Arguments.gvi" ElementId="JKI:Library:JKI State Machine:Build State String with Arguments.gvi">
-					<Image>
-						<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
-							<Items>
-								<NineGridPathList Width="40" Height="30">
-									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
-									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="38" Height="28">
-									<Paths>
-										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="7">
-									<Paths>
-										<NineGridPath Data="F1 M6.5,10.5h4v6h-4v-6z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="7">
-									<Paths>
-										<NineGridPath Data="F1 M6.5,18.5h4v6h-4v-6z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="7">
-									<Paths>
-										<NineGridPath Data="F1 M30.5,14.5h4v6h-4v-6z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="7">
-									<Paths>
-										<NineGridPath Data="F1 M16.5,14.5h4v6h-4v-6z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="2.300072" Height="4.0779953">
-									<Paths>
-										<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="23" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="38" Height="9">
-									<Paths>
-										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="38" Height="5">
-									<Paths>
-										<NineGridPath Data="F1 M1.5,6.5h37v4h-37v-4z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="5" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
-									<Paths>
-										<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="2.300072" Height="4.0779953">
-									<Paths>
-										<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="26" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
-									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-							</Items>
-							<ColorTable />
-						</NineGridDictionary>
-					</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
+					<Leaf Display="Build State String with Arguments" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Build State String with Arguments" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Build State String with Arguments.gvi" ElementId="JKI:Library:JKI State Machine:Build State String with Arguments.gvi">
+						<Image>
+							<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+								<Items>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="28">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="7">
+										<Paths>
+											<NineGridPath Data="F1 M6.5,10.5h4v6h-4v-6z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="7">
+										<Paths>
+											<NineGridPath Data="F1 M6.5,18.5h4v6h-4v-6z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="7">
+										<Paths>
+											<NineGridPath Data="F1 M30.5,14.5h4v6h-4v-6z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="7">
+										<Paths>
+											<NineGridPath Data="F1 M16.5,14.5h4v6h-4v-6z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="7" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="2.300072" Height="4.0779953">
+										<Paths>
+											<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="23" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="9">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="5">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,6.5h37v4h-37v-4z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="5" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="2.300072" Height="4.0779953">
+										<Paths>
+											<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="26" Y="16" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+								</Items>
+								<ColorTable />
+							</NineGridDictionary>
+						</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
 	<MergeFeatureSet>
 		<SourceModelFeatureSet>
-			<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
-			<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-			<ApplicationVersionInfo Build="5.2.0.56171" Name="LabVIEW NXG" Version="2.0.0" />
+			<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+			<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+			<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 		</SourceModelFeatureSet>
 	</MergeFeatureSet>
 	<MergeItem Path="." IsPrimary="True">
-		<MethodCall Bounds="0 0 40 30" DomainName="JKI:Library:JKI State Machine" Target="JKI:Library:JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi" xmlns="http://www.ni.com/MocCommon">
+		<MethodCall Bounds="0 0 40 30" Target="JKI::Library::JKI State Machine::Build State String with Arguments.gvi" xmlns="http://www.ni.com/MocCommon">
 			<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 			<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 			<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
@@ -462,7 +566,7 @@
 	</MergeItem>
 	<MergeItem Path="." IsPrimary="True">
 		<IconTable>
-			<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Build\ State\ String\ with\ Arguments\.gvi">
+			<p.IconModel Target="JKI::Library::JKI State Machine::Build State String with Arguments.gvi">
 				<MergeScript>
 					<MergeItem Path="." IsPrimary="True">
 						<Icon ListViewIconCrop="0 0 40 30">
@@ -488,107 +592,107 @@
 		</IconTable>
 	</MergeItem>
 </MergeScript></Leaf>
-				<Leaf Display="Parse State Queue" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Parse State Queue" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Parse State Queue.gvi" ElementId="JKI:Library:JKI State Machine:Parse State Queue.gvi">
-					<Image>
-						<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
-							<Items>
-								<NineGridPathList Width="40" Height="30">
-									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
-									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="38" Height="28">
-									<Paths>
-										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
-									<Paths>
-										<NineGridPath Data="F1 M10.5,10.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
-									<Paths>
-										<NineGridPath Data="F1 M15.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
-									<Paths>
-										<NineGridPath Data="F1 M20.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="2.300072" Height="4.0779953">
-									<Paths>
-										<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="34" Y="23" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="22" Height="1">
-									<Paths>
-										<NineGridPath Data="F1 M12.5,24.5h21v0h-21v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="22" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="5" Height="11">
-									<Paths>
-										<NineGridPath Data="F1 M25.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="38" Height="9">
-									<Paths>
-										<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="38" Height="5">
-									<Paths>
-										<NineGridPath Data="F1 M1.5,6.5h37v4h-37v-4z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="5" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
-									<Paths>
-										<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="1" Height="3">
-									<Paths>
-										<NineGridPath Data="F1 M12.5,21.5h0v2h0v-2z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="1" Height="3" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-								<NineGridPathList Width="40" Height="30">
-									<Paths>
-										<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
-									</Paths>
-									<Tags />
-								</NineGridPathList>
-							</Items>
-							<ColorTable />
-						</NineGridDictionary>
-					</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
+					<Leaf Display="Parse State Queue" DisplayNumberOfElements="False" ParticipatesInMultiSelection="True" ShortName="Parse State Queue" Weight="0.5" UniqueId="JKI:Library:JKI State Machine:Parse State Queue.gvi" ElementId="JKI:Library:JKI State Machine:Parse State Queue.gvi">
+						<Image>
+							<NineGridDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+								<Items>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="28">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v19c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v-19z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="28" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M10.5,10.5h4v10h-4v-10z" Color="#FF838383" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M15.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M20.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="2.300072" Height="4.0779953">
+										<Paths>
+											<NineGridPath Data="M 0.000236988097,-0.479930609 L 2.30007195,1.60718298 L -2.38418608E-07,3.5980649 L 0.000236988097,-0.479930609 Z" Color="#FF65C865" Stroke="#00FFFFFF" X="34" Y="23" Width="2.300072" Height="4.0779953" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="22" Height="1">
+										<Paths>
+											<NineGridPath Data="F1 M12.5,24.5h21v0h-21v0z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="22" Height="1" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="5" Height="11">
+										<Paths>
+											<NineGridPath Data="F1 M25.5,10.5h4v10h-4v-10z" Color="#FF4D5359" Stroke="#00FFFFFF" X="0" Y="0" Width="5" Height="11" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="9">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,5.5c0,-2.2091,1.7909,-4,4,-4h29c2.2091,0,4,1.7909,4,4v0c0,2.2091,-1.7909,4,-4,4h-29c-2.2091,0,-4,-1.7909,-4,-4v0z" Color="#FF65C865" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="9" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="38" Height="5">
+										<Paths>
+											<NineGridPath Data="F1 M1.5,6.5h37v4h-37v-4z" Color="#FFF3F3F3" Stroke="#00FFFFFF" X="0" Y="0" Width="38" Height="5" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F1 M0.5,5.5c0,-2.7614,2.2386,-5,5,-5h29c2.7614,0,5,2.2386,5,5v19c0,2.7614,-2.2386,5,-5,5h-29c-2.7614,0,-5,-2.2386,-5,-5v-19z" Color="#00FFFFFF" Stroke="#FF838383" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="1" Height="3">
+										<Paths>
+											<NineGridPath Data="F1 M12.5,21.5h0v2h0v-2z" Color="#00FFFFFF" Stroke="#FF65C865" X="0" Y="0" Width="1" Height="3" Margin="0,0,0,0" StrokeThickness="1" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+									<NineGridPathList Width="40" Height="30">
+										<Paths>
+											<NineGridPath Data="F0 M1,1h38v28h-38v-28z M0,0h40v30h-40v-30z" Color="#00FFFFFF" X="0" Y="0" Width="40" Height="30" Margin="0,0,0,0" StrokeThickness="0" StrokeStyle="Solid" LineJoinStyle="Miter" LineCapStyle="Flat" />
+										</Paths>
+										<Tags />
+									</NineGridPathList>
+								</Items>
+								<ColorTable />
+							</NineGridDictionary>
+						</Image><MergeScript xmlns="http://www.ni.com/PlatformFramework">
 	<MergeFeatureSet>
 		<SourceModelFeatureSet>
-			<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
-			<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-			<ApplicationVersionInfo Build="5.2.0.56171" Name="LabVIEW NXG" Version="2.0.0" />
+			<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+			<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+			<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 		</SourceModelFeatureSet>
 	</MergeFeatureSet>
 	<MergeItem Path="." IsPrimary="True">
-		<MethodCall Bounds="0 0 40 30" DomainName="JKI:Library:JKI State Machine" Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+		<MethodCall Bounds="0 0 40 30" Target="JKI::Library::JKI State Machine::Parse State Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 			<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 			<Terminal DataType="Error" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 			<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
@@ -598,7 +702,7 @@
 	</MergeItem>
 	<MergeItem Path="." IsPrimary="True">
 		<IconTable>
-			<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi">
+			<p.IconModel Target="JKI::Library::JKI State Machine::Parse State Queue.gvi">
 				<MergeScript>
 					<MergeItem Path="." IsPrimary="True">
 						<Icon ListViewIconCrop="0 0 40 30">
@@ -625,6 +729,7 @@
 		</IconTable>
 	</MergeItem>
 </MergeScript></Leaf>
+				</Category>
 			</Category>
 		</Category>
 	</Category>
