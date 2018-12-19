@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FF6338677CBF9B0F3501C644B14C5D3C" Timestamp="1D3947EE6503F3B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="9520928887C1FED52D8B51438EDB17FF627A4AA82404E3FF6C4113F0DED02E96455914ABEB392F04501AD424EC21CC1E69DF7F82147F881853A7B55AC4925C11" Timestamp="1D4972F08D248E8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="5.2.0.56171" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
-		<ApplicationVersionInfo Build="5.2.0.56171" Name="LabVIEW NXG" Version="2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument CustomTitle="JKI State Machine" Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
 		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">This VI template must be instantiated by dropping it on the diagram of a new blank VI directly from the palettes. Do not use the template directly.&lt;br/&gt;&lt;br/&gt;The JKI State Machine™ is a template you can use for quickly creating your own LabVIEW applications. This is the very same template that is used by the JKI team, nearly every day, and is the result of years of refinement by our team of LabVIEW experts.&lt;br/&gt;&lt;br/&gt;For instructions on how to use the JKI State Machine, examples and video tutorials, visit:&lt;br/&gt;http://jki.net/state-machine/&lt;br/&gt;</p.UserDescription>
@@ -66,20 +66,20 @@
 				</NodeLabel>
 				<CaseStructure Bounds="70 25 600 545" DataType="String" Default="45" Id="42" IgnoreUpperLowerCase="True" Selected="43" UserSelectorBounds="172 0 255 17">
 					<CaseStructure.Case Bounds="5 5 590 535" Id="43" Pattern="&quot;&quot;, &quot;Event Structure&quot;, &quot;Idle&quot;">
-						<EventStructure Bounds="20 35 553 488" Id="72" Selected="75" UserSelectorBounds="20 0 513 17">
-							<EventStructure.EventCase Bounds="20 20 511 462" Id="73">
+						<EventStructure Bounds="20 35 553 488" Id="72" Selected="73" UserSelectorBounds="20 0 513 17">
+							<EventStructure.EventCase Bounds="21 18 511 462" Id="73">
 								<EventStructure.AttachedEvent EventId="{DF1EFEBC-BF4C-4B72-8E78-D711B1FAC11A}" EventIndex="1073741825" EventName="Timeout" EventSourceType="Application" SourceContent="72" SourceName="Timeout" />
-								<EventStructure.EventData Bounds="0 145 62.4 35" HasErrorTerminals="False" Id="74" InstanceDataType="@16be735c996c46419931b15bf6d60482" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time">
-									<EventPropertyItemTerminal DataType="UInt32" Hotspot="62.4 15" Id="c0t0v" Path="Time" PathElementMemberKinds="Field" Usage="Optional" />
+								<EventStructure.EventData Bounds="0 145 62 35" HasErrorTerminals="False" Id="74" InstanceDataType="@16be735c996c46419931b15bf6d60482" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time">
+									<EventPropertyItemTerminal DataType="UInt32" Hotspot="62 15" Id="c0t0v" Path="Time" PathElementMemberKinds="Field" Usage="Optional" />
 								</EventStructure.EventData>
 								<Comment Bounds="70 45 360 28" Id="89" xmlns="http://www.ni.com/MocCommon">
 									<p.Text>"Timeout Frame\n(this will only execute if the Event Structure timeout is &gt;= 0)"</p.Text>
 								</Comment>
-								<Wire Id="286" Joints="N(82:73)|(3,5) N(85:73)|(510,5)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="287" Joints="N(84:73)|(3,445) N(83:73)|(510,445)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="288" Joints="N(661:R1)|(495,35) h(15) N(81:73)|(510,25)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="289" Joints="N(80:73)|(3,25) h(452) N(661:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<MethodCall Bounds="455 20 40 30" DomainName="JKI:Library:JKI State Machine" Id="661" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="286" Joints="N(82:73)|(2,7) N(85:73)|(509,7)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="287" Joints="N(84:73)|(2,447) N(83:73)|(509,447)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="288" Joints="N(661:R1)|(495,27) N(81:73)|(509,27)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="289" Joints="N(80:73)|(2,27) N(661:L1)|(455,27)" xmlns="http://www.ni.com/PlatformFramework" />
+								<MethodCall Bounds="455 12 40 30" Id="661" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -88,13 +88,13 @@
 											<Parameter Id="R1" Desc="States Out" />
 										</MethodDeclaration>
 									</p.MethodDeclaration>
-									<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								</MethodCall>
 							</EventStructure.EventCase>
-							<EventStructure.EventCase Bounds="20 20 511 462" Id="75">
+							<EventStructure.EventCase Bounds="21 18 511 462" Id="75">
 								<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventName="Value changed" EventSourceType="Content" EventType="@1588c5982ac54601aef6dbbc2d744239" SourceContent="22" SourceName="Stop" />
 								<EventStructure.EventData Bounds="0 125 62 35" HasErrorTerminals="False" Id="76" InstanceDataType="@3a2f353a53a14b54a9f525b3e411c113" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Old Value,New Value">
 									<EventPropertyItemTerminal DataType="UInt32" Hotspot="62 15" Id="c0t0v" Path="Time" PathElementMemberKinds="Field" Usage="Optional" />
@@ -112,11 +112,11 @@
 								<Comment Bounds="110 45 280 28" Id="95" xmlns="http://www.ni.com/MocCommon">
 									<p.Text>"Stop Button Value Change (pressed) Event\n(this executes Macro: Exit to terminate the VI)"</p.Text>
 								</Comment>
-								<Wire Id="292" Joints="N(84:75)|(3,445) N(83:75)|(510,445)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="293" Joints="N(656:R1)|(495,35) h(15) N(81:75)|(510,25)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="294" Joints="N(80:75)|(3,25) h(452) N(656:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="645" Joints="N(82:75)|(3,5) N(85:75)|(510,5)" xmlns="http://www.ni.com/PlatformFramework" />
-								<MethodCall Bounds="455 20 40 30" DomainName="JKI:Library:JKI State Machine" Id="656" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="292" Joints="N(84:75)|(2,447) N(83:75)|(509,447)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="293" Joints="N(656:R1)|(495,27) N(81:75)|(509,27)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="294" Joints="N(80:75)|(2,27) N(656:L1)|(455,27)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="645" Joints="N(82:75)|(2,7) N(85:75)|(509,7)" xmlns="http://www.ni.com/PlatformFramework" />
+								<MethodCall Bounds="455 12 40 30" Id="656" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -125,14 +125,14 @@
 											<Parameter Id="R1" Desc="States Out" />
 										</MethodDeclaration>
 									</p.MethodDeclaration>
-									<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								</MethodCall>
-								<Wire Id="660" Joints="N(92:Out)|(380,140) h(60) v(-115) N(656:L0)|(455,25)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="660" Joints="N(92:Out)|(380,140) h(60) v(-123) N(656:L0)|(455,17)" xmlns="http://www.ni.com/PlatformFramework" />
 							</EventStructure.EventCase>
-							<EventStructure.EventCase Bounds="20 20 511 462" Id="724">
+							<EventStructure.EventCase Bounds="21 18 511 462" Id="724">
 								<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventName="Value changed" EventSourceType="Content" EventType="@1588c5982ac54601aef6dbbc2d744239" SourceContent="737" SourceName="Help" />
 								<EventStructure.EventData Bounds="0 125 92 50" HasErrorTerminals="False" Id="725" InstanceDataType="@3a2f353a53a14b54a9f525b3e411c113" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time,Old Value,New Value">
 									<EventPropertyItemTerminal DataType="Boolean" Hotspot="92 15" Id="c0t0v" Path="Old Value" PathElementMemberKinds="Field" Usage="Optional" />
@@ -144,18 +144,18 @@
 								<NodeLabel AttachedTo="726" Bounds="125 153 25 14" Id="727" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>Help</p.Text>
 								</NodeLabel>
-								<Literal Bounds="220 135 215 15" DataType="String" Id="728" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>UI: Help &gt;&gt; jki.net/state-machine</p.Data>
+								<Literal Bounds="239 135 70 15" DataType="String" Id="728" xmlns="http://www.ni.com/MocCommon">
+									<p.Data>UI: Help</p.Data>
 									<StringBehavior TextDisplayMode="Default" />
 								</Literal>
 								<Comment Bounds="110 45 280 28" Id="729" xmlns="http://www.ni.com/MocCommon">
 									<p.Text>"Exit Button Value Change (pressed) Event\n(this executes Macro: Exit to terminate the VI)"</p.Text>
 								</Comment>
-								<Wire Id="730" Joints="N(84:724)|(3,445) N(83:724)|(510,445)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="731" Joints="N(734:R1)|(495,35) h(15) N(81:724)|(510,25)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="732" Joints="N(80:724)|(3,25) h(452) N(734:L1)|(455,35)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="733" Joints="N(82:724)|(3,5) N(85:724)|(510,5)" xmlns="http://www.ni.com/PlatformFramework" />
-								<MethodCall Bounds="455 20 40 30" DomainName="JKI:Library:JKI State Machine" Id="734" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="730" Joints="N(84:724)|(2,447) N(83:724)|(509,447)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="731" Joints="N(734:R1)|(495,27) N(81:724)|(509,27)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="732" Joints="N(80:724)|(2,27) N(734:L1)|(455,27)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="733" Joints="N(82:724)|(2,7) N(85:724)|(509,7)" xmlns="http://www.ni.com/PlatformFramework" />
+								<MethodCall Bounds="455 12 40 30" Id="734" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -164,12 +164,12 @@
 											<Parameter Id="R1" Desc="States Out" />
 										</MethodDeclaration>
 									</p.MethodDeclaration>
-									<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 								</MethodCall>
-								<Wire Id="735" Joints="N(728:Out)|(435,140) h(5) v(-115) N(734:L0)|(455,25)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="735" Joints="N(728:Out)|(309,140) h(131) v(-123) N(734:L0)|(455,17)" xmlns="http://www.ni.com/PlatformFramework" />
 							</EventStructure.EventCase>
 							<EventStructure.EventTimeout Bounds="-2 95 25 25" Docking="Left" Id="79" Terminals="72=301, 73, 75, 724" />
 							<EventStructure.Tunnel Bounds="-2 40 25 10" Docking="Left" Id="80" Terminals="72=307, 73=289, 75=294, 724=732" />
@@ -198,7 +198,7 @@
 						<Wire Id="309" Joints="N(67:44)|(4,500) N(66:44)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="310" Joints="N(664:R1)|(550,80) N(68:44)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="311" Joints="N(63:44)|(4,80) N(664:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="510 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="664" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="510 65 40 30" Id="664" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -207,10 +207,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="45" Pattern="Default">
@@ -558,10 +558,10 @@
 							</RingBehavior>
 						</Literal>
 						<FormatIntoString Bounds="200 465 40 40" Id="116" Terminals="formatString=322, errIn=317, outString=676, errOut=319, c0t0v=312" />
-						<Comment Bounds="135 20 310.4 28" Id="120" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="135 20 310 28" Id="120" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Do not delete, rename, or modify this frame.\n(this is used to capture unhandled states and typos)"</p.Text>
 						</Comment>
-						<Comment Bounds="270 375 270.4 15.2" Id="121" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="270 375 270 15" Id="121" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>Handle mistyped state name (developer tool)</p.Text>
 						</Comment>
 						<Wire Id="312" Joints="N(62:45)|(17,90) h(8) v(410) N(116:c0t0v)|(200,500)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -574,7 +574,7 @@
 						<Wire Id="319" Joints="N(116:errOut)|(240,490) N(670:L0)|(465,490)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="321" Joints="N(113:Out)|(435,445) h(20) v(55) N(670:L1)|(465,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="322" Joints="N(109:Out)|(200,410) h(25) N(116:formatString)|(225,465)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="510 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="667" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="510 65 40 30" Id="667" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -583,12 +583,12 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<MethodCall Bounds="465 485 40 40" DomainName="NI:G Core:Error" Id="670" ResolveFailedHint="Build Error Cluster.gvi, Package: (NI G Standard Library, Version: 1.0.5.17)" Target="NI:G\ Core:Error:Build\ Error\ Cluster\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="465 485 40 40" Id="670" ResolveFailedHint="Build Error Cluster.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 3.0.0)" Signature="@9214fb1256534e6b85bb43d15347d3bf" Target="NI::G Core::Error::Build Error Cluster.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L1" Desc="code" />
@@ -619,8 +619,8 @@
 						<Wire Id="325" Joints="N(65:46)|(4,60) h(246) v(40) N(133:instance in)|(270,100)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="331" Joints="N(67:46)|(4,500) N(66:46)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="332" Joints="N(133:instance out)|(430,100) h(10) v(-40) N(70:46)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="333" Joints="N(677:R1)|(525,80) N(68:46)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="334" Joints="N(63:46)|(4,80) N(677:L1)|(485,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="333" Joints="N(677:R1)|(550,80) N(68:46)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="334" Joints="N(63:46)|(4,80) N(677:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<OpaqueRefnumLiteral Bounds="200 105 40 15" DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" Id="454" Label="455" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>0</p.Data>
 							<OpaqueRefnumLiteralBehavior />
@@ -637,7 +637,7 @@
 							<p.Text>Core:Close Panel on Exit?</p.Text>
 						</NodeLabel>
 						<Wire Id="459" Joints="N(457:Out)|(225,125) N(133:c1t0v)|(270,125)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="485 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="677" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="510 65 40 30" Id="677" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -646,10 +646,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="47" Pattern="&quot;Error Handler&quot;">
@@ -657,45 +657,7 @@
 							<p.Data>/* Post Error States</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
-						<ClusterLiteral Bounds="445 385 61 89" DataType="Error" Id="141" Label="148" p7:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>
-								<Cluster>
-									<Field1>False</Field1>
-									<Field2>0</Field2>
-									<Field3>""</Field3>
-								</Cluster>
-							</p.Data>
-							<p7:p.TypeDefinitionTargets>
-								<p7:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
-								<p7:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
-							</p7:p.TypeDefinitionTargets>
-							<ClusterBehavior AutoArrange="SizeToFit" />
-							<Literal Bounds="13 2 15 15" DataType="Boolean" Id="142" Label="143">
-								<p.Data>False</p.Data>
-								<BooleanBehavior />
-							</Literal>
-							<NodeLabel AttachedTo="142" Bounds="13 -16 30 15" Id="143" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>status</p.Text>
-							</NodeLabel>
-							<Literal Bounds="2 32 40 16" DataType="Int32" Id="144" Label="145">
-								<p.Data>0</p.Data>
-								<NumericBehavior Interpretation="Exact" Radix="Decimal" RadixVisibility="Visible" ValueFormatter="Decimal, Uppercase, Signed" />
-							</Literal>
-							<NodeLabel AttachedTo="144" Bounds="2 14 30 15" Id="145" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>code</p.Text>
-							</NodeLabel>
-							<Literal Bounds="2 62 40 15" DataType="String" Id="146" Label="147">
-								<p.Data>""</p.Data>
-								<StringBehavior TextDisplayMode="Default" />
-							</Literal>
-							<NodeLabel AttachedTo="146" Bounds="-3 -33 30 15" Id="147" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>source</p.Text>
-							</NodeLabel>
-						</ClusterLiteral>
-						<NodeLabel AttachedTo="141" Bounds="445 477 66 18" Id="148" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>error out</p.Text>
-						</NodeLabel>
-						<MethodCall Bounds="80 455 40 40" DomainName="NI:G Core:Error" Id="151" Label="152" ResolveFailedHint="Display Error.gvi, Package: (NI G Standard Library, Version: 1.0.5.17)" Target="NI:G\ Core:Error:Display\ Error\.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="80 455 40 40" Id="151" Label="152" ResolveFailedHint="Display Error.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 3.0.0)" Signature="@b47544085bae4f44ad205e0e09ed091f" Target="NI::G Core::Error::Display Error.gvi" Template="Icon" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L1" Desc="type of dialog" />
@@ -716,22 +678,22 @@
 						<NodeLabel AttachedTo="151" Bounds="80 498 178 18" Id="152" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Display Error</p.Text>
 						</NodeLabel>
-						<Comment Bounds="35 430 180 15.2" Id="153" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="35 430 180 15" Id="153" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>Unhandled Error -- Display it</p.Text>
 						</Comment>
-						<Comment Bounds="125 20 355.2 28" Id="154" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="125 20 355 28" Id="154" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Handle any errors here.\nYou can also output any states to clean-up after errors occur"</p.Text>
 						</Comment>
-						<Comment Bounds="445 370 80 15.2" Id="155" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="445 370 80 15" Id="155" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>Clear error</p.Text>
 						</Comment>
-						<Wire Id="335" Joints="N(138:Out)|(415,100) h(60) v(-30) N(680:L0)|(485,70)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="335" Joints="N(138:Out)|(415,100) h(85) v(-30) N(680:L0)|(510,70)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="336" Joints="N(67:47)|(4,500) h(5) v(-40) N(151:L0)|(80,460)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="337" Joints="N(65:47)|(4,60) N(70:47)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="338" Joints="N(141:Out)|(506,390) h(25) v(110) N(66:47)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="339" Joints="N(680:R1)|(525,80) N(68:47)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="340" Joints="N(63:47)|(4,80) N(680:L1)|(485,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="485 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="680" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="339" Joints="N(680:R1)|(550,80) N(68:47)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="340" Joints="N(63:47)|(4,80) N(680:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="680" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -740,11 +702,49 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
+						<ClusterLiteral Bounds="445 385 61 118" DataType="Error" Id="141" Label="148" p7:ControlDefinitionChecksum="e3nj023iwYRzhBkV8z61WFGSCt7pzzv3hwIJFanixR4=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>
+								<Cluster>
+									<Field1>False</Field1>
+									<Field2>0</Field2>
+									<Field3>""</Field3>
+								</Cluster>
+							</p.Data>
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+								<p7:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<ClusterBehavior AutoArrange="ArrangeVertically" />
+							<Literal Bounds="2 19 15 15" DataType="Boolean" Id="756" Label="757">
+								<p.Data>False</p.Data>
+								<BooleanBehavior />
+							</Literal>
+							<NodeLabel AttachedTo="756" Bounds="2 2 34 14" Id="757" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>status</p.Text>
+							</NodeLabel>
+							<Literal Bounds="2 55 40 15" DataType="Int32" Id="758" Label="759">
+								<p.Data>0</p.Data>
+								<NumericBehavior Interpretation="Exact" RadixVisibility="Visible" ValueFormatter="LV:0" />
+							</Literal>
+							<NodeLabel AttachedTo="758" Bounds="2 38 26 14" Id="759" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>code</p.Text>
+							</NodeLabel>
+							<Literal Bounds="2 91 40 15" DataType="String" Id="760" Label="761">
+								<p.Data>""</p.Data>
+								<StringBehavior TextDisplayMode="Default" />
+							</Literal>
+							<NodeLabel AttachedTo="760" Bounds="2 74 37 14" Id="761" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>source</p.Text>
+							</NodeLabel>
+						</ClusterLiteral>
+						<NodeLabel AttachedTo="141" Bounds="445 506 66 18" Id="148" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>error out</p.Text>
+						</NodeLabel>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="48" Pattern="&quot;Exit&quot;">
 						<Literal Bounds="500 500 25 15" DataType="Boolean" Id="156" Label="466" xmlns="http://www.ni.com/MocCommon">
@@ -757,12 +757,12 @@
 						<Wire Id="341" Joints="N(156:Out)|(525,505) h(46) v(10) N(69:48)|(586,515)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="342" Joints="N(67:48)|(4,500) N(66:48)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="343" Joints="N(65:48)|(4,60) N(70:48)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="344" Joints="N(684:R1)|(505,80) N(68:48)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="345" Joints="N(63:48)|(4,80) N(684:L1)|(465,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="344" Joints="N(684:R1)|(550,80) N(68:48)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="345" Joints="N(63:48)|(4,80) N(684:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<NodeLabel AttachedTo="156" Bounds="469 500 26 14" Id="466" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Stop</p.Text>
 						</NodeLabel>
-						<MethodCall Bounds="465 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="684" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="510 65 40 30" Id="684" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -771,10 +771,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="49" Pattern="&quot;---------- Data ----------&quot;">
@@ -783,9 +783,9 @@
 						</Comment>
 						<Wire Id="346" Joints="N(65:49)|(4,60) N(70:49)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="347" Joints="N(67:49)|(4,500) N(66:49)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="348" Joints="N(687:R1)|(515,80) N(68:49)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="349" Joints="N(63:49)|(4,80) N(687:L1)|(475,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="475 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="687" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="348" Joints="N(687:R1)|(550,80) N(68:49)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="349" Joints="N(63:49)|(4,80) N(687:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="687" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -794,10 +794,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="50" Pattern="&quot;Data: Initialize&quot;">
@@ -812,7 +812,7 @@
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<NodeLabel AttachedTo="165" Bounds="47 283 102 14" Id="166" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="165" Bounds="47 283 101 14" Id="166" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Your Boolean data</p.Text>
 						</NodeLabel>
 						<NodeLabel AttachedTo="167" Bounds="50 234 26 14" Id="168" xmlns="http://www.ni.com/PlatformFramework">
@@ -897,7 +897,7 @@
 						<Comment Bounds="50 375 125 15" Id="190" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>Add new data here.</p.Text>
 						</Comment>
-						<Comment Bounds="275 125 230 30" Id="191" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="260 125 230 30" Id="191" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>Data names and types of shift register data are defined by this bundle.</p.Text>
 						</Comment>
 						<Comment Bounds="100 20 395 28" Id="192" xmlns="http://www.ni.com/MocCommon">
@@ -906,10 +906,10 @@
 						<Wire Id="351" Joints="N(163:Out)|(85,350) h(115) v(-130) N(173:c2t0v)|(430,220)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="352" Joints="N(165:Out)|(72,305) h(93) v(-100) N(173:c1t0v)|(430,205)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="353" Joints="N(67:50)|(4,500) N(66:50)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="354" Joints="N(173:instance out)|(480,180) h(35) v(-120) N(70:50)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="355" Joints="N(690:R1)|(465,80) N(68:50)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="356" Joints="N(63:50)|(4,80) N(690:L1)|(425,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="425 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="690" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="354" Joints="N(173:instance out)|(480,180) h(20) v(-120) N(70:50)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="355" Joints="N(690:R1)|(550,80) N(68:50)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="356" Joints="N(63:50)|(4,80) N(690:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="690" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -918,10 +918,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<Wire Id="693" Joints="N(167:Out)|(111,190) N(173:c0t0v)|(430,190)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
@@ -934,9 +934,9 @@
 						</Comment>
 						<Wire Id="357" Joints="N(65:51)|(4,60) h(21) B(1) N(70:51)|(586,60) B(1) v(105) N(193:instance in)|(30,165)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="359" Joints="N(67:51)|(4,500) N(66:51)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="361" Joints="N(694:R1)|(535,80) N(68:51)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="362" Joints="N(63:51)|(4,80) N(694:L1)|(495,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="495 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="694" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="361" Joints="N(694:R1)|(550,80) N(68:51)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="362" Joints="N(63:51)|(4,80) N(694:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="694" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -945,10 +945,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="52" Pattern="&quot;---------- UI ----------&quot;">
@@ -957,9 +957,9 @@
 						</Comment>
 						<Wire Id="363" Joints="N(65:52)|(4,60) N(70:52)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="364" Joints="N(67:52)|(4,500) N(66:52)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="365" Joints="N(697:R1)|(435,80) N(68:52)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="366" Joints="N(63:52)|(4,80) N(697:L1)|(395,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="395 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="697" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="365" Joints="N(697:R1)|(550,80) N(68:52)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="366" Joints="N(63:52)|(4,80) N(697:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="697" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -968,10 +968,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="53" Pattern="&quot;UI: Initialize&quot;">
@@ -980,9 +980,9 @@
 						</Comment>
 						<Wire Id="367" Joints="N(67:53)|(4,500) N(66:53)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="368" Joints="N(65:53)|(4,60) N(70:53)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="369" Joints="N(700:R1)|(520,80) N(68:53)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="370" Joints="N(63:53)|(4,80) N(700:L1)|(480,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="480 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="700" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="369" Joints="N(700:R1)|(550,80) N(68:53)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="370" Joints="N(63:53)|(4,80) N(700:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="700" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -991,18 +991,18 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="740" Pattern="&quot;UI: Help&quot;">
-						<Comment Bounds="190 30 204.8 15.2" Id="741" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="190 30 205 15" Id="741" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Opens a help URL in the browser. "</p.Text>
 						</Comment>
-						<Wire Id="743" Joints="N(745:R1)|(520,80) N(68:740)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="480 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="745" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="743" Joints="N(745:R1)|(550,80) N(68:740)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="745" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1011,14 +1011,14 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<Wire Id="747" Joints="N(63:740)|(4,80) N(745:L1)|(480,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="747" Joints="N(63:740)|(4,80) N(745:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="748" Joints="N(65:740)|(4,60) N(70:740)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="275 230 40 40" DomainName="NI:G Core:URL" Id="749" ResolveFailedHint="Open URL in Default Browser (string).gvi, Package: (NI G Standard Library, Version: 1.0.5.17)" Target="NI:G\ Core:URL:Open\ URL\ in\ Default\ Browser\ \(string\)\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="275 230 40 40" Id="749" ResolveFailedHint="Open URL in Default Browser (string).gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 3.0.0)" Signature="@da0fed5ab5e247a488112c9f9a2f9844" Target="NI::G Core::URL::Open URL in Default Browser (string).gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="URL" />
@@ -1034,17 +1034,24 @@
 						</MethodCall>
 						<Wire Id="750" Joints="N(67:740)|(4,500) h(264) v(-235) N(749:L3)|(275,265)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="751" Joints="N(749:R3)|(315,265) h(7) v(235) N(66:740)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="752" Joints="N(654:740)|(4,100) h(181) v(135) N(749:L0)|(275,235)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Literal Bounds="65 230 180 15" DataType="String" Id="776" Label="777" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>http://jki.net/state-machine</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<NodeLabel AttachedTo="776" Bounds="65 212 30 15" Id="777" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>URL</p.Text>
+						</NodeLabel>
+						<Wire Id="778" Joints="N(776:Out)|(245,235) N(749:L0)|(275,235)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="56" Pattern="&quot;---------- Macro ----------&quot;">
-						<Comment Bounds="40 20 515.2 28" Id="256" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="40 20 515 28" Id="256" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Do not put any code in this frame.\n(It is a separator no-op. You can make a copy of this frame to create a new Macro frame)"</p.Text>
 						</Comment>
 						<Wire Id="410" Joints="N(65:56)|(4,60) N(70:56)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="411" Joints="N(67:56)|(4,500) N(66:56)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="412" Joints="N(703:R1)|(450,80) N(68:56)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="413" Joints="N(63:56)|(4,80) N(703:L1)|(410,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="410 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="703" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="412" Joints="N(703:R1)|(550,80) N(68:56)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="413" Joints="N(63:56)|(4,80) N(703:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="703" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1053,10 +1060,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="57" Pattern="&quot;Macro: Initialize&quot;">
@@ -1067,12 +1074,12 @@
 						<Comment Bounds="180 20 240 28" Id="260" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Initialization Macro\n(This is called once, when the VI starts)"</p.Text>
 						</Comment>
-						<Wire Id="414" Joints="N(257:Out)|(410,95) h(35) v(-25) N(706:L0)|(480,70)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="414" Joints="N(257:Out)|(410,95) h(70) v(-25) N(706:L0)|(510,70)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="415" Joints="N(65:57)|(4,60) N(70:57)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="416" Joints="N(67:57)|(4,500) N(66:57)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="417" Joints="N(706:R1)|(520,80) N(68:57)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="418" Joints="N(63:57)|(4,80) N(706:L1)|(480,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="480 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="706" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="417" Joints="N(706:R1)|(550,80) N(68:57)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="418" Joints="N(63:57)|(4,80) N(706:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="706" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1081,10 +1088,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="58" Pattern="&quot;Macro: Exit&quot;">
@@ -1095,12 +1102,12 @@
 						<Comment Bounds="180 20 235 28" Id="270" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Exit Macro\n(This is called once, when the VI exits)"</p.Text>
 						</Comment>
-						<Wire Id="420" Joints="N(261:Out)|(350,130) h(75) v(-60) N(710:L0)|(465,70)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="420" Joints="N(261:Out)|(350,130) h(125) v(-60) N(710:L0)|(510,70)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="426" Joints="N(67:58)|(4,500) N(66:58)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="427" Joints="N(710:R1)|(505,80) N(68:58)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="428" Joints="N(63:58)|(4,80) N(710:L1)|(465,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="427" Joints="N(710:R1)|(550,80) N(68:58)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="428" Joints="N(63:58)|(4,80) N(710:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="460" Joints="N(65:58)|(4,60) N(70:58)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="465 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="710" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="510 65 40 30" Id="710" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1109,10 +1116,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="59" Pattern="&quot;---------- New Category ----------&quot;">
@@ -1121,9 +1128,9 @@
 						</Comment>
 						<Wire Id="429" Joints="N(65:59)|(4,60) N(70:59)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="430" Joints="N(67:59)|(4,500) N(66:59)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="431" Joints="N(714:R1)|(525,80) N(68:59)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="432" Joints="N(63:59)|(4,80) N(714:L1)|(485,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="485 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="714" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="431" Joints="N(714:R1)|(550,80) N(68:59)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="432" Joints="N(63:59)|(4,80) N(714:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="714" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1132,10 +1139,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="60" Pattern="&quot;New Category: 1&quot;">
@@ -1144,9 +1151,9 @@
 						</Comment>
 						<Wire Id="433" Joints="N(65:60)|(4,60) N(70:60)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="434" Joints="N(67:60)|(4,500) N(66:60)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="435" Joints="N(717:R1)|(505,80) N(68:60)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="436" Joints="N(63:60)|(4,80) N(717:L1)|(465,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="465 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="717" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="435" Joints="N(717:R1)|(550,80) N(68:60)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="436" Joints="N(63:60)|(4,80) N(717:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="717" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1155,21 +1162,21 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 590 535" Id="61" Pattern="&quot;New Category: 2&quot;">
-						<Comment Bounds="155 20 284.8 28" Id="279" xmlns="http://www.ni.com/MocCommon">
+						<Comment Bounds="155 20 285 28" Id="279" xmlns="http://www.ni.com/MocCommon">
 							<p.Text>"Your code here.\n(You can make a copy of, or modify, this frame)"</p.Text>
 						</Comment>
 						<Wire Id="437" Joints="N(65:61)|(4,60) N(70:61)|(586,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="438" Joints="N(67:61)|(4,500) N(66:61)|(586,500)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="439" Joints="N(720:R1)|(505,80) N(68:61)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="440" Joints="N(63:61)|(4,80) N(720:L1)|(465,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="465 65 40 30" DomainName="JKI:Library:JKI State Machine" Id="720" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="439" Joints="N(720:R1)|(550,80) N(68:61)|(586,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="440" Joints="N(63:61)|(4,80) N(720:L1)|(510,80)" xmlns="http://www.ni.com/PlatformFramework" />
+						<MethodCall Bounds="510 65 40 30" Id="720" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1178,10 +1185,10 @@
 									<Parameter Id="R1" Desc="States Out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 					</CaseStructure.Case>
 					<CaseStructure.Selector Bounds="-4 90 26 10" Docking="Left" Id="62" Terminals="42=652, 43, 44, 45=312, 46, 47, 48, 49, 50, 51, 52, 53, 740, 56, 57, 58, 59, 60, 61" />
@@ -1193,7 +1200,7 @@
 					<CaseStructure.Tunnel Bounds="591 515 13 10" DefaultIfUnwired="True" Docking="Right" Id="69" Terminals="42=445, 43, 44, 45, 46, 47, 48=341, 49, 50, 51, 52, 53, 740, 56, 57, 58, 59, 60, 61" />
 					<CaseStructure.Tunnel Bounds="591 60 13 10" Docking="Right" Id="70" Terminals="42=444, 43=302, 44=308, 45=314, 46=332, 47=337, 48=343, 49=346, 50=354, 51=357, 52=363, 53=368, 740=748, 56=410, 57=415, 58=460, 59=429, 60=433, 61=437" />
 					<CaseStructure.Tunnel Bounds="-4 135 13 10" Docking="Left" Id="71" Terminals="42=442, 43=301, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 740, 56, 57, 58, 59, 60, 61" />
-					<CaseStructure.Tunnel Bounds="-4 100 13 10" Docking="Left" Id="654" Terminals="42=653, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 740=752, 56, 57, 58, 59, 60, 61" />
+					<CaseStructure.Tunnel Bounds="-4 100 13 10" Docking="Left" Id="654" Terminals="42=653, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 740, 56, 57, 58, 59, 60, 61" />
 				</CaseStructure>
 				<Wire Id="442" Joints="N(38:Out)|(60,165) N(71:42)|(66,165)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="443" Joints="N(33:i0)|(4,90) N(65:42)|(66,90)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1204,9 +1211,9 @@
 				<Wire Id="500" Joints="N(35:i0)|(4,530) h(6) B(1) N(67:42)|(66,530) B(1) v(-400) N(649:L2)|(20,130)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="559" Joints="N(37:i0)|(4,110) N(649:L0)|(20,110)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Comment Bounds="0 0 695 15.2" Id="644" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
-					<p.Text>"JKI State Machine NXG 1.0\t\t\t\tTemplate Copyright © 2017 JKI\t - http://jki.net/state-machine"</p.Text>
+					<p.Text>"JKI State Machine NXG 3.0\t\t\t\tTemplate Copyright © 2018 JKI\t - http://jki.net/state-machine"</p.Text>
 				</Comment>
-				<MethodCall Bounds="20 105 40 30" DomainName="JKI:Library:JKI State Machine" Id="649" ResolveFailedHint="Parse State Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<MethodCall Bounds="20 105 40 30" Id="649" ResolveFailedHint="Parse State Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@1f9663720c564f978f31460a8204c7ca" Target="JKI::Library::JKI State Machine::Parse State Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="State Queue" />
@@ -1216,11 +1223,11 @@
 							<Parameter Id="R2" Desc="Arguments" />
 						</MethodDeclaration>
 					</p.MethodDeclaration>
-					<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="Error" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-					<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="Error" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
 				<Wire Id="652" Joints="N(649:R1)|(60,120) N(62:42)|(66,120)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="653" Joints="N(649:R2)|(60,130) N(654:42)|(66,130)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1241,12 +1248,12 @@
 			<Wire Id="452" Joints="N(754:R1)|(315,130) N(37:o0)|(321,130)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="453" Joints="N(24:Out)|(270,130) N(754:L1)|(275,130)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Comment Bounds="425 620 530 95.2" Id="721" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
-				<p.Text>"For instructions on how to use the JKI State Machine, examples and video tutorials, visit:\r\nhttp://jki.net/state-machine/\r\n\r\nJKI State Machine™\r\nhttp://jki.net/state-machine/\r\nCopyright (C) 2005-2017, JKI &lt;info@jki.net&gt;\r\nALL RIGHTS RESERVED"</p.Text>
+				<p.Text>"For instructions on how to use the JKI State Machine, examples and video tutorials, visit:\r\nhttp://jki.net/state-machine/\r\n\r\nJKI State Machine™\r\nhttp://jki.net/state-machine/\r\nCopyright (C) 2005-2018, JKI &lt;info@jki.net&gt;\r\nALL RIGHTS RESERVED"</p.Text>
 			</Comment>
 			<Comment Bounds="155 155 160 390" Id="722" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
 				<p.Text>"= State Syntax = \r\nStateCategory: State &gt;&gt; Argument\r\nLine Terminator: Line feed\r\nExample:\r\nUI: Help &gt;&gt; About\r\n\r\nWhere "UI" is the state category\r\nWhere "Help" is the state\r\nWhere "About" is the argument\r\nOther Examples:\r\nApp Data: Initialize\r\nUI: Initialize\r\nHelp &gt;&gt; About\r\n\r\n= Commenting =\r\nTo add a comment use "//" or "#" and all text to the right will be ignored\r\nCommenting Example:\r\nUI: Initialize // This initializes the UI\r\n# This whole line is a comment\r\n// Another comment line\r\n"</p.Text>
 			</Comment>
-			<MethodCall Bounds="275 115 40 30" DomainName="JKI:Library:JKI State Machine" Id="754" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 2.0.0.2)" Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="275 115 40 30" Id="754" ResolveFailedHint="Add State(s) to Queue.gvi, Package: (JKI State Machine, Version: 3.0.0.2)" Signature="@2978fe20a9564eeca40ceeef0a746f40" Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="State(s) in Front (&quot;&quot;)" />
@@ -1255,17 +1262,20 @@
 						<Parameter Id="R1" Desc="States Out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="String" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="String" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
+			<Comment Bounds="240 -30 795 35" Id="763" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>***IMPORTANT*** To get this JKI State Machine to run in NXG 3.0, you need to remove the Stop and Help buttons from the "Unplaced Items" on the Front Panel and then reassociate their Value Changed events in the Event Structure frames. This is due to a bug in NXG 3.0</p.Text>
+			</Comment>
 		</BlockDiagram>
 		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]Title">
 			<Button ClickMode="[ClickMode]Release" Content="[string]Stop" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" Height="[float]24" Id="22" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]23" Left="[float]458" MinHeight="[float]23.96" MinWidth="[float]32.1366653" TabIndex="[int]0" Top="[float]228" Value="{DataItemBinding Id=14}" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Id="23" LabelOwner="[UIModel]22" Left="[float]458" Text="[string]Stop" Top="[float]208" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Foreground="[SMColor]#ff2b3033" Id="23" LabelOwner="[UIModel]22" Left="[float]458" Text="[string]Stop" Top="[float]208" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
 			<Button ClickMode="[ClickMode]Release" Content="[string]Help" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" Height="[float]24" Id="737" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]738" Left="[float]318" MinHeight="[float]23.96" MinWidth="[float]32.7566681" TabIndex="[int]1" Top="[float]228" Value="{DataItemBinding Id=736}" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Id="738" LabelOwner="[UIModel]737" Left="[float]318" Text="[string]Help" Top="[float]208" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Foreground="[SMColor]#ff2b3033" Id="738" LabelOwner="[UIModel]737" Left="[float]318" Text="[string]Help" Top="[float]208" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
 			<PanelExecutionWindow Id="753" />
 		</NativeFrontPanel>
 		<DataItem DataType="Boolean" Id="14" IsLatched="True" Name="Stop" xmlns="http://www.ni.com/MocCommon">
@@ -1286,6 +1296,14 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
+		<p.TypeReference TypeId="2978fe20a9564eeca40ceeef0a746f40">
+			<Attributed AttributedType="@9155103ce3f345c6b4bdae47ab9eb709">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]30" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
 		<p.TypeReference TypeId="1588c5982ac54601aef6dbbc2d744239">
 			<Attributed AttributedType="@de5806b1ce0f4498af9ba1b7efc6e344">
 				<AttributeValues>
@@ -1301,11 +1319,19 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.PanelRuntime.BooleanControlBaseProxy, NationalInstruments.Controls.Runtime" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.Controls.Runtime.BooleanControlBaseProxy, NationalInstruments.Controls.Runtime" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Boolean" />
 				</Members>
 			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9214fb1256534e6b85bb43d15347d3bf">
+			<Attributed AttributedType="@6517b9a37cb24346b7b3c883a1ca8414">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="5eaff3a1fd04498a8748c9fdf3182e88">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -1316,10 +1342,18 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
+		<p.TypeReference TypeId="b47544085bae4f44ad205e0e09ed091f">
+			<Attributed AttributedType="@96297c0c6e364a0080cb4c55834fb388">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
 		<p.TypeReference TypeId="d932b7b54b3f4117819736e128dfe091">
 			<Attributed AttributedType="@ca35007cef76492f98889c3152d71030">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:G\ Core:Error" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI::G Core::Error" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
@@ -1331,6 +1365,48 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
+		<p.TypeReference TypeId="da0fed5ab5e247a488112c9f9a2f9844">
+			<Attributed AttributedType="@e86b74608e7a496eae1d7d59a8e85538">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1f9663720c564f978f31460a8204c7ca">
+			<Attributed AttributedType="@820665ae4a294ba4a84580b9b47a3948">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]30" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9155103ce3f345c6b4bdae47ab9eb709">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Add State(s) to Queue.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@b4d786e26d28473eb1cc5035034c2df2">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]State(s) in Front (&quot;&quot;)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@cb99036859a843d7b24b5d2058c065c3">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]State(s) in (&quot;&quot;)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@52f8480250a643d1b6a56aa79bc7550b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]State(s) at Back (&quot;&quot;)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@67ba2f507aa94c59bca5ec2a57aef1a6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]States Out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
 		<p.TypeReference TypeId="de5806b1ce0f4498af9ba1b7efc6e344">
 			<Event Id="1" Name="Value changed" GenericTypeDefinition="Void">
 				<Parameters>
@@ -1338,18 +1414,195 @@
 				</Parameters>
 			</Event>
 		</p.TypeReference>
+		<p.TypeReference TypeId="6517b9a37cb24346b7b3c883a1ca8414">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Build Error Cluster.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@b51679f32c1947efa7d54acc3f90a517">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b8bc5ccd0be54bce894d451c2a697d20">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]code" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@753a4dbd4b7d478ba53deb7290f3284e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]description" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@de93fb0b5a8a4b06bb481e0bdd5d4230">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]include call chain" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@ead6f61844f84db6a9b224d1fb8f8721">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]make warning" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@5acf49ba898049ed999355441bb38dbe">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="96297c0c6e364a0080cb4c55834fb388">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Display Error.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@f810996e17de4ccba6a4a7aeeab055fb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@682319054a954bb591382f5686bd7108">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]type of dialog" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@e3b0f63cc07d495ca64cb93ae08a00b3">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error?" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@9e17ca85f1384bd9adf481d4ac4ba00b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]code" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@bd844c1b787c44bebf671c38ec10ad21">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]location" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@054b3a9ae4824efcbe71d55df792b4c1">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]description" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
 		<p.TypeReference TypeId="ca35007cef76492f98889c3152d71030">
 			<Typedef TypedefName="Error Dialog Type.gtype" UnderlyingType="@aed0e95ad3fd4ea08e7376092a7f6db7" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e86b74608e7a496eae1d7d59a8e85538">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Open URL in Default Browser (string).gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@bedbe476a340469ea7de44222c22640d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]URL" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@12929694b53c4457bb92c70d7b47a331">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@26520808c6c94ad18061855b3225535d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]escaped URL" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@47936048be5b472cac3d6d3fbf904b95">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="820665ae4a294ba4a84580b9b47a3948">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Parse State Queue.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@bedbe476a340469ea7de44222c22640d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]State Queue" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@dadb3d488b9d4d88905e04fdd822c7ce">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error In (no error)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@26520808c6c94ad18061855b3225535d">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Remaining States" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@67ba2f507aa94c59bca5ec2a57aef1a6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Current State" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@bd844c1b787c44bebf671c38ec10ad21">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Arguments" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b4d786e26d28473eb1cc5035034c2df2">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cb99036859a843d7b24b5d2058c065c3">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="52f8480250a643d1b6a56aa79bc7550b">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="67ba2f507aa94c59bca5ec2a57aef1a6">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="String" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="8e6cb426f4494cb4ae47b96a5107c0d6">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.PanelRuntime.BooleanControlBaseProxy, NationalInstruments.Controls.Runtime" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.Controls.Runtime.BooleanControlBaseProxy, NationalInstruments.Controls.Runtime" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Boolean" />
 				</Members>
 			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b51679f32c1947efa7d54acc3f90a517">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b8bc5ccd0be54bce894d451c2a697d20">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="753a4dbd4b7d478ba53deb7290f3284e">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="de93fb0b5a8a4b06bb481e0bdd5d4230">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="T0" DataType="Boolean" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ead6f61844f84db6a9b224d1fb8f8721">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="T1" DataType="Boolean" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="5acf49ba898049ed999355441bb38dbe">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f810996e17de4ccba6a4a7aeeab055fb">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="682319054a954bb591382f5686bd7108">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@d932b7b54b3f4117819736e128dfe091" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e3b0f63cc07d495ca64cb93ae08a00b3">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="Boolean" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9e17ca85f1384bd9adf481d4ac4ba00b">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd844c1b787c44bebf671c38ec10ad21">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="054b3a9ae4824efcbe71d55df792b4c1">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="String" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="aed0e95ad3fd4ea08e7376092a7f6db7">
 			<Enumeration>
@@ -1363,9 +1616,24 @@
 				<DataType>UInt16</DataType>
 			</Enumeration>
 		</p.TypeReference>
+		<p.TypeReference TypeId="bedbe476a340469ea7de44222c22640d">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="12929694b53c4457bb92c70d7b47a331">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="26520808c6c94ad18061855b3225535d">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="String" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="47936048be5b472cac3d6d3fbf904b95">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="dadb3d488b9d4d88905e04fdd822c7ce">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Error" />
+		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Add\ State\(s\)\ to\ Queue\.gvi">
+		<p.IconModel Target="JKI::Library::JKI State Machine::Add State(s) to Queue.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 30">
@@ -1391,37 +1659,33 @@
 				</MergeItem>
 			</MergeScript>
 		</p.IconModel>
-		<p.IconModel Target="NI:G\ Core:Error:Build\ Error\ Cluster\.gvi">
+		<p.IconModel Target="NI::G Core::Error::Build Error Cluster.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
 						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<Path Data="[PathGeometry]M 4,0 L 36,0 C 38.2089996,0 40,1.79100001 40,4 L 40,36 C 40,38.2089996 38.2089996,40 36,40 L 4,40 C 1.79100001,40 0,38.2089996 0,36 L 0,4 C 0,1.79100001 1.79100001,0 4,0" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.6570015,1 39,2.34299994 39,4 L 39,36 C 39,37.6570015 37.6570015,39 36,39 L 4,39 C 2.34299994,39 1,37.6570015 1,36 L 1,4 C 1,2.34299994 2.34299994,1 4,1" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4,2 L 36,2 C 37.1040001,2 38,2.89599991 38,4 L 38,36 C 38,37.1049995 37.1040001,38 36,38 L 4,38 C 2.89599991,38 2,37.1049995 2,36 L 2,4 C 2,2.89599991 2.89599991,2 4,2" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4.00099993,2.00099993 C 2.89700007,2.00099993 2.00099993,2.96600008 2.00099993,4.15500021 L 2.00099993,16 L 16,16 L 16,2 L 4.00099993,2.00099993 Z M 4.23899984,11.3540001 L 4.02400017,9.42000008 L 7.89300013,9.42000008 L 4.23899984,11.3540001 Z M 3.4519999,5.96799994 L 5.0999999,4.03599977 L 8.89700031,7.90299988 L 3.4519999,5.96799994 Z M 12.9540005,14 L 10.2329998,14 L 10.2329998,12.2220001 L 12.9540005,12.2220001 L 12.9540005,14 Z M 12.6920004,11.1099997 L 10.4949999,11.1099997 L 10.1859999,3.97000003 L 13.0019999,3.97000003 L 12.6920004,11.1099997 Z" Fill="[SMSolidColorBrush]#ffa0a017" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 24.7469997,23.1739998 L 27.7029991,17.5119991 L 22.0340004,20.4610004 L 20.118,13.191 L 18.1949997,20.4580002 L 12.5299997,17.5020008 L 15.4790001,23.1709995 L 8.04399967,25.0869999 L 15.4790001,27.0100002 L 12.5229998,32.6749992 L 18.1919994,29.7229996 L 20.1079998,36.993 L 22.0270004,29.7259998 L 27.6919994,32.6819992 L 24.743,27.0130005 L 32.0130005,25.0970001 L 24.7469997,23.1739998" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.6570015,1 39,2.34299994 39,4 L 39,36 C 39,37.6570015 37.6570015,39 36,39 L 4,39 C 2.34299994,39 1,37.6570015 1,36 L 1,4 C 1,2.34299994 2.34299994,1 4,1" Fill="[SMSolidColorBrush]#ffececec" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 37,0 L 4,0 C 1.78999996,0 0,1.78999996 0,4 L 0,36 C 0,38.2099991 1.78999996,40 4,40 L 36,40 C 38.2099991,40 40,38.2099991 40,36 L 40,4 C 40,1.78999996 38.2099991,0 37,0 Z M 14.2700005,2.01999998 L 13.8800001,11.25 L 11.04,11.25 L 10.6400003,2.01999998 L 14.2700005,2.01999998 Z M 14.21,12.6800003 L 14.21,14.9799995 L 10.6999998,14.9799995 L 10.6999998,12.6800003 L 14.21,12.6800003 Z M 4.07000017,2.1099999 L 8.97000027,7.0999999 L 1.94000006,4.5999999 L 4.07000017,2.1099999 Z M 7.67999983,9.06000042 L 2.95000005,11.5600004 L 2.68000007,9.06000042 L 7.67999983,9.06000042 Z M 39,36 C 39,37.6599998 37.6599998,39 36,39 L 4,39 C 2.33999991,39 1,37.6599998 1,36 L 1,17 L 17,17 L 17,1 L 36,1 C 37.6599998,1 39,2.33999991 39,4 L 39,36 Z" Fill="[SMSolidColorBrush]#ffa0a017" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 26.3299999,24.3169994 L 29.0429993,19.1210003 L 23.8400002,21.8279991 L 22.0820007,15.1549997 L 20.3169994,21.8250008 L 15.1169996,19.1119995 L 17.8239994,24.3150005 L 11,26.0720005 L 17.8239994,27.8369999 L 15.1110001,33.0369987 L 20.3139992,30.3269997 L 22.0720005,37 L 23.8339996,30.3299999 L 29.0340004,33.0429993 L 26.3269997,27.8400002 L 33,26.0820007 L 26.3299999,24.3169994" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
 			</MergeScript>
 		</p.IconModel>
-		<p.IconModel Target="NI:G\ Core:Error:Display\ Error\.gvi">
+		<p.IconModel Target="NI::G Core::Error::Display Error.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
 						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<Path Data="[PathGeometry]M 4,0 L 36,0 C 38.2089996,0 40,1.79100001 40,4 L 40,36 C 40,38.2089996 38.2089996,40 36,40 L 4,40 C 1.79100001,40 0,38.2089996 0,36 L 0,4 C 0,1.79100001 1.79100001,0 4,0" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.6570015,1 39,2.34299994 39,4 L 39,36 C 39,37.6570015 37.6570015,39 36,39 L 4,39 C 2.34299994,39 1,37.6570015 1,36 L 1,4 C 1,2.34299994 2.34299994,1 4,1" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4,2 L 36,2 C 37.1040001,2 38,2.89599991 38,4 L 38,36 C 38,37.1049995 37.1040001,38 36,38 L 4,38 C 2.89599991,38 2,37.1049995 2,36 L 2,4 C 2,2.89599991 2.89599991,2 4,2" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 4.00099993,2.00099993 C 2.89700007,2.00099993 2.00099993,2.96600008 2.00099993,4.15500021 L 2.00099993,16 L 16,16 L 16,2 L 4.00099993,2.00099993 Z M 4.23899984,11.3540001 L 4.02400017,9.42000008 L 7.89300013,9.42000008 L 4.23899984,11.3540001 Z M 3.4519999,5.96799994 L 5.0999999,4.03599977 L 8.89700031,7.90299988 L 3.4519999,5.96799994 Z M 12.9540005,14 L 10.2329998,14 L 10.2329998,12.2220001 L 12.9540005,12.2220001 L 12.9540005,14 Z M 12.6920004,11.1099997 L 10.4949999,11.1099997 L 10.1859999,3.97000003 L 13.0019999,3.97000003 L 12.6920004,11.1099997 Z" Fill="[SMSolidColorBrush]#ffa0a017" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							<Path Data="[PathGeometry]M 18,18 L 4,18 L 4,17 L 17,17 L 17,10 L 18,10 L 18,18 Z M 33.9710007,10 L 19,10 L 19,18 L 19,19 L 18,19 L 4,19 L 4,26.9710007 C 4,28.0919991 4.90799999,29 6.02899981,29 L 28,29 L 28,33 L 31.9710007,29 L 33.9710007,29 C 35.0909996,29 36,28.0919991 36,26.9710007 L 36,12.0290003 C 36,10.908 35.0909996,10 33.9710007,10 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 4,1 L 36,1 C 37.6570015,1 39,2.34299994 39,4 L 39,36 C 39,37.6570015 37.6570015,39 36,39 L 4,39 C 2.34299994,39 1,37.6570015 1,36 L 1,4 C 1,2.34299994 2.34299994,1 4,1" Fill="[SMSolidColorBrush]#ffececec" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 37,0 L 4,0 C 1.78999996,0 0,1.78999996 0,4 L 0,36 C 0,38.2099991 1.78999996,40 4,40 L 36,40 C 38.2099991,40 40,38.2099991 40,36 L 40,4 C 40,1.78999996 38.2099991,0 37,0 Z M 14.2700005,2.01999998 L 13.8800001,11.25 L 11.04,11.25 L 10.6400003,2.01999998 L 14.2700005,2.01999998 Z M 14.21,12.6800003 L 14.21,14.9799995 L 10.6999998,14.9799995 L 10.6999998,12.6800003 L 14.21,12.6800003 Z M 4.07000017,2.1099999 L 8.97000027,7.0999999 L 1.94000006,4.5999999 L 4.07000017,2.1099999 Z M 7.67999983,9.06000042 L 2.95000005,11.5600004 L 2.68000007,9.06000042 L 7.67999983,9.06000042 Z M 39,36 C 39,37.6599998 37.6599998,39 36,39 L 4,39 C 2.33999991,39 1,37.6599998 1,36 L 1,17 L 17,17 L 17,1 L 36,1 C 37.6599998,1 39,2.33999991 39,4 L 39,36 Z" Fill="[SMSolidColorBrush]#ffa0a017" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 19,19 L 5,19 L 5,18 L 18,18 L 18,11 L 19,11 L 19,19 Z M 34.9710007,11 L 20,11 L 20,19 L 20,20 L 19,20 L 5,20 L 5,27.9710007 C 5,29.0919991 5.90799999,30 7.02899981,30 L 29,30 L 29,34 L 32.9710007,30 L 34.9710007,30 C 36.0909996,30 37,29.0919991 37,27.9710007 L 37,13.0290003 C 37,11.908 36.0909996,11 34.9710007,11 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
 			</MergeScript>
 		</p.IconModel>
-		<p.IconModel Target="NI:G\ Core:URL:Open\ URL\ in\ Default\ Browser\ \(string\)\.gvi">
+		<p.IconModel Target="NI::G Core::URL::Open URL in Default Browser (string).gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
@@ -1436,7 +1700,7 @@
 				</MergeItem>
 			</MergeScript>
 		</p.IconModel>
-		<p.IconModel Target="JKI:Library:JKI\ State\ Machine:Parse\ State\ Queue\.gvi">
+		<p.IconModel Target="JKI::Library::JKI State Machine::Parse State Queue.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 30">
